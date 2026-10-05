@@ -9,40 +9,50 @@ description: Формує тижневий звіт по задачах кома
 
 Звітний період: останній повний тиждень (пн–нд) перед датою запуску. Для запуску в понеділок 5 жовтня це 28 вересня – 4 жовтня.
 
+## Принцип
+
+Звіт **по кожному проєкту OpenProject окремо**, без загальних висновків по всій команді. У звіт входять усі проєкти (включно з малими, особистими, демо й тестовими), кожному свій розділ. Один і той самий співробітник може фігурувати в кількох проєктах, години рахуються окремо по проєктах.
+
 ## Кроки
 
-1. **Свіжі дані.** У репозиторії виконай `git pull`. Прочитай `data/latest.json` лише для поля `generatedAt`. Якщо дані старші за 2 дні, скажи про це користувачці й запропонуй спершу запустити workflow «Збір даних з OpenProject» (Actions → Run workflow, не Re-run).
-2. **Розрахунок.**
+1. **Свіжі дані.** `git pull`. З `data/latest.json` читай лише `generatedAt`. Якщо дані старші за 2 дні, зазнач це в листі (запуск workflow «Збір даних з OpenProject» робить користувачка через Actions → Run workflow).
+2. **Розрахунок по проєктах.**
    ```bash
-   python .claude/skills/weekly-report/scripts/analyze.py --data data/latest.json --config config.json --out <робоча папка>/metrics.json
+   python .claude/skills/weekly-report/scripts/run_all.py --data data/latest.json --config config.json --outdir <work>
    ```
-   Опційно `--date РРРР-ММ-ДД`, щоб побудувати звіт за інший тиждень. Пороги й назви статусів лежать у `config.json` і `DEFAULTS` в `analyze.py`.
-3. **Висновки.** Прочитай `metrics.json` повністю й напиши `narrative.json` за схемою нижче. Це головна частина роботи, див. «Як писати висновки».
-4. **Збірка обох форматів.**
+   Створює `<work>/projects.json` (список проєктів) і `<work>/metrics/NN.json` (метрики кожного). Опційно `--date РРРР-ММ-ДД`. Для одного проєкту: `analyze.py --project "<назва>"`.
+3. **Висновки.** Прочитай `metrics/*.json` і напиши `<work>/narrative.json` за схемою нижче. Головна частина роботи.
+4. **Збірка.**
    ```bash
-   python .claude/skills/weekly-report/scripts/build_html.py --metrics metrics.json --narrative narrative.json --out report.html
-   node .claude/skills/weekly-report/scripts/build_docx.js metrics.json narrative.json report.docx
+   python .claude/skills/weekly-report/scripts/build_html.py --workdir <work> --narrative <work>/narrative.json --out Звіт_РРРР-ММ-ДД.html
+   node .claude/skills/weekly-report/scripts/build_docx.js <work> <work>/narrative.json Звіт_РРРР-ММ-ДД.docx
+   python .claude/skills/weekly-report/scripts/build_digest.py --workdir <work> --narrative <work>/narrative.json --out digest.html
    ```
-   Назви файлів: `Звіт_РРРР-ММ-ДД.docx` і `.html`, де дата це понеділок звітного тижня.
-5. **Перевірка.** Звір 3–4 числа в тексті з `metrics.json`. Конвертуй docx у PDF (`soffice --headless --convert-to pdf`), подивись сторінки як зображення: таблиці не розірвані, немає порожніх сторінок, кирилиця коректна.
-6. **Віддай результат.** Word через SendUserFile. HTML як сторінку-артефакт або файл. У повідомленні 2–3 речення: що найважливіше за тиждень і що потребує рішення. Не переказуй звіт.
+   Дата в назві це понеділок звітного тижня. Для node за потреби `NODE_PATH` на теку з пакетом `docx`.
+5. **Перевірка.** Звір 3–4 числа з `metrics`. Конвертуй docx у PDF (`soffice --headless --convert-to pdf`) і подивись сторінки: таблиці не розірвані, кирилиця коректна.
+6. **Доставка.** Лист на пошту (див. завдання), у тілі `digest.html`.
 
 ## Схема narrative.json
 
 ```json
 {
-  "title": "Звіт по задачах команди",
-  "subtitle": "Інфобот",
-  "summary": [{"lead": "Коротка теза жирним.", "text": "Пояснення з цифрами."}],
-  "flow": "Абзаци про рух роботи, розділені порожнім рядком.",
-  "people": "Абзаци про навантаження й години.",
-  "anomalies": [{"title": "Назва аномалії", "text": "Що видно, чому це важливо, що перевірити."}],
-  "recommendations": [{"when": "Цього тижня", "text": "Конкретна дія."}],
-  "notes": ["Обмеження даних, специфічні для цього тижня."]
+  "title": "Тижневий звіт по проєктах",
+  "subtitle": "OpenProject",
+  "projects": {
+    "<точна назва проєкту>": {
+      "headline": "Одне речення: головне про проєкт.",
+      "summary": [{"lead": "Теза жирним.", "text": "Пояснення з цифрами."}],
+      "flow": "Абзаци про рух роботи (лише для проєктів із помітною активністю).",
+      "people": "Абзаци про навантаження й години (лише в межах проєкту).",
+      "anomalies": [{"title": "Назва", "text": "Що видно, чому важливо, що перевірити."}],
+      "recommendations": [{"when": "Цього тижня", "text": "Конкретна дія."}],
+      "notes": []
+    }
+  }
 }
 ```
 
-`summary`: 3–5 пунктів. `anomalies`: 3–6 найважливіших, не все підряд. `recommendations`: 4–6, кожна з терміном і конкретною дією. Таблиці з цифрами скрипти будують самі, у тексті не дублюй їх повністю.
+Для кожного проєкту зі `projects.json` має бути запис. Обсяг залежить від активності: великий проєкт отримує `headline`, 3–5 `summary`, `flow`, `people`, 2–4 `anomalies`, 4–5 `recommendations` (таблиці з цифрами скрипти будують самі). Проєкт без руху отримує лише `headline` і 1–2 `summary`. Проєкти без `flow` у Word не починаються з нової сторінки. Демо й тестові проєкти коротко позначай як шум і рекомендуй архівувати.
 
 ## Як писати висновки
 
@@ -62,7 +72,7 @@ description: Формує тижневий звіт по задачах кома
 
 ## Типові проблеми
 
-- **Задачі з іншого проєкту або демо-дані** потрапляють у звіт. Фільтр: `ignore_created_before` та `exclude_projects` у `config.json` (поле `project` з'являється в даних після оновленого збору).
+- **Демо-дані.** `ignore_created_before` у `config.json` відкидає задачі, створені до дати; `exclude_projects` (список назв) прибирає цілі проєкти зі звіту. За замовчуванням у звіті всі проєкти.
 - **Історія статусів** не розпізнається (великий `statusHistoryUnparsed`): мова журналу залежить від користувача токена. Додай шаблон у `STATUS_CHANGE_PATTERNS` в `scripts/collect_openproject.py`.
 - **Порожні години:** перевір права користувача токена на перегляд записів часу.
 - **Тиждень зі святами** дає менше годин і закритих задач: згадай це, щоб не читати як спад.

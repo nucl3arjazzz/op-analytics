@@ -68,6 +68,7 @@ def main():
     ap.add_argument("--out", required=True)
     ap.add_argument("--date", help="опорна дата (РРРР-ММ-ДД), за замовчуванням сьогодні")
     ap.add_argument("--config", help="JSON з перевизначенням порогів і назв статусів")
+    ap.add_argument("--project", help="назва проєкту OpenProject: рахувати лише його задачі, години й історію")
     a = ap.parse_args()
 
     cfg = dict(DEFAULTS)
@@ -82,7 +83,12 @@ def main():
         if not (cutoff and (w.get("createdAt") or "")[:10] < cutoff)
         and w.get("project") not in cfg["exclude_projects"]
     ]
+    if a.project:
+        data["workPackages"] = [w for w in data["workPackages"] if w.get("project") == a.project]
     n_excluded = n_all - len(data["workPackages"])
+    ids = {w["id"] for w in data["workPackages"]}
+    data["statusHistory"] = [e for e in data["statusHistory"] if e["wpId"] in ids]
+    data["timeEntries"] = [t for t in data["timeEntries"] if t.get("wpId") in ids]
     ref = date.fromisoformat(a.date) if a.date else date.today()
     wk_start = monday(ref) - timedelta(days=7)
     wk_end = wk_start + timedelta(days=6)
@@ -309,7 +315,7 @@ def main():
         th[monday(to_date(t["spentOn"]))] += 1
     out = {
         "meta": {
-            "refDate": ref.isoformat(),
+            "refDate": ref.isoformat(), "project": a.project,
             "weekStart": wk_start.isoformat(), "weekEnd": wk_end.isoformat(),
             "prevWeekStart": prev_start.isoformat(),
             "dataGeneratedAt": data["generatedAt"], "baseUrl": data.get("baseUrl"),
