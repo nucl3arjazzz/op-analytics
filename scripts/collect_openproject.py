@@ -35,6 +35,12 @@ STATUS_CHANGE_PATTERNS = [
     re.compile(r"Статус\s+змінен[оа]\s+з\s+(?P<from>.+?)\s+на\s+(?P<to>.+?)\s*$", re.I),
 ]
 
+# Запис про початковий статус при створенні задачі: переходу «з» немає.
+STATUS_SET_PATTERNS = [
+    re.compile(r"Status set to\s+(?P<to>.+?)\s*$", re.I),
+    re.compile(r"Статус\s+встановлено\s+(?:в|у|на)\s+(?P<to>.+?)\s*$", re.I),
+]
+
 _DURATION = re.compile(
     r"^P(?:(?P<d>\d+(?:\.\d+)?)D)?(?:T(?:(?P<h>\d+(?:\.\d+)?)H)?(?:(?P<m>\d+(?:\.\d+)?)M)?(?:(?P<s>\d+(?:\.\d+)?)S)?)?$"
 )
@@ -148,8 +154,12 @@ def fetch_work_packages(s, statuses):
 
 
 def fetch_status_history(s, wp_ids):
-    """Переходи між статусами з журналу змін. Повертає (події, кількість нерозпізнаних записів)."""
-    events, unparsed = [], 0
+    """Переходи між статусами з журналу змін.
+
+    Повертає (події, кількість нерозпізнаних записів, зразки нерозпізнаних записів).
+    Подія з from=None означає початковий статус при створенні задачі.
+    """
+    events, unparsed, samples = [], 0, []
     for wid in wp_ids:
         try:
             data = get(s, f"{BASE}/api/v3/work_packages/{wid}/activities")
@@ -157,23 +167,26 @@ def fetch_status_history(s, wp_ids):
             continue
         for act in data.get("_embedded", {}).get("elements", []):
             for d in act.get("details", []) or []:
-                raw = (d.get("raw") or "").strip()
+                raw = re.sub(r"<[^>]+>", "", d.get("raw") or "").strip()
                 if "status" not in raw.lower() and "статус" not in raw.lower():
                     continue
+                base = {"wpId": wid, "at": act.get("createdAt"), "user": title(act, "user")}
                 for pat in STATUS_CHANGE_PATTERNS:
                     m = pat.search(raw)
                     if m:
-                        events.append({
-                            "wpId": wid,
-                            "at": act.get("createdAt"),
-                            "user": title(act, "user"),
-                            "from": m.group("from"),
-                            "to": m.group("to"),
-                        })
+                        events.append({**base, "from": m.group("from"), "to": m.group("to")})
                         break
                 else:
-                    unparsed += 1
-    return events, unparsed
+                    for pat in STATUS_SET_PATTERNS:
+                        m = pat.search(raw)
+                        if m:
+                            events.append({**base, "from": None, "to": m.group("to")})
+                            break
+                    else:
+                        unparsed += 1
+                        if len(samples) < 20:
+                            samples.append(raw[:200])
+    return events, unparsed, samples
 
 
 def fetch_time_entries(s):
@@ -202,10 +215,10 @@ def main():
     print("Робочі пакети...")
     wps = fetch_work_packages(s, statuses)
     print(f"  отримано {len(wps)}")
-    history, unparsed = [], 0
+    history, unparsed, samples = [], 0, []
     if FETCH_ACTIVITIES:
         print("Історія статусів...")
-        history, unparsed = fetch_status_history(s, [w["id"] for w in wps])
+        history, unparsed, samples = fetch_status_history(s, [w["id"] for w in wps])
         print(f"  переходів: {len(history)}, нерозпізнаних записів: {unparsed}")
     print("Облік часу...")
     entries = fetch_time_entries(s)
@@ -220,6 +233,7 @@ def main():
         "workPackages": wps,
         "statusHistory": history,
         "statusHistoryUnparsed": unparsed,
+        "statusHistoryUnparsedSamples": samples,
         "timeEntries": entries,
     }
     root = Path(__file__).resolve().parent.parent / "data"
