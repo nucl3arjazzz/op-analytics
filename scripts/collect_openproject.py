@@ -117,6 +117,25 @@ def href_id(el, rel):
     return int(tail) if tail.isdigit() else None
 
 
+_USER_CACHE = {}
+
+
+def user_name(s, el):
+    """Ім'я автора запису. Якщо в посиланні немає title, довантажуємо користувача за id (з кешем)."""
+    t = title(el, "user")
+    if t:
+        return t
+    uid = href_id(el, "user")
+    if uid is None:
+        return None
+    if uid not in _USER_CACHE:
+        try:
+            _USER_CACHE[uid] = get(s, f"{BASE}/api/v3/users/{uid}").get("name")
+        except Exception:
+            _USER_CACHE[uid] = None
+    return _USER_CACHE[uid]
+
+
 def fetch_statuses(s):
     out = {}
     for st in paged(s, f"{BASE}/api/v3/statuses"):
@@ -141,6 +160,7 @@ def fetch_work_packages(s, statuses):
             "assignee": title(wp, "assignee"),
             "author": title(wp, "author"),
             "version": title(wp, "version"),
+            "project": title(wp, "project"),
             "parentId": href_id(wp, "parent"),
             "createdAt": wp.get("createdAt"),
             "updatedAt": wp.get("updatedAt"),
@@ -170,7 +190,7 @@ def fetch_status_history(s, wp_ids):
                 raw = re.sub(r"<[^>]+>", "", d.get("raw") or "").strip()
                 if "status" not in raw.lower() and "статус" not in raw.lower():
                     continue
-                base = {"wpId": wid, "at": act.get("createdAt"), "user": title(act, "user")}
+                base = {"wpId": wid, "at": act.get("createdAt"), "user": user_name(s, act)}
                 for pat in STATUS_CHANGE_PATTERNS:
                     m = pat.search(raw)
                     if m:
