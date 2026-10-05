@@ -44,5 +44,10 @@ jobs:
             echo "Змін немає"
           else
             git commit -m "data: тижневий знімок OpenProject $(date -u +%F)"
-            git push
+            # Якщо гілка пішла вперед під час збору, підтягуємо зміни й пробуємо ще раз.
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && exit 0
+              sleep 5
+            done
+            echo "Не вдалося запушити після 3 спроб" && exit 1
           fi
