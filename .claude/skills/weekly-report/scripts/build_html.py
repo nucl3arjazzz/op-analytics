@@ -95,16 +95,16 @@ def project_html(m, n, wp_link):
     att = []
     if dl["overdue"]:
         att.append(f"<h4>Прострочені ({dl['overdueCount']}, найстаріші)</h4>" + table(
-            ["№", "Задача", "Виконавець", "Статус", "Прострочено, діб"],
-            [[wp_link(x["id"]), short(x["subject"]), x["assignee"] or "—", x["status"], num_td(x["overdueDays"])] for x in dl["overdue"]]))
+            ["№", "Задача", "Проєкт", "Виконавець", "Статус", "Прострочено, діб"],
+            [[wp_link(x["id"]), short(x["subject"]), x.get("project") or "—", x["assignee"] or "—", x["status"], num_td(x["overdueDays"])] for x in dl["overdue"]]))
     if dl["dueSoon"]:
         att.append(f"<h4>Дедлайн у найближчі 7 днів ({dl['dueSoonCount']})</h4>" + table(
-            ["№", "Задача", "Виконавець", "Статус", "Дедлайн"],
-            [[wp_link(x["id"]), short(x["subject"]), x["assignee"] or "—", x["status"], dm(x["dueDate"])] for x in dl["dueSoon"]]))
+            ["№", "Задача", "Проєкт", "Виконавець", "Статус", "Дедлайн"],
+            [[wp_link(x["id"]), short(x["subject"]), x.get("project") or "—", x["assignee"] or "—", x["status"], dm(x["dueDate"])] for x in dl["dueSoon"]]))
     if ag["wipOver"]:
         att.append(f"<h4>Давно «в роботі» (понад {meta['config']['aging_days']} днів: {ag['wipOverCount']})</h4>" + table(
-            ["№", "Задача", "Виконавець", "Днів у статусі"],
-            [[wp_link(x["id"]), short(x["subject"]), x["assignee"] or "—", num_td(x["days"])] for x in ag["wipOver"]]))
+            ["№", "Задача", "Проєкт", "Виконавець", "Днів у статусі"],
+            [[wp_link(x["id"]), short(x["subject"]), x.get("project") or "—", x["assignee"] or "—", num_td(x["days"])] for x in ag["wipOver"]]))
     b = ag["reviewBuckets"]
     if sum(b.values()) >= 5:
         att.append("<h4>Скільки задач чекає тестування</h4>" + table(

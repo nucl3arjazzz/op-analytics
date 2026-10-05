@@ -199,7 +199,7 @@ def main():
     def rowof(i, extra=None):
         w = wps[i]
         r = {"id": i, "subject": w["subject"], "type": w["type"], "status": w["status"],
-             "assignee": w["assignee"], "days": ages.get(i)}
+             "assignee": w["assignee"], "project": w.get("project"), "days": ages.get(i)}
         if extra:
             r.update(extra)
         return r

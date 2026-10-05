@@ -109,18 +109,18 @@ function projectKids(m, n) {
   const att = [];
   if (dl.overdue.length) {
     att.push(h3(`Прострочені (${dl.overdueCount}, найстаріші)`));
-    att.push(table([800, 4038, 1900, 1500, 1400], ['№', 'Задача', 'Виконавець', 'Статус', 'Прострочено, діб'],
-      dl.overdue.map((x) => [idCell(x.id), short(x.subject), x.assignee || '—', x.status, x.overdueDays]), [1, 2, 3]));
+    att.push(table([700, 2538, 2000, 1400, 1300, 1700], ['№', 'Задача', 'Проєкт', 'Виконавець', 'Статус', 'Прострочено, діб'],
+      dl.overdue.map((x) => [idCell(x.id), short(x.subject, 60), x.project || '—', x.assignee || '—', x.status, x.overdueDays]), [1, 2, 3, 4]));
   }
   if (dl.dueSoon.length) {
     att.push(h3(`Дедлайн у найближчі 7 днів (${dl.dueSoonCount})`));
-    att.push(table([800, 4038, 1900, 1500, 1400], ['№', 'Задача', 'Виконавець', 'Статус', 'Дедлайн'],
-      dl.dueSoon.map((x) => [idCell(x.id), short(x.subject), x.assignee || '—', x.status, dm(x.dueDate)]), [1, 2, 3]));
+    att.push(table([700, 2538, 2000, 1400, 1300, 1700], ['№', 'Задача', 'Проєкт', 'Виконавець', 'Статус', 'Дедлайн'],
+      dl.dueSoon.map((x) => [idCell(x.id), short(x.subject, 60), x.project || '—', x.assignee || '—', x.status, dm(x.dueDate)]), [1, 2, 3, 4]));
   }
   if (ag.wipOver.length) {
     att.push(h3(`Давно «в роботі» (понад ${meta.config.aging_days} днів: ${ag.wipOverCount})`));
-    att.push(table([800, 5238, 2200, 1400], ['№', 'Задача', 'Виконавець', 'Днів у статусі'],
-      ag.wipOver.map((x) => [idCell(x.id), short(x.subject), x.assignee || '—', x.days]), [1, 2]));
+    att.push(table([700, 3438, 2000, 2000, 1500], ['№', 'Задача', 'Проєкт', 'Виконавець', 'Днів у статусі'],
+      ag.wipOver.map((x) => [idCell(x.id), short(x.subject, 60), x.project || '—', x.assignee || '—', x.days]), [1, 2, 3]));
   }
   const bk = ag.reviewBuckets;
   if (Object.values(bk).reduce((a, v) => a + v, 0) >= 5) {
