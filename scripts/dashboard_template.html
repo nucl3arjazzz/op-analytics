@@ -1,0 +1,743 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenProject: операційний дашборд</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7; --surface: #fcfcfb;
+    --ink: #0b0b0b; --ink2: #52514e; --muted: #898781;
+    --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,.10); --wash: rgba(11,11,11,.05);
+    --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100;
+    --good: #006300; --warn: #fab219; --crit: #d03b3b; --accent: #2a78d6; --gray: #c3c2b7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page: #0d0d0d; --surface: #1a1a19;
+      --ink: #ffffff; --ink2: #c3c2b7; --muted: #898781;
+      --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,.10); --wash: rgba(255,255,255,.06);
+      --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+      --good: #0ca30c; --accent: #3987e5; --gray: #383835;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19;
+    --ink: #ffffff; --ink2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,.10); --wash: rgba(255,255,255,.06);
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+    --good: #0ca30c; --accent: #3987e5; --gray: #383835;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--page); color: var(--ink);
+    font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap { max-width: 1280px; margin: 0 auto; padding: 20px 16px 48px; }
+  header.top { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: flex-start; justify-content: space-between; margin-bottom: 16px; }
+  h1 { font-size: 22px; font-weight: 600; margin: 0 0 4px; }
+  h2 { font-size: 15px; font-weight: 600; margin: 0 0 2px; }
+  .sub, .note { color: var(--ink2); margin: 0; font-size: 13px; }
+  .note { margin-bottom: 10px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
+  .toggle { display: inline-flex; gap: 8px; align-items: center; cursor: pointer; color: var(--ink2); }
+  .toggle input { width: 16px; height: 16px; accent-color: var(--accent); }
+  button.btn {
+    font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--border);
+    border-radius: 8px; padding: 6px 12px; cursor: pointer;
+  }
+  button.btn:hover { background: var(--wash); }
+  button:focus-visible, input:focus-visible, th[tabindex]:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; min-width: 0; }
+  .grid2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 16px; }
+  .section { margin-top: 16px; }
+  @media (max-width: 900px) { .grid2 { grid-template-columns: minmax(0, 1fr); } }
+
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+  .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; min-width: 0; }
+  .tile .lbl { color: var(--ink2); font-size: 13px; }
+  .tile .val { font-size: 30px; font-weight: 600; line-height: 1.15; margin-top: 4px; }
+  .tile.hero .val { font-size: 52px; line-height: 1.05; }
+  .tile .dlt { font-size: 12.5px; margin-top: 4px; color: var(--ink2); }
+  .tile .dlt.good { color: var(--good); }
+  .tile .dlt.bad { color: var(--crit); }
+  .tile .sub2 { font-size: 12.5px; color: var(--ink2); margin-top: 2px; }
+  .spark { display: block; margin-top: 8px; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 6px 0 4px; color: var(--ink2); font-size: 12.5px; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .key-rect { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+  .key-line { width: 14px; height: 2px; border-radius: 1px; display: inline-block; }
+  .chart { position: relative; width: 100%; }
+  .chart svg { display: block; overflow: visible; }
+  .chart text { fill: var(--muted); font: 11px system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .chart text.t2 { fill: var(--ink2); }
+  .chart text.t1 { fill: var(--ink); }
+  .seg, .col { transition: opacity .1s; }
+  .seg:hover, .col:hover { opacity: .8; }
+  .empty { color: var(--muted); padding: 24px 0; }
+
+  details.tbl { margin-top: 10px; }
+  details.tbl summary { cursor: pointer; color: var(--ink2); font-size: 12.5px; }
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  th, td { padding: 6px 8px; text-align: right; border-bottom: 1px solid var(--grid); white-space: nowrap; vertical-align: middle; }
+  th { font-weight: 600; color: var(--ink2); font-size: 12px; line-height: 1.25; white-space: normal; vertical-align: bottom; background: var(--surface); }
+  th:first-child, td:first-child { text-align: left; }
+  td.l, th.l { text-align: left; }
+  td.wrap { white-space: normal; min-width: 240px; }
+  td.status { white-space: normal; min-width: 330px; }
+  th[data-key] { cursor: pointer; user-select: none; }
+  th[data-key]:hover { color: var(--ink); }
+  tbody tr:hover td { background: var(--wash); }
+  tr.test td { color: var(--muted); }
+  .tag { display: inline-block; font-size: 11px; color: var(--ink2); border: 1px solid var(--border); border-radius: 6px; padding: 0 5px; margin-left: 6px; }
+  .num0 { color: var(--muted); }
+  .st { display: inline-flex; gap: 6px; align-items: center; font-weight: 500; }
+  .st i { font-style: normal; width: 16px; text-align: center; }
+  .st.ok i { color: var(--good); }
+  .st.attention i { color: var(--warn); }
+  .st.idle { color: var(--muted); }
+  .why { display: block; color: var(--ink2); font-size: 11.5px; font-weight: 400; white-space: normal; margin-top: 1px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .scrollhint { color: var(--muted); font-size: 12px; margin-top: 6px; }
+
+  #tip {
+    position: fixed; z-index: 10; pointer-events: none; display: none; max-width: 280px;
+    background: var(--surface); color: var(--ink); border: 1px solid var(--border); border-radius: 8px;
+    padding: 8px 10px; font-size: 12.5px; box-shadow: 0 4px 16px rgba(0,0,0,.16);
+  }
+  #tip .tt { color: var(--ink2); margin-bottom: 4px; }
+  #tip .tr { display: flex; align-items: center; gap: 8px; justify-content: space-between; }
+  #tip .tr .k { display: inline-flex; align-items: center; gap: 6px; color: var(--ink2); }
+  #tip .tr b { font-weight: 600; color: var(--ink); }
+  ul.facts { margin: 8px 0 0; padding-left: 18px; color: var(--ink2); }
+  ul.facts li { margin: 3px 0; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>OpenProject: операційний дашборд</h1>
+      <p class="sub" id="sub"></p>
+    </div>
+    <div class="controls">
+      <label class="toggle"><input type="checkbox" id="showTest"><span>Враховувати тестові проєкти</span></label>
+      <button class="btn" id="theme" type="button">Тема: авто</button>
+    </div>
+  </header>
+
+  <section class="kpis" id="kpis" aria-label="Ключові показники"></section>
+
+  <section class="card section" id="insights" hidden>
+    <h2>Варто знати</h2>
+    <ul class="facts" id="insightList"></ul>
+  </section>
+
+  <section class="grid2">
+    <article class="card">
+      <h2>Створено й закрито за тиждень</h2>
+      <p class="note" id="trendNote"></p>
+      <div class="legend" id="trendLegend"></div>
+      <div class="chart" id="chTrend"></div>
+      <details class="tbl"><summary>Таблиця</summary><div class="scroll" id="tbTrend"></div></details>
+    </article>
+    <article class="card">
+      <h2>Відкриті задачі за проєктами</h2>
+      <p class="note">Стан робочого потоку: від беклогу до тесту. Усі значення є в таблиці нижче.</p>
+      <div class="legend" id="stackLegend"></div>
+      <div class="chart" id="chStack"></div>
+    </article>
+  </section>
+
+  <section class="card section">
+    <h2>Стан проєктів</h2>
+    <p class="note">Клік по заголовку колонки сортує таблицю. «Закрито», години й lead time — за останні 4 повні тижні.</p>
+    <div class="scroll"><table id="projTable"></table></div>
+    <div class="scrollhint">Таблиця прокручується вбік на вузьких екранах.</div>
+  </section>
+
+  <section class="grid2">
+    <article class="card">
+      <h2>Списані години за тиждень</h2>
+      <p class="note" id="hoursNote"></p>
+      <div class="chart" id="chHours"></div>
+      <details class="tbl"><summary>Таблиця</summary><div class="scroll" id="tbHours"></div></details>
+    </article>
+    <article class="card">
+      <h2>Години по людях за 4 тижні</h2>
+      <p class="note">Лише списаний у OpenProject час.</p>
+      <div class="chart" id="chPeople"></div>
+    </article>
+  </section>
+
+  <section class="grid2">
+    <article class="card">
+      <h2>Найдавніші прострочені задачі</h2>
+      <p class="note" id="overdueNote"></p>
+      <div class="scroll" id="tbOverdue"></div>
+    </article>
+    <article class="card">
+      <h2>Довго «в роботі»</h2>
+      <p class="note" id="agingNote"></p>
+      <div class="scroll" id="tbAging"></div>
+    </article>
+  </section>
+
+  <section class="card section">
+    <h2>Про дані</h2>
+    <ul class="facts" id="facts"></ul>
+  </section>
+</div>
+<div id="tip" role="tooltip"></div>
+
+<script type="application/json" id="data">/*__DATA__*/null</script>
+<script>
+(function () {
+  'use strict';
+  var D = JSON.parse(document.getElementById('data').textContent);
+  var meta = D.meta;
+  var nf = new Intl.NumberFormat('uk-UA');
+  var NS = 'http://www.w3.org/2000/svg';
+  var GROUPS = [
+    { key: 'backlog', label: 'Беклог', color: 'var(--s1)' },
+    { key: 'wip', label: 'У роботі', color: 'var(--s2)' },
+    { key: 'review', label: 'На тесті', color: 'var(--s3)' },
+    { key: 'blocked', label: 'Заблоковано / очікує', color: 'var(--s4)' }
+  ];
+  var state = { showTest: false, sortKey: 'open', sortDir: -1, theme: 'auto' };
+
+  // ---------- утиліти ----------
+  function $(id) { return document.getElementById(id); }
+  function el(tag, attrs, text) {
+    var e = document.createElement(tag);
+    if (attrs) for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function sv(tag, attrs, parent) {
+    var e = document.createElementNS(NS, tag);
+    if (attrs) for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+  function num(v) { return v == null ? '—' : nf.format(Math.round(v * 10) / 10); }
+  function dm(iso) { return iso ? iso.slice(8, 10) + '.' + iso.slice(5, 7) : ''; }
+  function dmy(iso) { return iso ? iso.slice(8, 10) + '.' + iso.slice(5, 7) + '.' + iso.slice(0, 4) : '—'; }
+  function niceMax(v) {
+    if (v <= 0) return 4;
+    var p = Math.pow(10, Math.floor(Math.log10(v))), f = v / p;
+    var n = f <= 1 ? 1 : f <= 2 ? 2 : f <= 4 ? 4 : f <= 5 ? 5 : 10;
+    return n * p;
+  }
+  function clear(n) { while (n.firstChild) n.removeChild(n.firstChild); }
+  function scope() { return D.scopes[state.showTest ? 'all' : 'work']; }
+  function visibleProjects() {
+    return D.projects.filter(function (p) { return state.showTest || !p.isTest; });
+  }
+
+  // ---------- підказка ----------
+  var tip = $('tip');
+  function showTip(ev, title, rows) {
+    clear(tip);
+    if (title) tip.appendChild(el('div', { 'class': 'tt' }, title));
+    rows.forEach(function (r) {
+      var row = el('div', { 'class': 'tr' });
+      var k = el('span', { 'class': 'k' });
+      if (r.color) {
+        var key = el('span', { 'class': r.line ? 'key-line' : 'key-rect' });
+        key.style.background = r.color;
+        k.appendChild(key);
+      }
+      k.appendChild(document.createTextNode(r.label));
+      row.appendChild(k);
+      row.appendChild(el('b', null, r.value));
+      tip.appendChild(row);
+    });
+    tip.style.display = 'block';
+    var w = tip.offsetWidth, h = tip.offsetHeight;
+    var x = ev.clientX + 14, y = ev.clientY + 14;
+    if (x + w > window.innerWidth - 8) x = ev.clientX - w - 14;
+    if (y + h > window.innerHeight - 8) y = ev.clientY - h - 14;
+    tip.style.left = Math.max(8, x) + 'px';
+    tip.style.top = Math.max(8, y) + 'px';
+  }
+  function hideTip() { tip.style.display = 'none'; }
+
+  function legend(host, items, line) {
+    clear(host);
+    items.forEach(function (it) {
+      var s = el('span');
+      var k = el('span', { 'class': line ? 'key-line' : 'key-rect' });
+      k.style.background = it.color;
+      s.appendChild(k);
+      s.appendChild(document.createTextNode(it.label));
+      host.appendChild(s);
+    });
+  }
+
+  function simpleTable(host, head, rows) {
+    clear(host);
+    var t = el('table');
+    var thead = el('thead'), tr = el('tr');
+    head.forEach(function (h) { tr.appendChild(el('th', null, h)); });
+    thead.appendChild(tr); t.appendChild(thead);
+    var tb = el('tbody');
+    rows.forEach(function (r) {
+      var row = el('tr');
+      r.forEach(function (c) { row.appendChild(el('td', null, c)); });
+      tb.appendChild(row);
+    });
+    t.appendChild(tb); host.appendChild(t);
+  }
+
+  function roundedRight(x, y, w, h, r) {
+    r = Math.min(r, w, h / 2);
+    return 'M' + x + ',' + y + 'H' + (x + w - r) + 'Q' + (x + w) + ',' + y + ' ' + (x + w) + ',' + (y + r) +
+      'V' + (y + h - r) + 'Q' + (x + w) + ',' + (y + h) + ' ' + (x + w - r) + ',' + (y + h) + 'H' + x + 'Z';
+  }
+  function roundedTop(x, y, w, h, r) {
+    r = Math.min(r, w / 2, h);
+    return 'M' + x + ',' + (y + h) + 'V' + (y + r) + 'Q' + x + ',' + y + ' ' + (x + r) + ',' + y +
+      'H' + (x + w - r) + 'Q' + (x + w) + ',' + y + ' ' + (x + w) + ',' + (y + r) + 'V' + (y + h) + 'Z';
+  }
+
+  // ---------- графік-лінія з перехрестям ----------
+  function lineChart(host, labels, series) {
+    clear(host);
+    var W = host.clientWidth || 560, H = 240, L = 36, R = 44, T = 12, B = 26;
+    var iw = W - L - R, ih = H - T - B;
+    var max = niceMax(Math.max.apply(null, [1].concat.apply([], series.map(function (s) { return s.values; }))));
+    var svg = sv('svg', { width: W, height: H, viewBox: '0 0 ' + W + ' ' + H, role: 'img',
+      'aria-label': 'Лінійний графік: ' + series.map(function (s) { return s.name; }).join(', ') }, null);
+    host.appendChild(svg);
+    var n = labels.length;
+    function X(i) { return L + (n === 1 ? iw / 2 : i * iw / (n - 1)); }
+    function Y(v) { return T + ih - v / max * ih; }
+    for (var t = 0; t <= 4; t++) {
+      var v = max * t / 4, y = Y(v);
+      sv('line', { x1: L, x2: W - R, y1: y, y2: y, stroke: t === 0 ? 'var(--axis)' : 'var(--grid)', 'stroke-width': 1 }, svg);
+      sv('text', { x: L - 6, y: y + 4, 'text-anchor': 'end' }, svg).textContent = nf.format(v);
+    }
+    var step = Math.ceil(n / Math.max(2, Math.floor(iw / 56)));
+    labels.forEach(function (lb, i) {
+      if (i % step === 0 || i === n - 1) {
+        if (i === n - 1 && i % step !== 0 && (n - 1 - Math.floor((n - 1) / step) * step) < step / 2) return;
+        sv('text', { x: X(i), y: H - 8, 'text-anchor': 'middle' }, svg).textContent = lb;
+      }
+    });
+    var ends = [];
+    series.forEach(function (s) {
+      var d = s.values.map(function (v, i) { return (i ? 'L' : 'M') + X(i) + ',' + Y(v); }).join('');
+      sv('path', { d: d, fill: 'none', stroke: s.color, 'stroke-width': 2, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }, svg);
+      var last = s.values.length - 1;
+      sv('circle', { cx: X(last), cy: Y(s.values[last]), r: 4, fill: s.color, stroke: 'var(--surface)', 'stroke-width': 2 }, svg);
+      ends.push({ y: Y(s.values[last]), v: s.values[last] });
+    });
+    ends.sort(function (a, b) { return a.y - b.y; });
+    ends.forEach(function (e, i) {
+      if (i > 0 && e.y - ends[i - 1].y < 14) return;
+      sv('text', { x: W - R + 10, y: e.y + 4, 'class': 't2' }, svg).textContent = nf.format(e.v);
+    });
+    var cross = sv('line', { y1: T, y2: T + ih, stroke: 'var(--muted)', 'stroke-width': 1, visibility: 'hidden' }, svg);
+    var dots = series.map(function (s) {
+      return sv('circle', { r: 4, fill: s.color, stroke: 'var(--surface)', 'stroke-width': 2, visibility: 'hidden' }, svg);
+    });
+    var hit = sv('rect', { x: L, y: T, width: iw, height: ih, fill: 'transparent', tabindex: 0 }, svg);
+    function at(ev) {
+      var r = svg.getBoundingClientRect();
+      var px = ev.clientX - r.left;
+      var i = Math.max(0, Math.min(n - 1, Math.round((px - L) / (iw / Math.max(1, n - 1)))));
+      cross.setAttribute('x1', X(i)); cross.setAttribute('x2', X(i)); cross.setAttribute('visibility', 'visible');
+      dots.forEach(function (d, k) {
+        d.setAttribute('cx', X(i)); d.setAttribute('cy', Y(series[k].values[i])); d.setAttribute('visibility', 'visible');
+      });
+      showTip(ev, 'Тиждень з ' + labels[i], series.map(function (s) {
+        return { label: s.name, value: nf.format(s.values[i]), color: s.color, line: true };
+      }));
+    }
+    hit.addEventListener('pointermove', at);
+    hit.addEventListener('pointerleave', function () {
+      cross.setAttribute('visibility', 'hidden'); dots.forEach(function (d) { d.setAttribute('visibility', 'hidden'); }); hideTip();
+    });
+  }
+
+  // ---------- горизонтальний стек ----------
+  function stackChart(host, rows) {
+    clear(host);
+    rows = rows.filter(function (r) { return r.open > 0; }).sort(function (a, b) { return b.open - a.open; });
+    if (!rows.length) { host.appendChild(el('div', { 'class': 'empty' }, 'Немає відкритих задач.')); return; }
+    var W = host.clientWidth || 560, pitch = 28, bh = 18, T = 4, B = 4;
+    var labW = Math.max(110, Math.min(190, Math.round(W * 0.36))), R = 36;
+    var iw = W - labW - R, H = rows.length * pitch + T + B;
+    var max = Math.max.apply(null, rows.map(function (r) { return r.open; }));
+    var svg = sv('svg', { width: W, height: H, viewBox: '0 0 ' + W + ' ' + H, role: 'img', 'aria-label': 'Відкриті задачі за проєктами та статусами' }, null);
+    host.appendChild(svg);
+    rows.forEach(function (r, i) {
+      var y = T + i * pitch + (pitch - bh) / 2;
+      var name = r.name.length > 26 && labW < 170 ? r.name.slice(0, 25) + '…' : (r.name.length > 32 ? r.name.slice(0, 31) + '…' : r.name);
+      var lt = sv('text', { x: labW - 8, y: y + bh / 2 + 4, 'text-anchor': 'end', 'class': 't2' }, svg);
+      lt.textContent = name;
+      sv('title', null, lt).textContent = r.name;
+      var x = labW, lastIdx = -1;
+      GROUPS.forEach(function (g, k) { if (r[g.key] > 0) lastIdx = k; });
+      GROUPS.forEach(function (g, k) {
+        var v = r[g.key];
+        if (!v) return;
+        var w = v / max * iw, gap = k === lastIdx ? 0 : 2;
+        var draw = Math.max(1, w - gap);
+        var seg;
+        if (k === lastIdx) seg = sv('path', { d: roundedRight(x, y, draw, bh, 4), fill: g.color }, svg);
+        else seg = sv('rect', { x: x, y: y, width: draw, height: bh, fill: g.color }, svg);
+        seg.setAttribute('class', 'seg');
+        seg.addEventListener('pointermove', function (ev) {
+          showTip(ev, r.name, [{ label: g.label, value: nf.format(v), color: g.color }, { label: 'Усього відкрито', value: nf.format(r.open) }]);
+        });
+        seg.addEventListener('pointerleave', hideTip);
+        x += w;
+      });
+      sv('text', { x: x + 6, y: y + bh / 2 + 4, 'class': 't1' }, svg).textContent = nf.format(r.open);
+    });
+  }
+
+  // ---------- колонки (години по тижнях) ----------
+  function columnChart(host, labels, values) {
+    clear(host);
+    var W = host.clientWidth || 560, H = 220, L = 40, R = 12, T = 12, B = 26;
+    var iw = W - L - R, ih = H - T - B, n = labels.length;
+    var vals = values.filter(function (v) { return v != null; });
+    if (!vals.length) { host.appendChild(el('div', { 'class': 'empty' }, 'Годин за цей період немає.')); return; }
+    var max = niceMax(Math.max.apply(null, vals));
+    var svg = sv('svg', { width: W, height: H, viewBox: '0 0 ' + W + ' ' + H, role: 'img', 'aria-label': 'Списані години по тижнях' }, null);
+    host.appendChild(svg);
+    function Y(v) { return T + ih - v / max * ih; }
+    for (var t = 0; t <= 4; t++) {
+      var v = max * t / 4, y = Y(v);
+      sv('line', { x1: L, x2: W - R, y1: y, y2: y, stroke: t === 0 ? 'var(--axis)' : 'var(--grid)', 'stroke-width': 1 }, svg);
+      sv('text', { x: L - 6, y: y + 4, 'text-anchor': 'end' }, svg).textContent = nf.format(v);
+    }
+    var slot = iw / n, bw = Math.min(24, slot - 6);
+    var step = Math.ceil(n / Math.max(2, Math.floor(iw / 48)));
+    var lastIdx = -1; values.forEach(function (v, i) { if (v != null) lastIdx = i; });
+    labels.forEach(function (lb, i) {
+      var cx = L + slot * i + slot / 2;
+      if (i % step === 0 || i === n - 1) sv('text', { x: cx, y: H - 8, 'text-anchor': 'middle' }, svg).textContent = lb;
+      var v = values[i];
+      var hitRect = sv('rect', { x: L + slot * i, y: T, width: slot, height: ih, fill: 'transparent' }, svg);
+      if (v == null) {
+        hitRect.addEventListener('pointermove', function (ev) { showTip(ev, 'Тиждень з ' + lb, [{ label: 'Години', value: 'немає даних' }]); });
+        hitRect.addEventListener('pointerleave', hideTip);
+        return;
+      }
+      var h = Math.max(v > 0 ? 2 : 0, v / max * ih);
+      if (h > 0) {
+        var bar = sv('path', { d: roundedTop(cx - bw / 2, T + ih - h, bw, h, 4), fill: i === lastIdx ? 'var(--accent)' : 'var(--accent)', opacity: i === lastIdx ? 1 : 0.55, 'class': 'col' }, svg);
+        void bar;
+      }
+      if (i === lastIdx) sv('text', { x: cx, y: T + ih - h - 5, 'text-anchor': 'middle', 'class': 't1' }, svg).textContent = nf.format(v);
+      hitRect.addEventListener('pointermove', function (ev) { showTip(ev, 'Тиждень з ' + lb, [{ label: 'Години', value: nf.format(v), color: 'var(--accent)' }]); });
+      hitRect.addEventListener('pointerleave', hideTip);
+    });
+  }
+
+  // ---------- горизонтальні стовпчики (люди) ----------
+  function barList(host, rows) {
+    clear(host);
+    if (!rows.length) { host.appendChild(el('div', { 'class': 'empty' }, 'Немає списаних годин за період.')); return; }
+    var W = host.clientWidth || 560, pitch = 28, bh = 18, T = 4, B = 4;
+    var labW = Math.max(110, Math.min(180, Math.round(W * 0.34))), R = 44;
+    var iw = W - labW - R, H = rows.length * pitch + T + B;
+    var max = Math.max.apply(null, rows.map(function (r) { return r.hours4w; }));
+    var svg = sv('svg', { width: W, height: H, viewBox: '0 0 ' + W + ' ' + H, role: 'img', 'aria-label': 'Години по людях за 4 тижні' }, null);
+    host.appendChild(svg);
+    rows.forEach(function (r, i) {
+      var y = T + i * pitch + (pitch - bh) / 2, w = Math.max(2, r.hours4w / max * iw);
+      var lt = sv('text', { x: labW - 8, y: y + bh / 2 + 4, 'text-anchor': 'end', 'class': 't2' }, svg);
+      lt.textContent = r.name.length > 24 ? r.name.slice(0, 23) + '…' : r.name;
+      sv('title', null, lt).textContent = r.name;
+      var bar = sv('path', { d: roundedRight(labW, y, w, bh, 4), fill: 'var(--accent)', 'class': 'seg' }, svg);
+      bar.addEventListener('pointermove', function (ev) {
+        showTip(ev, r.name, [{ label: 'За 4 тижні', value: num(r.hours4w) + ' год', color: 'var(--accent)' }, { label: 'За останній тиждень', value: num(r.hoursWeek) + ' год' }]);
+      });
+      bar.addEventListener('pointerleave', hideTip);
+      sv('text', { x: labW + w + 6, y: y + bh / 2 + 4, 'class': 't1' }, svg).textContent = num(r.hours4w);
+    });
+  }
+
+  // ---------- міні-графік у таблиці ----------
+  function sparkSvg(values, w, h) {
+    var svg = sv('svg', { width: w, height: h, viewBox: '0 0 ' + w + ' ' + h, 'class': 'spark', 'aria-hidden': 'true' }, null);
+    svg.style.display = 'inline-block'; svg.style.margin = '0'; svg.style.verticalAlign = 'middle';
+    var max = Math.max.apply(null, [1].concat(values)), n = values.length, p = 3;
+    function X(i) { return p + i * (w - 2 * p) / (n - 1); }
+    function Y(v) { return h - p - v / max * (h - 2 * p); }
+    sv('path', { d: values.map(function (v, i) { return (i ? 'L' : 'M') + X(i) + ',' + Y(v); }).join(''), fill: 'none', stroke: 'var(--muted)', 'stroke-width': 2, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }, svg);
+    sv('circle', { cx: X(n - 1), cy: Y(values[n - 1]), r: 3, fill: 'var(--accent)' }, svg);
+    return svg;
+  }
+
+  // ---------- KPI ----------
+  function delta(cur, prev, upGood, unit, vs) {
+    if (cur == null || prev == null) return { text: '', cls: '' };
+    var d = Math.round((cur - prev) * 10) / 10;
+    if (d === 0) return { text: '■ без змін ' + vs, cls: '' };
+    var arrow = d > 0 ? '▲ +' : '▼ −';
+    var good = upGood === null ? null : (d > 0) === upGood;
+    return { text: arrow + nf.format(Math.abs(d)) + (unit || '') + ' ' + vs, cls: good === null ? '' : good ? 'good' : 'bad' };
+  }
+  function tile(opts) {
+    var t = el('div', { 'class': 'tile' + (opts.hero ? ' hero' : '') });
+    t.appendChild(el('div', { 'class': 'lbl' }, opts.label));
+    t.appendChild(el('div', { 'class': 'val' }, opts.value));
+    if (opts.delta && opts.delta.text) t.appendChild(el('div', { 'class': 'dlt ' + opts.delta.cls }, opts.delta.text));
+    if (opts.sub) t.appendChild(el('div', { 'class': 'sub2' }, opts.sub));
+    if (opts.spark) t.appendChild(sparkSvg(opts.spark, 120, 24));
+    return t;
+  }
+  function renderKpis() {
+    var s = scope(), ov = s.overview, host = $('kpis');
+    clear(host);
+    var blocked = (s.byStatusOpen['Block'] || 0) + (s.byStatusOpen['Pending'] || 0);
+    var withDue = ov.openLeaf - s.openNoDueDate;
+    var hw = s.hoursWeekly, hCur = hw[hw.length - 1], hPrev = hw[hw.length - 2];
+    var cur = s.flow.current28d, prev = s.flow.previous28d;
+    host.appendChild(tile({ hero: true, label: 'Відкриті задачі', value: nf.format(ov.openLeaf),
+      sub: 'у роботі ' + nf.format(ov.wip) + ' · на тесті ' + nf.format(ov.review) + ' · блок/очікує ' + nf.format(blocked) }));
+    host.appendChild(tile({ label: 'Закрито за тиждень', value: nf.format(ov.doneWeek),
+      delta: delta(ov.doneWeek, ov.donePrev, true, '', 'до минулого тижня'),
+      sub: 'у середньому за 4 тижні: ' + num(ov.doneAvg4), spark: s.trend.map(function (t) { return t.done; }) }));
+    host.appendChild(tile({ label: 'Створено за тиждень', value: nf.format(ov.createdWeek),
+      delta: delta(ov.createdWeek, ov.createdPrev, null, '', 'до минулого тижня'),
+      sub: 'приріст беклогу: ' + (ov.netFlowWeek > 0 ? '+' : '') + nf.format(ov.netFlowWeek), spark: s.trend.map(function (t) { return t.created; }) }));
+    host.appendChild(tile({ label: 'Прострочені задачі', value: nf.format(s.overdueCount),
+      sub: 'дедлайн заданий у ' + nf.format(withDue) + ' з ' + nf.format(ov.openLeaf) + ' відкритих' }));
+    host.appendChild(tile({ label: 'Lead time, медіана', value: cur.lead.median == null ? '—' : num(cur.lead.median) + ' дн.',
+      delta: delta(cur.lead.median, prev.lead.median, false, ' дн.', 'до попередніх 28 дн.'),
+      sub: 'cycle time: ' + (cur.cycle.median == null ? '—' : num(cur.cycle.median) + ' дн.') + ' · за 28 дн.' }));
+    host.appendChild(tile({ label: 'Години за тиждень', value: hCur == null ? '—' : num(hCur),
+      delta: delta(hCur, hPrev, null, ' год', 'до минулого тижня'),
+      sub: 'людей зі списаним часом: ' + nf.format(s.people.filter(function (p) { return p.hoursWeek > 0; }).length) }));
+  }
+
+  // ---------- таблиця проєктів ----------
+  var COLS = [
+    { key: 'name', label: 'Проєкт', left: true },
+    { key: 'open', label: 'Відкрито' },
+    { key: 'backlog', label: 'Беклог' },
+    { key: 'wip', label: 'У роботі' },
+    { key: 'review', label: 'Тест' },
+    { key: 'blocked', label: 'Блок / очікує' },
+    { key: 'done4w', label: 'Закрито, 4 тиж' },
+    { key: 'trend', label: 'Закриття, 12 тиж', nosort: true },
+    { key: 'overdue', label: 'Прострочено' },
+    { key: 'agingWip', label: 'В роботі >' + meta.agingDays + ' дн.' },
+    { key: 'leadMedian', label: 'Lead time, дн.' },
+    { key: 'hours4w', label: 'Години, 4 тиж' },
+    { key: 'lastUpdate', label: 'Остання зміна' },
+    { key: 'level', label: 'Стан', left: true }
+  ];
+  var LEVEL_ORDER = { attention: 0, ok: 1, idle: 2 };
+  function renderProjects() {
+    var t = $('projTable'); clear(t);
+    var rows = visibleProjects().slice();
+    var k = state.sortKey, dir = state.sortDir;
+    rows.sort(function (a, b) {
+      var x = a[k], y = b[k];
+      if (k === 'level') { x = LEVEL_ORDER[x]; y = LEVEL_ORDER[y]; }
+      if (x == null) x = (typeof y === 'string') ? '' : -1;
+      if (y == null) y = (typeof x === 'string') ? '' : -1;
+      if (typeof x === 'string') return x.localeCompare(y, 'uk') * dir;
+      return (x - y) * dir || a.name.localeCompare(b.name, 'uk');
+    });
+    var thead = el('thead'), htr = el('tr');
+    COLS.forEach(function (c) {
+      var th = el('th', c.nosort ? null : { 'data-key': c.key, tabindex: 0, 'aria-sort': state.sortKey === c.key ? (state.sortDir > 0 ? 'ascending' : 'descending') : 'none' },
+        c.label + (state.sortKey === c.key ? (state.sortDir > 0 ? ' ▲' : ' ▼') : ''));
+      if (c.left) th.className = 'l';
+      if (!c.nosort) {
+        var go = function () {
+          if (state.sortKey === c.key) state.sortDir *= -1; else { state.sortKey = c.key; state.sortDir = c.left ? 1 : -1; }
+          renderProjects();
+        };
+        th.addEventListener('click', go);
+        th.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } });
+      }
+      htr.appendChild(th);
+    });
+    thead.appendChild(htr); t.appendChild(thead);
+    var tb = el('tbody');
+    rows.forEach(function (r) {
+      var tr = el('tr', r.isTest ? { 'class': 'test' } : null);
+      function cell(v, cls) { var td = el('td', cls ? { 'class': cls } : null, v); if (v === '0' || v === '—') td.className = (td.className + ' num0').trim(); return td; }
+      var c0 = el('td', { 'class': 'l' }, r.name);
+      if (r.isTest) c0.appendChild(el('span', { 'class': 'tag' }, 'тест'));
+      tr.appendChild(c0);
+      tr.appendChild(cell(nf.format(r.open)));
+      tr.appendChild(cell(nf.format(r.backlog)));
+      tr.appendChild(cell(nf.format(r.wip)));
+      tr.appendChild(cell(nf.format(r.review)));
+      tr.appendChild(cell(nf.format(r.blocked)));
+      tr.appendChild(cell(nf.format(r.done4w)));
+      var sp = el('td'); sp.appendChild(sparkSvg(r.doneSeries, 84, 22)); tr.appendChild(sp);
+      var od = cell(nf.format(r.overdue));
+      if (r.overdue > 0) od.title = 'найстарша прострочена: ' + nf.format(r.overdueMaxDays) + ' дн.';
+      tr.appendChild(od);
+      tr.appendChild(cell(nf.format(r.agingWip)));
+      tr.appendChild(cell(r.leadMedian == null ? '—' : num(r.leadMedian)));
+      tr.appendChild(cell(r.hours4w ? num(r.hours4w) : '0'));
+      tr.appendChild(cell(r.lastUpdate ? dmy(r.lastUpdate) : '—'));
+      var st = el('td', { 'class': 'l status' });
+      var lab = r.level === 'ok' ? ['✓', 'Без зауважень'] : r.level === 'attention' ? ['⚠', 'Потребує уваги'] : ['–', 'Немає відкритих'];
+      var chip = el('span', { 'class': 'st ' + r.level });
+      chip.appendChild(el('i', null, lab[0])); chip.appendChild(document.createTextNode(lab[1]));
+      st.appendChild(chip);
+      if (r.reasons.length) st.appendChild(el('span', { 'class': 'why' }, r.reasons.join('; ')));
+      tr.appendChild(st);
+      tb.appendChild(tr);
+    });
+    t.appendChild(tb);
+  }
+
+  // ---------- списки уваги ----------
+  function taskTable(host, rows, cols) {
+    clear(host);
+    if (!rows.length) { host.appendChild(el('div', { 'class': 'empty' }, 'Немає таких задач.')); return; }
+    var t = el('table'), thead = el('thead'), htr = el('tr');
+    cols.forEach(function (c) { var th = el('th', null, c.label); if (c.left) th.className = 'l'; htr.appendChild(th); });
+    thead.appendChild(htr); t.appendChild(thead);
+    var tb = el('tbody');
+    rows.forEach(function (r) {
+      var tr = el('tr');
+      cols.forEach(function (c) {
+        var td = el('td', c.left ? { 'class': 'l wrap' } : null);
+        if (c.link) {
+          var a = el('a', { href: r.url, target: '_blank', rel: 'noopener noreferrer' }, '#' + r.id + ' ' + (r.subject.length > 70 ? r.subject.slice(0, 69) + '…' : r.subject));
+          a.title = r.subject; td.appendChild(a);
+          td.appendChild(el('span', { 'class': 'why' }, r.project));
+        } else td.textContent = c.get(r);
+        tr.appendChild(td);
+      });
+      tb.appendChild(tr);
+    });
+    t.appendChild(tb); host.appendChild(t);
+  }
+  function renderLists() {
+    var s = scope();
+    $('overdueNote').textContent = 'Показано ' + s.overdue.length + ' з ' + nf.format(s.overdueCount) + ', найстаріші за дедлайном.';
+    taskTable($('tbOverdue'), s.overdue, [
+      { label: 'Задача', left: true, link: true },
+      { label: 'Виконавець', left: true, get: function (r) { return r.assignee || '—'; } },
+      { label: 'Протермін., дн.', get: function (r) { return nf.format(r.overdueDays); } }
+    ]);
+    $('agingNote').textContent = 'Показано ' + s.agingWip.length + ' з ' + nf.format(s.agingWipCount) + ' задач, що в статусі «У роботі» понад ' + meta.agingDays + ' дн.';
+    taskTable($('tbAging'), s.agingWip, [
+      { label: 'Задача', left: true, link: true },
+      { label: 'Виконавець', left: true, get: function (r) { return r.assignee || '—'; } },
+      { label: 'У статусі, дн.', get: function (r) { return nf.format(r.days); } }
+    ]);
+  }
+
+  // ---------- тренд, години, люди ----------
+  function renderCharts() {
+    var s = scope();
+    var labels = meta.weeks.map(dm);
+    var created = s.trend.map(function (t) { return t.created; });
+    var done = s.trend.map(function (t) { return t.done; });
+    $('trendNote').textContent = 'Останні ' + labels.length + ' тижнів, понеділок тижня на осі. Закриті: статус «Done».';
+    legend($('trendLegend'), [{ label: 'Створено', color: 'var(--s1)' }, { label: 'Закрито', color: 'var(--s2)' }], true);
+    lineChart($('chTrend'), labels, [
+      { name: 'Створено', values: created, color: 'var(--s1)' },
+      { name: 'Закрито', values: done, color: 'var(--s2)' }
+    ]);
+    simpleTable($('tbTrend'), ['Тиждень з', 'Створено', 'Закрито'], labels.map(function (l, i) { return [l, nf.format(created[i]), nf.format(done[i])]; }));
+
+    legend($('stackLegend'), GROUPS.map(function (g) { return { label: g.label, color: g.color }; }), false);
+    stackChart($('chStack'), visibleProjects());
+
+    var hw = s.hoursWeekly;
+    $('hoursNote').textContent = meta.hoursCoverFrom
+      ? 'Години доступні з тижня ' + dmy(meta.hoursCoverFrom) + ': раніше облік не вивантажувався, тому ці тижні порожні, а не нульові.'
+      : 'Годин за період немає.';
+    columnChart($('chHours'), labels, hw);
+    simpleTable($('tbHours'), ['Тиждень з', 'Години'], labels.map(function (l, i) { return [l, hw[i] == null ? 'немає даних' : num(hw[i])]; }));
+    barList($('chPeople'), s.people);
+  }
+
+  function renderInsights() {
+    var s = scope(), ov = s.overview, items = [];
+    var bc = s.bulkClosing && s.bulkClosing.weekTopDay;
+    if (s.bulkClosing && s.bulkClosing.suspected && bc) {
+      items.push(dmy(bc.date) + ' закрито ' + nf.format(bc.count) + ' задач (' + Math.round(bc.shareOfWeek * 100) + '% тижня) за проміжок ' + bc.firstAt + '–' + bc.lastAt +
+        '. Схоже на пачкове закриття, тож «закрито за тиждень» і lead time за цей період варто читати обережно. Типовий день — близько ' + num(s.bulkClosing.typicalDayMedian) + ' закритих задач.');
+    }
+    if (ov.review > 0 && ov.openLeaf > 0) {
+      var share = Math.round(ov.review / ov.openLeaf * 100);
+      if (share >= 25) items.push('На тесті («Ready for test») ' + nf.format(ov.review) + ' задач, це ' + share + '% усіх відкритих' +
+        (s.reviewOverCount ? ', із них ' + nf.format(s.reviewOverCount) + ' чекають понад 14 днів.' : '.'));
+    }
+    var withDue = ov.openLeaf - s.openNoDueDate;
+    if (ov.openLeaf > 0 && withDue / ov.openLeaf < 0.25) items.push('Дедлайни задані лише в ' + nf.format(withDue) + ' з ' + nf.format(ov.openLeaf) + ' відкритих задач, тому показник «прострочені» охоплює малу частину роботи.');
+    var attn = visibleProjects().filter(function (p) { return p.level === 'attention'; }).length;
+    if (attn) items.push('Проєктів, що потребують уваги за правилами таблиці нижче: ' + nf.format(attn) + ' з ' + nf.format(visibleProjects().length) + '.');
+    var box = $('insights'), ul = $('insightList'); clear(ul);
+    items.forEach(function (t) { ul.appendChild(el('li', null, t)); });
+    box.hidden = items.length === 0;
+  }
+
+  function renderFacts() {
+    var s = scope(), ul = $('facts'); clear(ul);
+    var gen = new Date(meta.generatedAt).toLocaleString('uk-UA', { timeZone: 'Europe/Kyiv', dateStyle: 'short', timeStyle: 'short' });
+    var facts = [
+      'Дані з ' + meta.baseUrl.replace(/^https?:\/\//, '') + ' на ' + gen + ' (за київським часом). Звітний тиждень: ' + dmy(meta.weekStart) + ' — ' + dmy(meta.weekEnd) + '.',
+      'Рахуються задачі без епіків, зведених задач і віх. Закрита задача — у статусі Done; Rejected не входить у «закрито».',
+      'Тестові й демо-проєкти (' + meta.testProjects.join(', ') + ') ' + (state.showTest ? 'зараз включені в загальні цифри.' : 'не входять у загальні цифри, їх можна включити перемикачем угорі.') + ' У таблиці стану вони з позначкою «тест».',
+      'Години: вивантаження охоплює ' + nf.format(meta.timeLookbackDays || 0) + ' днів, тому тренд годин починається з ' + dmy(meta.hoursCoverFrom) + '.',
+      'Оцінка трудомісткості заповнена лише у ' + nf.format(s.openWithEstimate) + ' відкритих задач, тому порівняння «план/факт» не показується.',
+      'Дедлайн не заданий у ' + nf.format(s.openNoDueDate) + ' з ' + nf.format(s.overview.openLeaf) + ' відкритих задач, а ' + nf.format(s.openNoAssignee) + ' відкритих задач без виконавця.'
+    ];
+    if (meta.statusHistoryUnparsed) facts.push('Не вдалося розібрати ' + nf.format(meta.statusHistoryUnparsed) + ' записів історії статусів; це може трохи зсувати lead і cycle time.');
+    facts.forEach(function (f) { ul.appendChild(el('li', null, f)); });
+  }
+
+  function renderHeader() {
+    var s = scope();
+    $('sub').textContent = nf.format(s.projects) + ' проєктів · ' + nf.format(s.overview.totalLeaf) + ' задач у вибірці · тиждень ' + dmy(meta.weekStart) + ' — ' + dmy(meta.weekEnd);
+  }
+
+  function renderAll() {
+    renderHeader(); renderKpis(); renderInsights(); renderCharts(); renderProjects(); renderLists(); renderFacts();
+  }
+
+  // ---------- тема і керування ----------
+  function applyTheme() {
+    var r = document.documentElement;
+    if (state.theme === 'auto') r.removeAttribute('data-theme'); else r.setAttribute('data-theme', state.theme);
+    $('theme').textContent = 'Тема: ' + (state.theme === 'auto' ? 'авто' : state.theme === 'light' ? 'світла' : 'темна');
+  }
+  try { var saved = localStorage.getItem('op-dash-theme'); if (saved) state.theme = saved; } catch (e) {}
+  applyTheme();
+  $('theme').addEventListener('click', function () {
+    state.theme = state.theme === 'auto' ? 'light' : state.theme === 'light' ? 'dark' : 'auto';
+    try { localStorage.setItem('op-dash-theme', state.theme); } catch (e) {}
+    applyTheme();
+  });
+  $('showTest').addEventListener('change', function (e) { state.showTest = e.target.checked; renderAll(); });
+  var rt = null, lastW = 0;
+  window.addEventListener('resize', function () {
+    clearTimeout(rt);
+    rt = setTimeout(function () { if (document.documentElement.clientWidth !== lastW) { lastW = document.documentElement.clientWidth; renderCharts(); } }, 120);
+  });
+  lastW = document.documentElement.clientWidth;
+  renderAll();
+})();
+</script>
+</body>
+</html>
