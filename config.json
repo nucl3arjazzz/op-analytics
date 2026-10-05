@@ -1,3 +1,9 @@
 {
-  "ignore_created_before": "2026-01-01"
+  "ignore_created_before": "2026-01-01",
+  "include_projects": [
+    "25_GIOC_INFO_BOT",
+    "25_GIOC_UE_LIB",
+    "VHAIVORONSKI",
+    "OBIRULIN"
+  ]
 }
