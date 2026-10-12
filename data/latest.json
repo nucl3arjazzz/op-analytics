@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-05T10:32:21+00:00",
+ "generatedAt": "2026-10-12T07:49:23+00:00",
  "baseUrl": "https://op.wmgroup.com.ua",
  "projectId": null,
  "timeLookbackDays": 90,
@@ -84,7 +84,7 @@
    "project": "Demo project",
    "parentId": null,
    "createdAt": "2025-08-27T08:44:30.927Z",
-   "updatedAt": "2026-10-01T18:44:34.460Z",
+   "updatedAt": "2026-10-08T18:44:32.643Z",
    "startDate": "2025-08-25",
    "dueDate": "2025-09-08",
    "estimatedHours": null,
@@ -1004,7 +1004,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": null,
    "createdAt": "2026-02-10T07:21:52.264Z",
-   "updatedAt": "2026-10-05T09:07:08.375Z",
+   "updatedAt": "2026-10-08T10:36:07.329Z",
    "startDate": "2026-03-04",
    "dueDate": "2026-10-08",
    "estimatedHours": null,
@@ -1224,7 +1224,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": null,
    "createdAt": "2026-02-10T08:13:05.917Z",
-   "updatedAt": "2026-10-04T17:12:41.438Z",
+   "updatedAt": "2026-10-10T11:46:32.783Z",
    "startDate": "2026-02-19",
    "dueDate": "2026-07-24",
    "estimatedHours": null,
@@ -1564,7 +1564,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": null,
    "createdAt": "2026-02-11T16:19:04.930Z",
-   "updatedAt": "2026-09-30T12:09:23.265Z",
+   "updatedAt": "2026-10-08T10:53:30.314Z",
    "startDate": "2026-02-23",
    "dueDate": "2026-09-16",
    "estimatedHours": null,
@@ -4444,7 +4444,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": null,
    "createdAt": "2026-04-20T09:06:26.795Z",
-   "updatedAt": "2026-09-30T12:09:23.265Z",
+   "updatedAt": "2026-10-10T10:56:02.167Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -5944,11 +5944,11 @@
    "project": "II_USS_AGENT_POC",
    "parentId": null,
    "createdAt": "2026-06-05T10:41:36.604Z",
-   "updatedAt": "2026-10-02T18:55:14.436Z",
+   "updatedAt": "2026-10-09T17:58:27.944Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 496.0,
+   "spentHours": 525.0,
    "percentDone": null
   },
   {
@@ -5984,11 +5984,11 @@
    "project": "II_USS_AGENT_POC",
    "parentId": 2930,
    "createdAt": "2026-06-05T10:43:10.093Z",
-   "updatedAt": "2026-10-02T18:55:14.419Z",
+   "updatedAt": "2026-10-09T17:58:34.153Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 254.0,
+   "spentHours": 283.0,
    "percentDone": null
   },
   {
@@ -6135,7 +6135,7 @@
    "id": 2941,
    "subject": "k8s mcp server",
    "type": "Task",
-   "status": "New",
+   "status": "In progress",
    "isClosed": false,
    "priority": "Normal",
    "assignee": null,
@@ -6144,11 +6144,11 @@
    "project": "II_USS_AGENT_POC",
    "parentId": 2932,
    "createdAt": "2026-06-05T13:03:14.208Z",
-   "updatedAt": "2026-06-05T13:03:14.208Z",
+   "updatedAt": "2026-10-09T17:58:50.623Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 4.0,
    "percentDone": null
   },
   {
@@ -8484,7 +8484,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": null,
    "createdAt": "2026-07-21T07:53:57.075Z",
-   "updatedAt": "2026-10-05T09:07:21.675Z",
+   "updatedAt": "2026-10-08T10:36:17.715Z",
    "startDate": "2026-07-29",
    "dueDate": "2026-10-19",
    "estimatedHours": null,
@@ -9475,8 +9475,8 @@
    "id": 3454,
    "subject": "Опрацювати можливість переходу в застосунок КЦ беспосередньо за посиланням з чату",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Bogdan Zavialov",
    "author": "Anton Gorobets",
@@ -9484,7 +9484,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 1242,
    "createdAt": "2026-08-03T08:46:50.544Z",
-   "updatedAt": "2026-09-30T12:09:23.265Z",
+   "updatedAt": "2026-10-08T10:36:02.118Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -9604,7 +9604,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": null,
    "createdAt": "2026-08-04T11:19:08.343Z",
-   "updatedAt": "2026-10-01T09:55:10.586Z",
+   "updatedAt": "2026-10-10T10:43:09.123Z",
    "startDate": "2026-08-10",
    "dueDate": "2026-08-10",
    "estimatedHours": null,
@@ -10204,7 +10204,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3460,
    "createdAt": "2026-08-12T08:31:18.274Z",
-   "updatedAt": "2026-10-01T09:58:43.374Z",
+   "updatedAt": "2026-10-10T11:51:11.279Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -10215,8 +10215,8 @@
    "id": 3528,
    "subject": "Помилка збереження батьківського елементу на сторінці редагування інформації про сервіс",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -10224,19 +10224,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T08:32:56.434Z",
-   "updatedAt": "2026-09-24T09:58:40.100Z",
+   "updatedAt": "2026-10-10T11:51:11.224Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3529,
    "subject": "Відкрите питання. У яких розділах відображаються тенденції звернень, пріоритетні напрямки розвитку, рекомендаційні висновки",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -10244,12 +10244,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3720,
    "createdAt": "2026-08-12T08:34:39.317Z",
-   "updatedAt": "2026-09-24T12:49:47.143Z",
+   "updatedAt": "2026-10-10T09:45:32.901Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3530,
@@ -10424,12 +10424,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3870,
    "createdAt": "2026-08-12T12:37:42.167Z",
-   "updatedAt": "2026-09-30T15:54:11.122Z",
+   "updatedAt": "2026-10-11T17:35:08.709Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3541,
@@ -10575,8 +10575,8 @@
    "id": 3548,
    "subject": "Відображення записів про автоматично створених користувачів у реєстрі \"Користувачі\"",
    "type": "Bug",
-   "status": "In progress",
-   "isClosed": false,
+   "status": "Rejected",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -10584,12 +10584,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T12:48:58.710Z",
-   "updatedAt": "2026-09-29T09:54:00.370Z",
+   "updatedAt": "2026-10-06T10:40:42.591Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3549,
@@ -10815,8 +10815,8 @@
    "id": 3560,
    "subject": "Не відображається розділ \"Аналітика\" у меню адмінпанелі Модератора напряму",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -10824,19 +10824,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3720,
    "createdAt": "2026-08-12T13:04:41.154Z",
-   "updatedAt": "2026-09-24T12:50:00.325Z",
+   "updatedAt": "2026-10-10T11:48:25.058Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3561,
    "subject": "Відображення поля \"Зміна пароля\" для облікового запису створеного автоматично",
    "type": "Bug",
-   "status": "New",
-   "isClosed": false,
+   "status": "Rejected",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -10844,12 +10844,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T13:05:35.623Z",
-   "updatedAt": "2026-09-30T12:09:23.265Z",
+   "updatedAt": "2026-10-06T10:40:43.979Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3562,
@@ -10875,8 +10875,8 @@
    "id": 3563,
    "subject": "Перевірка роботи з аналітикою заблокована у зв'язку із відсутністю розділу \"Аналітика\" в меню адмінпанелі Модератора напряму",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -10884,12 +10884,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3720,
    "createdAt": "2026-08-12T13:07:19.304Z",
-   "updatedAt": "2026-09-24T12:50:12.917Z",
+   "updatedAt": "2026-10-10T11:48:33.737Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3564,
@@ -10935,8 +10935,8 @@
    "id": 3566,
    "subject": " Перевірка автоматичного аналізу для виявлення ключових тем заблокована у зв'язку з відсутністю розділу \"Аналітика\"",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -10944,12 +10944,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3720,
    "createdAt": "2026-08-12T15:13:54.063Z",
-   "updatedAt": "2026-09-24T12:50:23.040Z",
+   "updatedAt": "2026-10-10T11:49:21.737Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3567,
@@ -11055,8 +11055,8 @@
    "id": 3572,
    "subject": "Фактичний перелік дій у розділі \"Користувачі\" не відповідає очікуваному переліку",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11064,19 +11064,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T15:23:05.189Z",
-   "updatedAt": "2026-09-25T09:39:55.603Z",
+   "updatedAt": "2026-10-07T18:19:39.880Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3573,
    "subject": " Відсутнє меню \"Довідники\" розділу \"Налаштування\"",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11084,12 +11084,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T15:24:02.398Z",
-   "updatedAt": "2026-09-25T09:11:36.774Z",
+   "updatedAt": "2026-10-07T12:13:26.744Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3574,
@@ -11104,7 +11104,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T15:25:09.172Z",
-   "updatedAt": "2026-09-25T13:42:42.081Z",
+   "updatedAt": "2026-10-11T17:38:08.759Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -11155,8 +11155,8 @@
    "id": 3577,
    "subject": " Відсутнє меню «Портал «Відкриті дані» розділу \"Бази знань\"",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11164,12 +11164,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T15:28:07.486Z",
-   "updatedAt": "2026-09-25T09:11:54.129Z",
+   "updatedAt": "2026-10-07T12:17:15.157Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3578,
@@ -11215,8 +11215,8 @@
    "id": 3580,
    "subject": "Колонка назв систем містить назви введені вручну замість довідникових значень",
    "type": "Bug",
-   "status": "In progress",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11224,19 +11224,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T15:32:18.747Z",
-   "updatedAt": "2026-10-02T11:03:44.397Z",
+   "updatedAt": "2026-10-07T12:22:35.603Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3581,
    "subject": "Відсутні значення часових міток в колонках \"Останнє підключення\" та \"Останнє відключення\": помилка активації/деактивації системи",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11244,12 +11244,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T15:34:18.603Z",
-   "updatedAt": "2026-09-25T09:11:38.172Z",
+   "updatedAt": "2026-10-07T12:23:32.018Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3582,
@@ -11375,8 +11375,8 @@
    "id": 3588,
    "subject": "\"Журналу змін інформації\" не відображається у меню адмнпанелі Менеджера напряму",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11384,19 +11384,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T15:41:27.281Z",
-   "updatedAt": "2026-09-25T09:11:12.244Z",
+   "updatedAt": "2026-10-07T14:18:41.458Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3589,
    "subject": "Фактичне налаштування первинного підключення відрізняється від очікуваного",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11404,19 +11404,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T15:42:31.170Z",
-   "updatedAt": "2026-09-25T13:29:21.814Z",
+   "updatedAt": "2026-10-07T12:28:42.155Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3590,
    "subject": "Фактична реалізація активації окремих сервісів відрізняється від очікуваної",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11424,19 +11424,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T15:43:46.018Z",
-   "updatedAt": "2026-09-25T10:36:14.268Z",
+   "updatedAt": "2026-10-07T13:27:18.861Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3591,
    "subject": "Фактична реалізація деактивації окремих сервісів відрізняється від очікуваної",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11444,19 +11444,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T15:44:52.625Z",
-   "updatedAt": "2026-09-25T10:36:14.905Z",
+   "updatedAt": "2026-10-07T14:29:03.309Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3592,
    "subject": "У фактичній реалізації кнопка має назву \"+ Створити\" замість \"Додати систему\"",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11464,19 +11464,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T15:45:46.805Z",
-   "updatedAt": "2026-09-24T13:24:34.730Z",
+   "updatedAt": "2026-10-07T13:27:43.956Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3593,
    "subject": "Не відображається розділ \"Аналітика\". Перевірка централізованого збирання та обробки відомостей заблокована.",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11484,19 +11484,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3720,
    "createdAt": "2026-08-12T15:47:08.207Z",
-   "updatedAt": "2026-09-24T12:50:37.342Z",
+   "updatedAt": "2026-10-10T11:50:03.100Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3594,
    "subject": "Не відображається розділ, пов'язаний з аналітикою відповідей, наданих Системою. Перевірка наявності контролю за проблемними відповідями заблокована",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11504,19 +11504,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3720,
    "createdAt": "2026-08-12T15:47:55.994Z",
-   "updatedAt": "2026-09-24T12:50:59.575Z",
+   "updatedAt": "2026-10-10T11:50:13.575Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3595,
    "subject": "Не відображається розділ, пов'язаний з аналітикою відповідей, наданих Системою. Перевірка наявності зведених показників в аналітиці відповідей заблокована",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11524,19 +11524,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3720,
    "createdAt": "2026-08-12T15:49:35.667Z",
-   "updatedAt": "2026-09-24T12:51:14.301Z",
+   "updatedAt": "2026-10-10T11:50:18.872Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3596,
    "subject": " Не відображається розділ, пов'язаний з аналітикою відповідей, наданих Системою. Перевірка наявності списку помилок і \"питань без коректної відповіді\" заблокована.",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11544,12 +11544,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3720,
    "createdAt": "2026-08-12T15:50:31.570Z",
-   "updatedAt": "2026-09-24T12:51:36.519Z",
+   "updatedAt": "2026-10-10T11:50:22.719Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3597,
@@ -11575,8 +11575,8 @@
    "id": 3598,
    "subject": "Не відображається розділ \"Аналітика\". Перевірка відображення тенденцій звернень та пріоритетних напрямків розвитку сервісів/функцій заблокована",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11584,19 +11584,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3720,
    "createdAt": "2026-08-12T15:52:10.917Z",
-   "updatedAt": "2026-09-24T12:52:04.986Z",
+   "updatedAt": "2026-10-10T11:50:26.487Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3599,
    "subject": "Не відображається розділ \"Журнал листування\". Перевірка доступності реєстру \"Листування\" заблокована",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11604,19 +11604,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T17:39:15.023Z",
-   "updatedAt": "2026-09-25T09:11:39.364Z",
+   "updatedAt": "2026-10-07T13:28:28.883Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3600,
    "subject": "Не відображається розділ \"Журнал листування\". Перевірка можливості переходу до повної історії листування забоокована",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11624,19 +11624,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T17:40:13.600Z",
-   "updatedAt": "2026-09-25T09:11:40.018Z",
+   "updatedAt": "2026-10-07T13:28:33.644Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3601,
    "subject": "Не відображається розділ \"Аналітика\". Перевірка перегляду аналітичних даних про типові та складні запити, рівень задоволеності зовнішніх користувачів і т.ін. заблокована",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11644,19 +11644,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3720,
    "createdAt": "2026-08-12T17:41:03.967Z",
-   "updatedAt": "2026-09-24T12:52:17.869Z",
+   "updatedAt": "2026-10-10T11:50:29.480Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3602,
    "subject": "Не відображається розділ, пов'язаний із електронними зверненями та листуваннями. Перевірка перегляду усіх електронних звереннь та листувань  зовнішніх користувачів заблокована",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11664,12 +11664,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T17:41:58.872Z",
-   "updatedAt": "2026-09-25T09:11:40.666Z",
+   "updatedAt": "2026-10-07T13:28:46.413Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3603,
@@ -11695,8 +11695,8 @@
    "id": 3604,
    "subject": "У фактичній реалізації елемент має назву \"Редагувати\" замість \"Перейти до редагування\"",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11704,19 +11704,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T17:43:49.190Z",
-   "updatedAt": "2026-09-25T09:11:55.135Z",
+   "updatedAt": "2026-10-07T13:29:20.446Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3605,
    "subject": "Склад полів форми первинного налаштування та форми редагування відрізняється між собою",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11724,12 +11724,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T17:44:47.696Z",
-   "updatedAt": "2026-09-25T11:38:00.026Z",
+   "updatedAt": "2026-10-07T14:09:11.967Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3606,
@@ -11755,8 +11755,8 @@
    "id": 3607,
    "subject": "Не відбувається збереження відредагованого значення у спадному списку \"Сервіси\"",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11764,19 +11764,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T17:47:12.914Z",
-   "updatedAt": "2026-09-25T11:38:00.588Z",
+   "updatedAt": "2026-10-07T14:09:51.718Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3608,
    "subject": "Відсутня можливість змінювати значення розділу \"URL-адреси API\"",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11784,12 +11784,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T17:48:13.385Z",
-   "updatedAt": "2026-09-25T11:38:01.215Z",
+   "updatedAt": "2026-10-07T14:10:40.170Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3609,
@@ -11804,7 +11804,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T17:49:16.659Z",
-   "updatedAt": "2026-09-25T09:11:55.868Z",
+   "updatedAt": "2026-10-11T17:39:37.361Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -11815,8 +11815,8 @@
    "id": 3610,
    "subject": "Відсутній розділ \"Аналітика\" для можливості перегляду аналітичних висновків",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11824,19 +11824,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3720,
    "createdAt": "2026-08-12T17:50:15.958Z",
-   "updatedAt": "2026-09-24T13:01:47.457Z",
+   "updatedAt": "2026-10-10T11:50:32.787Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3611,
    "subject": "Не відображається розділ \"Аналітика\". Перевірка відображення меню \"Звернення\" заблокована",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11844,19 +11844,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3720,
    "createdAt": "2026-08-12T17:51:48.505Z",
-   "updatedAt": "2026-09-24T13:01:47.502Z",
+   "updatedAt": "2026-10-10T11:50:36.029Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3612,
    "subject": "Відсутня можливість змінювати значення розділу \"API ключі\"",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11864,19 +11864,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T17:52:57.369Z",
-   "updatedAt": "2026-09-25T13:29:00.779Z",
+   "updatedAt": "2026-10-07T14:30:54.112Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3613,
    "subject": "Відсутня можливість змінювати значення розділу \"Токени доступу\"",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11884,19 +11884,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T17:53:54.048Z",
-   "updatedAt": "2026-09-25T13:29:14.260Z",
+   "updatedAt": "2026-10-07T14:31:28.746Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3614,
    "subject": "Не відображається розділ \"Аналітика\". Перевірка відображення меню \"Якість відповідей\" заблокована",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11904,19 +11904,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3720,
    "createdAt": "2026-08-12T17:54:47.346Z",
-   "updatedAt": "2026-09-24T13:01:47.552Z",
+   "updatedAt": "2026-10-10T11:50:39.485Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3615,
    "subject": "Не відображається розділ \"Аналітика\". Перевірка відображення меню \"Рекомендації\" заблокована",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11924,12 +11924,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3720,
    "createdAt": "2026-08-12T17:55:44.105Z",
-   "updatedAt": "2026-09-24T13:01:47.612Z",
+   "updatedAt": "2026-10-10T11:50:43.292Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3616,
@@ -11975,8 +11975,8 @@
    "id": 3618,
    "subject": " Не працює функція редагування документу",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -11984,12 +11984,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T17:59:43.724Z",
-   "updatedAt": "2026-09-25T09:11:56.764Z",
+   "updatedAt": "2026-10-07T14:33:54.418Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3619,
@@ -12035,8 +12035,8 @@
    "id": 3621,
    "subject": " Як працює інструмент \"Додати\", де його реалізовано у Системі?",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12044,19 +12044,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:03:28.624Z",
-   "updatedAt": "2026-09-25T09:12:12.303Z",
+   "updatedAt": "2026-10-07T14:34:32.018Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3622,
    "subject": "У якій частині картки редагування документа можна додати пару \"запит-відповідь\"?",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12064,19 +12064,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:04:27.679Z",
-   "updatedAt": "2026-09-25T09:12:12.985Z",
+   "updatedAt": "2026-10-07T14:34:44.582Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3623,
    "subject": "Розділ \"Аналітика\" не відображаєтсья на інтерфейсі для Менеджера напряму",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12084,12 +12084,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3720,
    "createdAt": "2026-08-12T18:06:03.123Z",
-   "updatedAt": "2026-09-24T13:02:19.762Z",
+   "updatedAt": "2026-10-10T11:50:47.389Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3624,
@@ -12115,8 +12115,8 @@
    "id": 3625,
    "subject": "Фактична реалізація розділу \"Сервіси\" не відповідає очікуваному результату",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12124,12 +12124,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:07:59.794Z",
-   "updatedAt": "2026-09-25T11:38:01.910Z",
+   "updatedAt": "2026-10-07T18:08:09.041Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3626,
@@ -12155,8 +12155,8 @@
    "id": 3627,
    "subject": "Журнал листування не відображається на інтерфейсі Менеджера напряму",
    "type": "Bug",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12164,18 +12164,18 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:09:33.314Z",
-   "updatedAt": "2026-09-25T09:12:13.687Z",
+   "updatedAt": "2026-10-07T18:08:55.783Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3628,
    "subject": "У меню відсутній розділ \"Консоль безпеки\" включаючи його складові \"Журнал рестрації подій\" із реєстром \"Аудит змін доступу до інформації внутрішніх користувачів\"",
    "type": "Bug",
-   "status": "Ready for test",
+   "status": "To Do",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
@@ -12184,7 +12184,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:10:29.456Z",
-   "updatedAt": "2026-09-25T09:10:36.147Z",
+   "updatedAt": "2026-10-11T17:27:38.633Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -12195,8 +12195,8 @@
    "id": 3629,
    "subject": " У меню відсутній розділ \"Консоль безпеки\" включаючи його складові \"Журнал рестрації подій\" із реєстром \"Аудит змін інформації про повноваження внутрішніх користувачів\"\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12204,19 +12204,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:11:09.110Z",
-   "updatedAt": "2026-09-25T09:10:36.723Z",
+   "updatedAt": "2026-10-07T18:12:38.027Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3630,
    "subject": "У меню відсутній розділ \"Консоль безпеки\" включаючи його складові \"Журнал рестрації подій\" із реєстром \"Аудит змін доступу до інформації внутрішніх користувачів\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12224,19 +12224,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:11:53.570Z",
-   "updatedAt": "2026-09-25T09:10:37.395Z",
+   "updatedAt": "2026-10-07T18:12:41.341Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3631,
    "subject": "Відсутній розділ «Налаштування» та меню «Довідники»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12244,19 +12244,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:12:40.675Z",
-   "updatedAt": "2026-09-25T09:11:37.497Z",
+   "updatedAt": "2026-10-07T18:15:24.273Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3632,
    "subject": "Відсутня можливість додати новий запис (значення) у розділі системних довідників",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12264,19 +12264,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:13:32.318Z",
-   "updatedAt": "2026-09-25T09:35:37.500Z",
+   "updatedAt": "2026-10-07T18:16:32.190Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3633,
    "subject": "Відсутня можливість редагування наявного запису (значення) у розділі системних довідників",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12284,19 +12284,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:14:26.370Z",
-   "updatedAt": "2026-09-25T09:35:50.557Z",
+   "updatedAt": "2026-10-07T18:17:05.436Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3634,
    "subject": "Відсутня можливість видалення наявного запису (значення) у розділі системних довідників",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12304,19 +12304,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:15:23.358Z",
-   "updatedAt": "2026-09-25T09:35:51.670Z",
+   "updatedAt": "2026-10-07T18:17:08.291Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3635,
    "subject": "Відсутній інструмент «Історія наданих повноважень» у колонці «Дії»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12324,19 +12324,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:16:12.018Z",
-   "updatedAt": "2026-09-25T09:39:56.524Z",
+   "updatedAt": "2026-10-07T18:19:45.066Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3636,
    "subject": "Відсутній інструмент «Історія сесій користування Системою» у колонці «Дії»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12344,19 +12344,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:17:05.170Z",
-   "updatedAt": "2026-09-25T09:39:57.506Z",
+   "updatedAt": "2026-10-07T18:19:49.619Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3637,
    "subject": " Відсутній інструмент «Історія дій у Системі» у колонці «Дії»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12364,12 +12364,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:18:03.987Z",
-   "updatedAt": "2026-09-25T09:39:58.475Z",
+   "updatedAt": "2026-10-07T18:20:24.659Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3638,
@@ -12395,8 +12395,8 @@
    "id": 3639,
    "subject": "Поле \"Структурний підрозділ\" відображається для усіх ролей без винятку для Менеджер напряму та Оператор технічної підтримки",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12404,19 +12404,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:25:25.215Z",
-   "updatedAt": "2026-09-24T13:24:35.364Z",
+   "updatedAt": "2026-10-10T09:43:37.887Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3640,
    "subject": "Відсутній елемент для закриття картки у режимі перегляду картки внутрішнього користувача",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12424,19 +12424,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:26:22.901Z",
-   "updatedAt": "2026-09-25T12:22:30.667Z",
+   "updatedAt": "2026-10-10T09:51:12.769Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3641,
    "subject": "Кнопка \"Повернутися до списку\" має назву \"Повернутися на попередню сторінку\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12444,19 +12444,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:27:22.869Z",
-   "updatedAt": "2026-09-25T09:12:15.686Z",
+   "updatedAt": "2026-10-10T09:51:43.395Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3642,
    "subject": "Відсутнє поле \"Роль\" у картці створення облікового запису внутрішнього користувача",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12464,19 +12464,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:28:13.686Z",
-   "updatedAt": "2026-09-25T12:22:31.303Z",
+   "updatedAt": "2026-10-10T09:52:09.013Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3643,
    "subject": "Відсутнє поле \"Система, яку обслуговує користувач\" у картці створення облікового запису внутрішнього користувача",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12484,19 +12484,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:29:09.260Z",
-   "updatedAt": "2026-09-25T12:22:49.427Z",
+   "updatedAt": "2026-10-10T09:52:20.903Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3644,
    "subject": "Відсутнє поле \"Доступ до інформації\" у картці створення облікового запису внутрішнього користувача",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12504,19 +12504,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:29:54.268Z",
-   "updatedAt": "2026-09-25T12:22:50.177Z",
+   "updatedAt": "2026-10-10T09:52:46.845Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3645,
    "subject": "Відсутнє поле «Структурний підрозділ КМДА» у картці створення облікового запису внутрішнього користувача",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12524,12 +12524,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:31:11.248Z",
-   "updatedAt": "2026-09-25T12:22:50.919Z",
+   "updatedAt": "2026-10-10T09:53:02.853Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3646,
@@ -12575,8 +12575,8 @@
    "id": 3648,
    "subject": "Відсутній розділ \"Повноваження\" у картці внутрішнього користувача",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12584,19 +12584,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:33:44.910Z",
-   "updatedAt": "2026-09-25T12:22:51.649Z",
+   "updatedAt": "2026-10-10T09:53:52.924Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3649,
    "subject": "Відсутня можливість присвоєння повноважень для внутрішнього користувача",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12604,12 +12604,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:34:31.743Z",
-   "updatedAt": "2026-09-25T12:22:52.325Z",
+   "updatedAt": "2026-10-10T09:54:20.237Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3650,
@@ -12635,8 +12635,8 @@
    "id": 3651,
    "subject": "Відкрите питання що стосується відображення «Київ цифровий»/ «Портал послуг»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -12644,19 +12644,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T18:40:30.128Z",
-   "updatedAt": "2026-09-25T09:12:14.415Z",
+   "updatedAt": "2026-10-10T09:54:56.630Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3652,
    "subject": "Виправити вікна видалення елементів",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Herasymenko",
@@ -12664,12 +12664,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 2632,
    "createdAt": "2026-08-12T19:21:20.444Z",
-   "updatedAt": "2026-09-12T16:59:12.531Z",
+   "updatedAt": "2026-10-10T10:56:02.132Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3653,
@@ -13115,8 +13115,8 @@
    "id": 3677,
    "subject": "Виправити помилку експортування діалогів",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -13124,12 +13124,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 1254,
    "createdAt": "2026-08-14T12:13:25.710Z",
-   "updatedAt": "2026-09-24T07:57:19.042Z",
+   "updatedAt": "2026-10-10T11:45:48.593Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 4.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3678,
@@ -13464,7 +13464,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-18T05:28:31.139Z",
-   "updatedAt": "2026-09-30T12:09:23.265Z",
+   "updatedAt": "2026-10-10T10:23:38.373Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -13475,8 +13475,8 @@
    "id": 3700,
    "subject": "У меню відсутній розділ \"Консоль безпеки\" включаючи його складові \"Журнал рестрації подій\" із реєстром \"Аудит змін доступу до інформації внутрішніх користувачів\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -13484,19 +13484,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-18T05:30:04.343Z",
-   "updatedAt": "2026-09-24T22:45:54.631Z",
+   "updatedAt": "2026-10-10T10:04:23.345Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3701,
    "subject": "У меню відсутній розділ \"Консоль безпеки\" включаючи його складові \"Журнал рестрації подій\" із реєстром \"Аудит змін інформації про повноваження внутрішніх користувачів\"\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -13504,19 +13504,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-18T05:30:41.196Z",
-   "updatedAt": "2026-09-24T22:45:55.230Z",
+   "updatedAt": "2026-10-10T10:04:36.777Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3702,
    "subject": "У меню відсутній розділ \"Консоль безпеки\" включаючи його складові \"Журнал рестрації подій\" із реєстром \"Аудит змін доступу до інформації внутрішніх користувачів\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -13524,19 +13524,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-18T05:31:23.757Z",
-   "updatedAt": "2026-09-24T22:45:55.779Z",
+   "updatedAt": "2026-10-10T10:04:39.901Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3703,
    "subject": "Для користувача з роллю Адміністратор безпеки не відображається розділ \"Консоль безпеки\" та його меню \"Сесії користувачів\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -13544,19 +13544,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-18T05:31:51.702Z",
-   "updatedAt": "2026-09-24T21:38:09.919Z",
+   "updatedAt": "2026-10-10T10:05:02.019Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3704,
    "subject": "Для користувача з роллю Адміністратор безпеки не відображається розділ \"Консоль безпеки\" та його меню \"Аудит активності користувачів\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -13564,19 +13564,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-18T05:32:27.836Z",
-   "updatedAt": "2026-09-24T22:45:56.312Z",
+   "updatedAt": "2026-10-10T10:05:31.069Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3705,
    "subject": "Для користувача з роллю Адміністратор безпеки не відображається розділ \"Консоль безпеки\" та його меню \"Аудит змін\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -13584,19 +13584,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-18T05:32:59.993Z",
-   "updatedAt": "2026-09-24T23:36:56.132Z",
+   "updatedAt": "2026-10-10T10:07:40.746Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3706,
    "subject": "Не відображається розділ \"Консоль безпеки\" і відповідно «Аудит змін інформації про облікові записи внутрішніх користувачів»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -13604,19 +13604,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-18T05:33:26.801Z",
-   "updatedAt": "2026-09-24T22:45:56.877Z",
+   "updatedAt": "2026-10-10T10:08:17.591Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3707,
    "subject": "Не відображається розділ \"Консоль безпеки\" і відповідно «Аудит змін інформації про облікові записи внутрішніх користувачів»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -13624,19 +13624,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-18T05:34:02.823Z",
-   "updatedAt": "2026-09-24T22:45:57.508Z",
+   "updatedAt": "2026-10-10T10:08:36.825Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3708,
    "subject": "Розділ \"Консоль безпеки\" не відображається і відповідно реєстр «Аудит змін інформації про облікові записи внутрішніх користувачів»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -13644,19 +13644,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-18T05:34:28.018Z",
-   "updatedAt": "2026-09-24T22:45:58.190Z",
+   "updatedAt": "2026-10-10T10:09:36.199Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3710,
    "subject": "Для Адміністратора безпеки на інтерфейсі не відображається реєстр «Аудит змін доступу до інформації внутрішніх користувачів»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -13664,12 +13664,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-18T05:35:32.450Z",
-   "updatedAt": "2026-09-24T22:45:58.843Z",
+   "updatedAt": "2026-10-10T10:09:48.668Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3714,
@@ -13784,7 +13784,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-19T06:25:17.188Z",
-   "updatedAt": "2026-09-30T12:09:23.265Z",
+   "updatedAt": "2026-10-10T12:15:46.664Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -13935,8 +13935,8 @@
    "id": 3730,
    "subject": "Відсутнє меню \"Налаштування АРМ\" у розділі \"Налаштування\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -13944,19 +13944,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-20T06:41:28.804Z",
-   "updatedAt": "2026-09-25T13:42:42.894Z",
+   "updatedAt": "2026-10-10T10:24:25.518Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3731,
    "subject": "У картці користувача відсутні поля «Система, яку обслуговує користувач» та «Доступ до інформації»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -13964,19 +13964,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-20T06:42:53.271Z",
-   "updatedAt": "2026-09-25T12:22:52.990Z",
+   "updatedAt": "2026-10-10T10:24:50.921Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3732,
    "subject": "Відображення розділів АРМ, що було прибрано з повноважень ролі",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -13984,19 +13984,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-20T06:44:47.400Z",
-   "updatedAt": "2026-09-25T13:42:43.689Z",
+   "updatedAt": "2026-10-10T10:25:40.102Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3733,
    "subject": "Розділ \"Консоль безпеки\" відсутній і, відповідно, не відображається реєстр «Аудит змін інформації про облікові записи внутрішніх користувачів».",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14004,19 +14004,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-20T06:46:15.820Z",
-   "updatedAt": "2026-09-30T12:09:23.265Z",
+   "updatedAt": "2026-10-10T10:30:38.496Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3734,
    "subject": "Для Адміністратора безпеки на інтерфейсі не відображається реєстр «Аудит змін інформації про повноваження внутрішніх користувачів»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14024,19 +14024,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-20T06:47:32.415Z",
-   "updatedAt": "2026-09-25T09:10:38.584Z",
+   "updatedAt": "2026-10-10T10:31:44.213Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3735,
    "subject": "Для Адміністратора безпеки на інтерфейсі не відображається реєстр «Аудит змін інформації про повноваження внутрішніх користувачів»  ",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14044,19 +14044,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-20T06:48:40.969Z",
-   "updatedAt": "2026-09-25T09:11:12.945Z",
+   "updatedAt": "2026-10-10T10:31:54.761Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3736,
    "subject": "Для Адміністратора безпеки на інтерфейсі не відображається реєстр «Аудит змін інформації про повноваження внутрішніх користувачів»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14064,12 +14064,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-20T06:49:36.796Z",
-   "updatedAt": "2026-09-25T09:10:39.253Z",
+   "updatedAt": "2026-10-10T10:32:03.111Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3737,
@@ -14215,8 +14215,8 @@
    "id": 3778,
    "subject": "Для Адміністратора безпеки на інтерфейсі не відображається реєстр «Аудит змін інформацї в системі»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14224,19 +14224,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-21T06:22:50.644Z",
-   "updatedAt": "2026-09-24T23:36:56.874Z",
+   "updatedAt": "2026-10-10T10:17:22.285Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3779,
    "subject": "Для Адміністратора безпеки на інтерфейсі не відображається реєстр «Аудит подій входу/виходу в межах Системи»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14244,19 +14244,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-21T06:26:45.332Z",
-   "updatedAt": "2026-09-24T22:45:59.523Z",
+   "updatedAt": "2026-10-10T10:21:18.009Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3780,
    "subject": "Для Адміністратора безпеки на інтерфейсі не відображається реєстр «Аудит подій входу/виходу в межах Системи»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14264,19 +14264,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-21T06:29:13.265Z",
-   "updatedAt": "2026-09-24T22:46:00.157Z",
+   "updatedAt": "2026-10-10T10:17:41.609Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3781,
    "subject": " Для Адміністратора безпеки не відображається реєстр «Аудит зміни пароля внутрішніх користувачів»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14284,19 +14284,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-21T06:31:14.500Z",
-   "updatedAt": "2026-09-24T22:46:00.778Z",
+   "updatedAt": "2026-10-10T10:18:52.638Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3782,
    "subject": "Для Адміністратора безпеки не відображається реєстр «Аудит зміни пароля внутрішніх користувачів»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14304,19 +14304,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-21T06:32:23.360Z",
-   "updatedAt": "2026-09-24T22:46:01.317Z",
+   "updatedAt": "2026-10-10T10:18:59.590Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3783,
    "subject": "Для Адміністратора безпеки на інтерфейсі не відображається реєстр «Аудит активності внутрішніх користувачів»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14324,19 +14324,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-21T06:33:03.642Z",
-   "updatedAt": "2026-09-24T22:46:01.868Z",
+   "updatedAt": "2026-10-10T10:19:14.575Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3784,
    "subject": "Для Адміністратора безпеки на інтерфейсі не відображається реєстр «Аудит активності внутрішніх користувачів»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14344,19 +14344,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-21T06:34:44.652Z",
-   "updatedAt": "2026-09-24T22:46:02.516Z",
+   "updatedAt": "2026-10-10T10:19:18.016Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3785,
    "subject": "Для користувача Адміністратор безпеки відсутній розділ «Консоль безпеки» та меню «Журнал реєстрації подій» (реєстр «Аудит змін інформації про облікові записи внутрішніх користувачів»).",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14364,19 +14364,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-21T06:35:23.952Z",
-   "updatedAt": "2026-09-24T22:46:03.159Z",
+   "updatedAt": "2026-10-10T10:19:33.007Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3786,
    "subject": "Для Адміністратора безпеки на інтерфейсі не відображається реєстр «Налаштування сесії»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14384,19 +14384,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-21T06:36:09.599Z",
-   "updatedAt": "2026-09-25T09:11:13.614Z",
+   "updatedAt": "2026-10-10T10:32:47.433Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3787,
    "subject": "Для Адміністратора безпеки на інтерфейсі не відображається реєстр «Аудит змін доступу до інформації внутрішніх користувачів»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14404,19 +14404,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-21T06:36:46.104Z",
-   "updatedAt": "2026-09-25T09:10:39.931Z",
+   "updatedAt": "2026-10-10T10:32:53.763Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3788,
    "subject": "Для Адміністратора безпеки на інтерфейсі не відображається реєстр «Налаштування сесії»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14424,19 +14424,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-21T06:37:39.187Z",
-   "updatedAt": "2026-09-25T09:11:14.204Z",
+   "updatedAt": "2026-10-10T10:32:58.453Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3789,
    "subject": "Для Адміністратора безпеки на інтерфейсі не відображається реєстр «Аудит змін доступу до інформації внутрішніх користувачів»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14444,19 +14444,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-21T06:38:31.221Z",
-   "updatedAt": "2026-09-25T09:10:40.586Z",
+   "updatedAt": "2026-10-10T10:33:02.512Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3790,
    "subject": "Для Адміністратора безпеки на інтерфейсі не відображається реєстр «Аудит змін інформації про повноваження внутрішніх користувачів»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14464,12 +14464,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-21T06:39:27.196Z",
-   "updatedAt": "2026-09-24T22:46:03.767Z",
+   "updatedAt": "2026-10-10T10:33:15.887Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3791,
@@ -14555,8 +14555,8 @@
    "id": 3798,
    "subject": "Для Адміністратора безпеки на інтерфейсі не відображається реєстр «Аудит змін інформаційної наповненості баз знань»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -14564,12 +14564,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-24T06:49:31.281Z",
-   "updatedAt": "2026-09-24T20:52:55.155Z",
+   "updatedAt": "2026-10-10T10:20:15.881Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3799,
@@ -15215,8 +15215,8 @@
    "id": 3833,
    "subject": "Відсутнє меню \"Рекомендації\" та розділ \"Аналітика\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15224,19 +15224,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-25T13:00:32.330Z",
-   "updatedAt": "2026-09-24T20:52:52.483Z",
+   "updatedAt": "2026-10-10T10:33:38.366Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3834,
    "subject": "Відсутнє меню \"Якість відповідей\" та розділ \"Аналітика\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15244,19 +15244,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-25T13:01:20.257Z",
-   "updatedAt": "2026-09-24T20:52:53.059Z",
+   "updatedAt": "2026-10-10T10:33:42.438Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3835,
    "subject": "У реєстрі відсутній стовпець \"Деталі\" через який можна здійснити перехід у картку звернення",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15264,12 +15264,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-25T13:02:02.691Z",
-   "updatedAt": "2026-09-24T21:04:39.062Z",
+   "updatedAt": "2026-10-10T10:33:55.423Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3836,
@@ -15315,8 +15315,8 @@
    "id": 3838,
    "subject": "Відсутній розділ «Журнал листування»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15324,19 +15324,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-25T13:04:07.799Z",
-   "updatedAt": "2026-09-24T20:52:54.480Z",
+   "updatedAt": "2026-10-10T10:34:53.355Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3839,
    "subject": "Відсутнє меню «Портал «Відкриті дані» розділу «Бази знань»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15344,19 +15344,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-25T13:04:42.920Z",
-   "updatedAt": "2026-09-24T23:35:58.464Z",
+   "updatedAt": "2026-10-10T10:36:15.946Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3840,
    "subject": "Відсутнє меню  «Аудит змін» та розділ «Консоль безпеки»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15364,19 +15364,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-25T13:05:10.748Z",
-   "updatedAt": "2026-09-24T23:36:57.703Z",
+   "updatedAt": "2026-10-10T10:36:20.755Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3841,
    "subject": "Відсутня вкладка «Список наданих документів» у розділі «Бази знань»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15384,12 +15384,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-25T13:06:28.470Z",
-   "updatedAt": "2026-09-24T21:04:41.802Z",
+   "updatedAt": "2026-10-10T10:36:26.082Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3842,
@@ -15415,8 +15415,8 @@
    "id": 3843,
    "subject": "Відсутня функція додавання інформації на кожному структурному елементі у розділі \"Бази знань\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15424,19 +15424,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-25T13:07:51.516Z",
-   "updatedAt": "2026-09-24T21:25:58.972Z",
+   "updatedAt": "2026-10-10T10:36:31.626Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3844,
    "subject": "Відсутнє меню «Звернення» та розділ «Аналітика»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15444,19 +15444,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-25T13:09:04.521Z",
-   "updatedAt": "2026-09-24T20:52:53.765Z",
+   "updatedAt": "2026-10-10T10:36:40.016Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3845,
    "subject": "Відсутнє меню «Користувачі» та розділ «Аналітика»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15464,19 +15464,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-25T13:09:40.236Z",
-   "updatedAt": "2026-09-24T21:50:20.728Z",
+   "updatedAt": "2026-10-10T10:36:45.455Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3846,
    "subject": "Відсутнє відображення інструменту із позначенням \"Пошук інформації\" у вікні перегляду бази знань",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15484,19 +15484,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-25T13:10:05.705Z",
-   "updatedAt": "2026-09-24T21:04:42.490Z",
+   "updatedAt": "2026-10-10T10:40:05.533Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3847,
    "subject": "Спроба видалення інформації про батьківський елемент у розділі \"Бази знань\" неуспішна",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15504,12 +15504,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3870,
    "createdAt": "2026-08-25T13:11:11.249Z",
-   "updatedAt": "2026-09-22T11:48:18.695Z",
+   "updatedAt": "2026-10-10T10:41:43.323Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3848,
@@ -15535,8 +15535,8 @@
    "id": 3851,
    "subject": "Відсутня можливість додавати пару «запит-відповідь»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15544,12 +15544,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-26T09:00:19.499Z",
-   "updatedAt": "2026-09-24T21:04:43.187Z",
+   "updatedAt": "2026-10-10T10:42:03.424Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3852,
@@ -15575,8 +15575,8 @@
    "id": 3853,
    "subject": "Відсутня вкладка \"Затвердження розділу \"Бази знань\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15584,12 +15584,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3870,
    "createdAt": "2026-08-26T09:02:35.080Z",
-   "updatedAt": "2026-09-24T21:04:40.389Z",
+   "updatedAt": "2026-10-10T09:47:29.650Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3854,
@@ -15615,8 +15615,8 @@
    "id": 3855,
    "subject": "Значення 0 для документу у стовпці \"Фрагменти\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15624,19 +15624,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-26T09:04:11.256Z",
-   "updatedAt": "2026-09-24T21:38:10.741Z",
+   "updatedAt": "2026-10-10T10:43:09.057Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3856,
    "subject": "Для адміністратора безпеки не відображається розділ \"Консоль безпеки\" та інші підрозділи",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15644,19 +15644,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-26T09:05:27.264Z",
-   "updatedAt": "2026-09-24T22:46:04.395Z",
+   "updatedAt": "2026-10-10T10:43:16.082Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3857,
    "subject": "Для адміністратора безпеки не відображається розділ \"Консоль безпеки\" та інші підрозділи",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15664,19 +15664,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-26T09:06:36.741Z",
-   "updatedAt": "2026-09-24T23:36:58.673Z",
+   "updatedAt": "2026-10-10T10:43:22.323Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3858,
    "subject": "Для адміністратора безпеки не відображається розділ \"Консоль безпеки\" та інші підрозділи",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15684,19 +15684,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-26T09:07:27.255Z",
-   "updatedAt": "2026-09-24T22:46:05.133Z",
+   "updatedAt": "2026-10-10T10:44:26.310Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3859,
    "subject": "Адміністратору безпеки не відображається меню \"Аудит змін\"",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15704,19 +15704,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-26T09:09:11.161Z",
-   "updatedAt": "2026-09-24T23:36:59.701Z",
+   "updatedAt": "2026-10-10T10:44:45.390Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3860,
    "subject": "Для користувача Адміністратор безпеки відсутній розділ «Консоль безпеки» та меню «Аудит активності користувачів»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15724,19 +15724,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-26T09:10:08.329Z",
-   "updatedAt": "2026-09-25T08:30:13.012Z",
+   "updatedAt": "2026-10-10T10:20:25.508Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3861,
    "subject": "Для користувача Адміністратор безпеки відсутній розділ «Консоль безпеки» та меню «Сесії користувачів».",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15744,19 +15744,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-26T09:10:38.519Z",
-   "updatedAt": "2026-09-25T08:30:13.669Z",
+   "updatedAt": "2026-10-10T10:20:28.663Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3862,
    "subject": "Для користувача Адміністратор безпеки відсутній розділ «Консоль безпеки» та меню «Журнал реєстрації подій».",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15764,19 +15764,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-26T09:11:09.179Z",
-   "updatedAt": "2026-09-25T08:30:14.280Z",
+   "updatedAt": "2026-10-10T10:20:32.279Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3863,
    "subject": "Для користувача Адміністратор безпеки відсутній розділ «Консоль безпеки» та меню «Аудит активності користувачів» (реєстр «Аудит подій входу/виходу в межах Системи»).",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15784,19 +15784,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-26T09:12:18.517Z",
-   "updatedAt": "2026-09-25T08:30:14.892Z",
+   "updatedAt": "2026-10-10T10:21:25.340Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3864,
    "subject": "Для користувача Адміністратор безпеки відсутній розділ «Консоль безпеки» та меню «Аудит активності користувачів» (реєстр «Аудит зміни пароля внутрішніх користувачів»).",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15804,19 +15804,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-26T09:13:00.897Z",
-   "updatedAt": "2026-09-25T08:30:15.485Z",
+   "updatedAt": "2026-10-10T10:21:47.710Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3865,
    "subject": "Для користувача Адміністратор безпеки відсутній розділ «Консоль безпеки» та меню «Журнал реєстрації подій» (реєстр «Аудит змін інформації про повноваження внутрішніх користувачів»).",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15824,19 +15824,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-26T09:13:34.220Z",
-   "updatedAt": "2026-09-25T08:30:16.067Z",
+   "updatedAt": "2026-10-10T10:22:01.885Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3866,
    "subject": "Для користувача Адміністратор безпеки відсутній розділ «Консоль безпеки» та меню «Журнал реєстрації подій» (реєстр «Аудит змін інформації про повноваження внутрішніх користувачів»).",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15844,19 +15844,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-26T09:14:14.989Z",
-   "updatedAt": "2026-09-25T08:30:16.652Z",
+   "updatedAt": "2026-10-10T10:22:09.272Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3867,
    "subject": "Для користувача Адміністратор безпеки відсутній розділ «Консоль безпеки» та меню «Аудит змін» (реєстр «Аудит змін інформаційної наповненості баз знань»).",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15864,19 +15864,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-26T09:14:58.469Z",
-   "updatedAt": "2026-09-25T08:30:17.245Z",
+   "updatedAt": "2026-10-10T10:22:16.150Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3868,
    "subject": "Для користувача Адміністратор безпеки відсутній розділ «Консоль безпеки» та меню «Аудит змін» (реєстр «Аудит змін інформації в системі»).",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15884,19 +15884,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-26T09:15:30.540Z",
-   "updatedAt": "2026-09-25T08:30:17.882Z",
+   "updatedAt": "2026-10-10T10:22:19.570Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3869,
    "subject": "Для користувача Адміністратор безпеки відсутній розділ «Консоль безпеки» та меню «Журнал реєстрації подій» (реєстр «Аудит змін інформації про повноваження внутрішніх користувачів»).",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -15904,12 +15904,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-08-26T09:16:02.498Z",
-   "updatedAt": "2026-09-25T08:30:18.539Z",
+   "updatedAt": "2026-10-10T10:22:23.502Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3870,
@@ -15924,7 +15924,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-26T09:19:57.248Z",
-   "updatedAt": "2026-09-30T16:27:31.026Z",
+   "updatedAt": "2026-10-10T10:41:43.378Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -15955,8 +15955,8 @@
    "id": 3872,
    "subject": "Automating Networks Using Cisco Platforms | 200-901 CCNAAUTO v1.1 exam",
    "type": "Summary task",
-   "status": "In progress",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Oleksandr Birulin",
    "author": "Oleksandr Birulin",
@@ -15964,12 +15964,12 @@
    "project": "OBIRULIN",
    "parentId": null,
    "createdAt": "2026-08-26T12:23:45.909Z",
-   "updatedAt": "2026-10-05T09:45:48.384Z",
+   "updatedAt": "2026-10-12T07:46:11.887Z",
    "startDate": "2026-08-26",
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 15.5,
-   "percentDone": null
+   "spentHours": 21.0,
+   "percentDone": 100
   },
   {
    "id": 3873,
@@ -16064,7 +16064,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": null,
    "createdAt": "2026-08-26T13:32:12.088Z",
-   "updatedAt": "2026-09-30T12:09:23.265Z",
+   "updatedAt": "2026-10-08T08:40:43.424Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -16735,8 +16735,8 @@
    "id": 3922,
    "subject": "Виправити помилку фрагментування документів",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -16744,19 +16744,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 1254,
    "createdAt": "2026-08-28T09:26:30.285Z",
-   "updatedAt": "2026-09-12T16:59:13.220Z",
+   "updatedAt": "2026-10-10T11:46:32.744Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3923,
    "subject": "Доповнення Бази знань",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Vadim Puz",
    "author": "Anton Gorobets",
@@ -16764,12 +16764,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 1271,
    "createdAt": "2026-08-28T10:02:39.529Z",
-   "updatedAt": "2026-10-01T11:01:13.282Z",
+   "updatedAt": "2026-10-08T10:53:30.277Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 50.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 3924,
@@ -16915,7 +16915,7 @@
    "id": 3931,
    "subject": "Сценарії циркуляції для дитячого читацького квитка",
    "type": "Task",
-   "status": "To Do",
+   "status": "Ready for test",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
@@ -16924,7 +16924,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 3878,
    "createdAt": "2026-08-31T10:23:21.602Z",
-   "updatedAt": "2026-09-22T11:53:21.090Z",
+   "updatedAt": "2026-10-08T08:40:43.378Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -17093,9 +17093,9 @@
   },
   {
    "id": 3940,
-   "subject": "Оновити дизайн адміністративної частини Системи згідно з брендбуком Порталу послуг",
+   "subject": "Оновити дизайн адміністративної частини Системи згідно з брендбуком Порталу послуг (Theme Override)",
    "type": "Task",
-   "status": "New",
+   "status": "To Do",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
@@ -17104,7 +17104,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 3882,
    "createdAt": "2026-08-31T10:31:19.576Z",
-   "updatedAt": "2026-08-31T10:31:19.576Z",
+   "updatedAt": "2026-10-08T12:05:47.820Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -17115,7 +17115,7 @@
    "id": 3941,
    "subject": "Розробити новий АРМ «Адміністратор технічної підтримки»",
    "type": "Task",
-   "status": "New",
+   "status": "Ready for test",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
@@ -17124,7 +17124,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 3882,
    "createdAt": "2026-08-31T10:31:44.249Z",
-   "updatedAt": "2026-09-22T20:20:34.174Z",
+   "updatedAt": "2026-10-08T08:40:44.536Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -17188,7 +17188,7 @@
    "startDate": "2026-08-14",
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 12.0,
+   "spentHours": 16.0,
    "percentDone": null
   },
   {
@@ -17204,7 +17204,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 3883,
    "createdAt": "2026-08-31T10:33:14.615Z",
-   "updatedAt": "2026-09-24T13:56:57.057Z",
+   "updatedAt": "2026-10-08T08:40:43.792Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -17375,7 +17375,7 @@
    "id": 3954,
    "subject": "Забезпечити підключення бібліотечних закладів до єдиного контуру",
    "type": "Task",
-   "status": "New",
+   "status": "To Do",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
@@ -17384,7 +17384,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 3885,
    "createdAt": "2026-08-31T10:37:00.926Z",
-   "updatedAt": "2026-08-31T10:37:00.926Z",
+   "updatedAt": "2026-10-08T12:00:16.368Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -17395,7 +17395,7 @@
    "id": 3955,
    "subject": "Здійснити міграцію бібліотечних фондів та електронних каталогів",
    "type": "Task",
-   "status": "New",
+   "status": "To Do",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
@@ -17404,7 +17404,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 3885,
    "createdAt": "2026-08-31T10:37:27.168Z",
-   "updatedAt": "2026-08-31T10:37:27.168Z",
+   "updatedAt": "2026-10-08T12:00:31.902Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -17784,7 +17784,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 3884,
    "createdAt": "2026-09-07T08:34:49.491Z",
-   "updatedAt": "2026-09-24T10:48:35.412Z",
+   "updatedAt": "2026-10-08T08:40:43.936Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -18115,8 +18115,8 @@
    "id": 4121,
    "subject": "Допрацювання дизайну діалогового вікна",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Bogdan Zavialov",
    "author": "Anton Gorobets",
@@ -18124,19 +18124,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3393,
    "createdAt": "2026-09-16T07:01:38.551Z",
-   "updatedAt": "2026-09-29T19:14:52.423Z",
+   "updatedAt": "2026-10-08T10:36:12.788Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 20.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 4122,
    "subject": "Реалізувати в інтерфейсі діалогового вікна бота позначку «Бета версія»",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Bogdan Zavialov",
    "author": "Anton Gorobets",
@@ -18144,12 +18144,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3393,
    "createdAt": "2026-09-16T07:09:17.780Z",
-   "updatedAt": "2026-09-17T14:37:30.318Z",
+   "updatedAt": "2026-10-08T10:36:17.682Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 2.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 4123,
@@ -18315,8 +18315,8 @@
    "id": 4162,
    "subject": "Module 3 - Infrastructure Automation",
    "type": "Task",
-   "status": "In progress",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Oleksandr Birulin",
    "author": "Oleksandr Birulin",
@@ -18324,12 +18324,12 @@
    "project": "OBIRULIN",
    "parentId": 3872,
    "createdAt": "2026-09-21T08:57:44.055Z",
-   "updatedAt": "2026-10-05T09:45:48.369Z",
+   "updatedAt": "2026-10-05T12:56:49.055Z",
    "startDate": "2026-08-26",
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 3.5,
-   "percentDone": null
+   "spentHours": 5.5,
+   "percentDone": 100
   },
   {
    "id": 4163,
@@ -18375,8 +18375,8 @@
    "id": 4167,
    "subject": "Не відображається реєстр «Аудит змін інформаційної наповненості баз знань» ",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -18384,12 +18384,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3870,
    "createdAt": "2026-09-22T11:40:41.714Z",
-   "updatedAt": "2026-09-23T12:26:19.129Z",
+   "updatedAt": "2026-10-10T09:47:50.802Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 4173,
@@ -18495,8 +18495,8 @@
    "id": 4185,
    "subject": "Підготовка робочого проєкту мікросервісної архітектури LLM до продуктивного використання.",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Bogdan Zavialov",
    "author": "Bogdan Zavialov",
@@ -18504,12 +18504,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 1242,
    "createdAt": "2026-09-24T21:40:19.946Z",
-   "updatedAt": "2026-09-28T11:17:44.713Z",
+   "updatedAt": "2026-10-08T10:36:07.294Z",
    "startDate": "2026-09-25",
    "dueDate": "2026-10-08",
    "estimatedHours": null,
    "spentHours": 2.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 4186,
@@ -18535,8 +18535,8 @@
    "id": 4202,
    "subject": "Заповнення поля \"Зміна пароля\" для автоматично створених облікових записів",
    "type": "Task",
-   "status": "In progress",
-   "isClosed": false,
+   "status": "Rejected",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -18544,19 +18544,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3561,
    "createdAt": "2026-09-28T06:17:03.679Z",
-   "updatedAt": "2026-09-28T06:17:03.679Z",
+   "updatedAt": "2026-10-06T10:40:43.940Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 4203,
    "subject": "Перегляд здійснюється в розділі «Консоль безпеки» → «Журнал реєстрації подій» у реєстрі «Аудит змін інформації про облікові записи внутрішніх користувачів».",
    "type": "Task",
-   "status": "Ready for test",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -18564,19 +18564,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3733,
    "createdAt": "2026-09-28T06:25:36.826Z",
-   "updatedAt": "2026-10-02T11:14:43.290Z",
+   "updatedAt": "2026-10-10T10:30:12.305Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 4204,
    "subject": "Для користувача з роллю Адміністратор безпеки відсутній розділ логжурналів.",
    "type": "Task",
-   "status": "In progress",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -18584,12 +18584,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3699,
    "createdAt": "2026-09-28T06:28:48.951Z",
-   "updatedAt": "2026-09-28T06:28:54.624Z",
+   "updatedAt": "2026-10-10T10:23:38.326Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 4205,
@@ -18655,8 +18655,8 @@
    "id": 4208,
    "subject": "Реалізувати CI для Agent",
    "type": "Task",
-   "status": "New",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Valerii Haivoronskyi",
    "author": "Anton Gorobets",
@@ -18664,12 +18664,12 @@
    "project": "CI/CD AVDU (abondar)",
    "parentId": null,
    "createdAt": "2026-09-28T10:17:46.224Z",
-   "updatedAt": "2026-09-28T10:17:46.224Z",
+   "updatedAt": "2026-10-09T06:30:58.335Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
-   "percentDone": null
+   "spentHours": 5.0,
+   "percentDone": 100
   },
   {
    "id": 4209,
@@ -19684,18 +19684,18 @@
    "project": "II_USS_AGENT_POC",
    "parentId": 2932,
    "createdAt": "2026-10-02T18:51:29.003Z",
-   "updatedAt": "2026-10-02T18:53:32.380Z",
+   "updatedAt": "2026-10-09T17:58:34.135Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 23.0,
    "percentDone": null
   },
   {
    "id": 4305,
    "subject": "architecture planning",
    "type": "Task",
-   "status": "New",
+   "status": "In progress",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Oleksandr Bondar",
@@ -19704,19 +19704,19 @@
    "project": "II_USS_AGENT_POC",
    "parentId": 4304,
    "createdAt": "2026-10-02T18:53:32.325Z",
-   "updatedAt": "2026-10-02T18:53:32.325Z",
+   "updatedAt": "2026-10-09T17:58:34.117Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 23.0,
    "percentDone": null
   },
   {
    "id": 4306,
    "subject": "tool output capping",
    "type": "Task",
-   "status": "New",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Oleksandr Bondar",
    "author": "Oleksandr Bondar",
@@ -19724,19 +19724,19 @@
    "project": "II_USS_AGENT_POC",
    "parentId": 2932,
    "createdAt": "2026-10-02T18:55:14.381Z",
-   "updatedAt": "2026-10-02T18:55:14.381Z",
+   "updatedAt": "2026-10-07T18:51:52.404Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
-   "percentDone": null
+   "spentHours": 2.0,
+   "percentDone": 100
   },
   {
    "id": 4307,
    "subject": "Порядок авторитетних джерел у видачі за релевантністю ",
    "type": "Task",
-   "status": "In progress",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Bogdan Zavialov",
    "author": "Bogdan Zavialov",
@@ -19744,12 +19744,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 1242,
    "createdAt": "2026-10-02T19:23:55.255Z",
-   "updatedAt": "2026-10-02T19:24:00.062Z",
+   "updatedAt": "2026-10-06T19:10:15.646Z",
    "startDate": "2026-10-01",
    "dueDate": "2026-10-06",
    "estimatedHours": null,
    "spentHours": 4.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 4308,
@@ -19795,16 +19795,16 @@
    "id": 4310,
    "subject": "Інтеграція змін у гілку розробки і підготовка версії",
    "type": "Task",
-   "status": "In progress",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
-   "assignee": null,
+   "assignee": "Bogdan Zavialov",
    "author": "Bogdan Zavialov",
    "version": null,
    "project": "25_GIOC_INFO_BOT",
    "parentId": 1242,
    "createdAt": "2026-10-02T19:28:06.436Z",
-   "updatedAt": "2026-10-02T19:28:18.760Z",
+   "updatedAt": "2026-10-06T19:10:04.714Z",
    "startDate": "2026-10-02",
    "dueDate": "2026-10-05",
    "estimatedHours": null,
@@ -19835,8 +19835,8 @@
    "id": 4312,
    "subject": "Automating Infrastructure ",
    "type": "Task",
-   "status": "In progress",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Oleksandr Birulin",
    "author": "Oleksandr Birulin",
@@ -19844,11 +19844,191 @@
    "project": "OBIRULIN",
    "parentId": 4162,
    "createdAt": "2026-10-05T09:45:48.331Z",
-   "updatedAt": "2026-10-05T09:45:51.273Z",
+   "updatedAt": "2026-10-05T12:56:46.165Z",
    "startDate": "2026-08-26",
    "dueDate": "2026-10-05",
    "estimatedHours": null,
+   "spentHours": 2.0,
+   "percentDone": 100
+  },
+  {
+   "id": 4314,
+   "subject": "refactoring according to arch",
+   "type": "Task",
+   "status": "In progress",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Oleksandr Bondar",
+   "author": "Oleksandr Bondar",
+   "version": null,
+   "project": "II_USS_AGENT_POC",
+   "parentId": 4305,
+   "createdAt": "2026-10-05T15:13:51.381Z",
+   "updatedAt": "2026-10-09T17:58:34.096Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 20.0,
+   "percentDone": null
+  },
+  {
+   "id": 4321,
+   "subject": "Module 4 - Application Deployment and Security",
+   "type": "Task",
+   "status": "Done",
+   "isClosed": true,
+   "priority": "Normal",
+   "assignee": "Oleksandr Birulin",
+   "author": "Oleksandr Birulin",
+   "version": null,
+   "project": "OBIRULIN",
+   "parentId": 3872,
+   "createdAt": "2026-10-07T09:06:32.038Z",
+   "updatedAt": "2026-10-12T07:46:09.344Z",
+   "startDate": "2026-08-26",
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 3.5,
+   "percentDone": 100
+  },
+  {
+   "id": 4322,
+   "subject": "Deploying Applications",
+   "type": "Task",
+   "status": "Done",
+   "isClosed": true,
+   "priority": "Normal",
+   "assignee": "Oleksandr Birulin",
+   "author": "Oleksandr Birulin",
+   "version": null,
+   "project": "OBIRULIN",
+   "parentId": 4321,
+   "createdAt": "2026-10-07T09:06:57.452Z",
+   "updatedAt": "2026-10-12T07:45:34.199Z",
+   "startDate": "2026-08-26",
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 1.5,
+   "percentDone": 100
+  },
+  {
+   "id": 4325,
+   "subject": "subagent fabric",
+   "type": "Task",
+   "status": "Done",
+   "isClosed": true,
+   "priority": "Normal",
+   "assignee": "Oleksandr Bondar",
+   "author": "Oleksandr Bondar",
+   "version": null,
+   "project": "II_USS_AGENT_POC",
+   "parentId": 4314,
+   "createdAt": "2026-10-07T18:53:16.492Z",
+   "updatedAt": "2026-10-09T17:58:34.044Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
    "spentHours": 0.0,
+   "percentDone": 100
+  },
+  {
+   "id": 4326,
+   "subject": "1st unified subagent",
+   "type": "Task",
+   "status": "Done",
+   "isClosed": true,
+   "priority": "Normal",
+   "assignee": "Oleksandr Bondar",
+   "author": "Oleksandr Bondar",
+   "version": null,
+   "project": "II_USS_AGENT_POC",
+   "parentId": 4314,
+   "createdAt": "2026-10-07T18:53:46.512Z",
+   "updatedAt": "2026-10-09T17:58:27.824Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 13.0,
+   "percentDone": 100
+  },
+  {
+   "id": 4332,
+   "subject": "k8s subagent",
+   "type": "Task",
+   "status": "In progress",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Oleksandr Bondar",
+   "author": "Oleksandr Bondar",
+   "version": null,
+   "project": "II_USS_AGENT_POC",
+   "parentId": 4314,
+   "createdAt": "2026-10-09T17:57:52.705Z",
+   "updatedAt": "2026-10-09T17:58:20.391Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 4.0,
+   "percentDone": null
+  },
+  {
+   "id": 4333,
+   "subject": "Розділ Аналітика - модератор напряму має доступ до розділу аналітика, але в ньому немає інформації",
+   "type": "Bug",
+   "status": "New",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Maksym Khrystunov",
+   "author": "Anton Herasymenko",
+   "version": null,
+   "project": "25_GIOC_INFO_BOT",
+   "parentId": 3720,
+   "createdAt": "2026-10-10T12:12:38.868Z",
+   "updatedAt": "2026-10-11T17:30:11.920Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 0.0,
+   "percentDone": null
+  },
+  {
+   "id": 4334,
+   "subject": "Розділ Аналітика - при виборі системи в фільтрі інформація перестає відображатись",
+   "type": "Bug",
+   "status": "New",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Maksym Khrystunov",
+   "author": "Anton Herasymenko",
+   "version": null,
+   "project": "25_GIOC_INFO_BOT",
+   "parentId": 3720,
+   "createdAt": "2026-10-10T12:15:46.601Z",
+   "updatedAt": "2026-10-11T17:29:40.249Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 0.0,
+   "percentDone": null
+  },
+  {
+   "id": 4335,
+   "subject": "Testing and Securing Applications",
+   "type": "Task",
+   "status": "Done",
+   "isClosed": true,
+   "priority": "Normal",
+   "assignee": "Oleksandr Birulin",
+   "author": "Oleksandr Birulin",
+   "version": null,
+   "project": "OBIRULIN",
+   "parentId": 4321,
+   "createdAt": "2026-10-12T07:45:59.798Z",
+   "updatedAt": "2026-10-12T07:45:59.798Z",
+   "startDate": "2026-08-26",
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 2.0,
    "percentDone": null
   }
  ],
@@ -25818,6 +25998,13 @@
    "to": "New"
   },
   {
+   "wpId": 2941,
+   "at": "2026-10-09T17:58:50.623Z",
+   "user": "Oleksandr Bondar",
+   "from": "New",
+   "to": "In progress"
+  },
+  {
    "wpId": 2942,
    "at": "2026-06-08T07:16:04.961Z",
    "user": "Anton Gorobets",
@@ -28429,6 +28616,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3454,
+   "at": "2026-10-08T10:36:02.118Z",
+   "user": "Anton Gorobets",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3455,
    "at": "2026-08-03T10:43:55.655Z",
    "user": "Anton Gorobets",
@@ -28954,6 +29148,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3528,
+   "at": "2026-10-10T11:51:11.224Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3529,
    "at": "2026-08-12T08:34:39.317Z",
    "user": "Anton Gorobets",
@@ -28966,6 +29167,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3529,
+   "at": "2026-10-10T09:45:32.901Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3530,
@@ -29171,6 +29379,20 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3540,
+   "at": "2026-09-30T15:54:11.122Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "To Do"
+  },
+  {
+   "wpId": 3540,
+   "at": "2026-10-11T17:25:14.411Z",
+   "user": "Maksym Khrystunov",
+   "from": "To Do",
+   "to": "Ready for test"
+  },
+  {
    "wpId": 3541,
    "at": "2026-08-12T12:38:55.805Z",
    "user": "Anton Gorobets",
@@ -29365,6 +29587,13 @@
    "user": "Anton Gorobets",
    "from": "New",
    "to": "In progress"
+  },
+  {
+   "wpId": 3548,
+   "at": "2026-10-06T10:40:42.591Z",
+   "user": "Maksym Khrystunov",
+   "from": "In progress",
+   "to": "Rejected"
   },
   {
    "wpId": 3549,
@@ -29661,11 +29890,25 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3560,
+   "at": "2026-10-10T11:48:25.058Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3561,
    "at": "2026-08-12T13:05:35.623Z",
    "user": "Anton Gorobets",
    "from": null,
    "to": "New"
+  },
+  {
+   "wpId": 3561,
+   "at": "2026-10-06T10:40:43.289Z",
+   "user": "Maksym Khrystunov",
+   "from": "New",
+   "to": "Rejected"
   },
   {
    "wpId": 3562,
@@ -29708,6 +29951,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3563,
+   "at": "2026-10-10T11:48:33.737Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3564,
@@ -29764,6 +30014,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3566,
+   "at": "2026-10-10T11:49:21.737Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3567,
@@ -29920,6 +30177,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3572,
+   "at": "2026-10-07T12:13:03.603Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3573,
    "at": "2026-08-12T15:24:02.398Z",
    "user": "Anton Gorobets",
@@ -29932,6 +30196,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3573,
+   "at": "2026-10-07T12:13:26.744Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3574,
@@ -29952,6 +30223,20 @@
    "at": "2026-09-25T13:42:41.753Z",
    "user": "Maksym Khrystunov",
    "from": "In progress",
+   "to": "Ready for test"
+  },
+  {
+   "wpId": 3574,
+   "at": "2026-10-07T18:22:07.999Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "To Do"
+  },
+  {
+   "wpId": 3574,
+   "at": "2026-10-11T17:38:08.759Z",
+   "user": "Maksym Khrystunov",
+   "from": "To Do",
    "to": "Ready for test"
   },
   {
@@ -30002,6 +30287,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3577,
+   "at": "2026-10-07T12:17:15.157Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3578,
@@ -30074,6 +30366,20 @@
    "to": "In progress"
   },
   {
+   "wpId": 3580,
+   "at": "2026-10-06T10:38:36.261Z",
+   "user": "Maksym Khrystunov",
+   "from": "In progress",
+   "to": "Ready for test"
+  },
+  {
+   "wpId": 3580,
+   "at": "2026-10-07T12:22:35.603Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3581,
    "at": "2026-08-12T15:34:18.603Z",
    "user": "Anton Gorobets",
@@ -30086,6 +30392,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3581,
+   "at": "2026-10-07T12:23:32.018Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3582,
@@ -30270,6 +30583,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3588,
+   "at": "2026-10-07T12:28:06.878Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3589,
    "at": "2026-08-12T15:42:31.170Z",
    "user": "Anton Gorobets",
@@ -30289,6 +30609,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3589,
+   "at": "2026-10-07T12:28:42.155Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3590,
@@ -30312,6 +30639,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3590,
+   "at": "2026-10-07T13:27:18.861Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3591,
    "at": "2026-08-12T15:44:52.625Z",
    "user": "Anton Gorobets",
@@ -30331,6 +30665,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3591,
+   "at": "2026-10-07T14:29:03.309Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3592,
@@ -30368,6 +30709,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3592,
+   "at": "2026-10-07T13:27:43.956Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3593,
    "at": "2026-08-12T15:47:08.207Z",
    "user": "Anton Gorobets",
@@ -30380,6 +30728,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3593,
+   "at": "2026-10-10T11:50:03.100Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3594,
@@ -30396,6 +30751,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3594,
+   "at": "2026-10-10T11:50:13.575Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3595,
    "at": "2026-08-12T15:49:35.667Z",
    "user": "Anton Gorobets",
@@ -30410,6 +30772,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3595,
+   "at": "2026-10-10T11:50:18.872Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3596,
    "at": "2026-08-12T15:50:31.570Z",
    "user": "Anton Gorobets",
@@ -30422,6 +30791,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3596,
+   "at": "2026-10-10T11:50:22.719Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3597,
@@ -30452,6 +30828,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3598,
+   "at": "2026-10-10T11:50:26.487Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3599,
    "at": "2026-08-12T17:39:15.023Z",
    "user": "Anton Gorobets",
@@ -30464,6 +30847,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3599,
+   "at": "2026-10-07T13:28:28.883Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3600,
@@ -30480,6 +30870,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3600,
+   "at": "2026-10-07T13:28:33.644Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3601,
    "at": "2026-08-12T17:41:03.967Z",
    "user": "Anton Gorobets",
@@ -30494,6 +30891,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3601,
+   "at": "2026-10-10T11:50:29.480Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3602,
    "at": "2026-08-12T17:41:58.872Z",
    "user": "Anton Gorobets",
@@ -30506,6 +30910,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3602,
+   "at": "2026-10-07T13:28:46.413Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3603,
@@ -30543,6 +30954,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3604,
+   "at": "2026-10-07T13:29:20.446Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3605,
    "at": "2026-08-12T17:44:47.696Z",
    "user": "Anton Gorobets",
@@ -30562,6 +30980,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3605,
+   "at": "2026-10-07T14:09:11.967Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3606,
@@ -30613,6 +31038,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3607,
+   "at": "2026-10-07T14:09:51.718Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3608,
    "at": "2026-08-12T17:48:13.385Z",
    "user": "Anton Gorobets",
@@ -30634,6 +31066,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3608,
+   "at": "2026-10-07T14:10:40.170Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3609,
    "at": "2026-08-12T17:49:16.659Z",
    "user": "Anton Gorobets",
@@ -30645,6 +31084,20 @@
    "at": "2026-09-25T09:11:55.459Z",
    "user": "Maksym Khrystunov",
    "from": "New",
+   "to": "Ready for test"
+  },
+  {
+   "wpId": 3609,
+   "at": "2026-10-07T18:22:15.931Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "To Do"
+  },
+  {
+   "wpId": 3609,
+   "at": "2026-10-11T17:39:37.361Z",
+   "user": "Maksym Khrystunov",
+   "from": "To Do",
    "to": "Ready for test"
   },
   {
@@ -30662,6 +31115,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3610,
+   "at": "2026-10-10T11:50:32.787Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3611,
    "at": "2026-08-12T17:51:48.505Z",
    "user": "Anton Gorobets",
@@ -30674,6 +31134,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3611,
+   "at": "2026-10-10T11:50:36.029Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3612,
@@ -30697,6 +31164,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3612,
+   "at": "2026-10-07T14:30:54.112Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3613,
    "at": "2026-08-12T17:53:54.048Z",
    "user": "Anton Gorobets",
@@ -30718,6 +31192,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3613,
+   "at": "2026-10-07T14:31:28.746Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3614,
    "at": "2026-08-12T17:54:47.346Z",
    "user": "Anton Gorobets",
@@ -30732,6 +31213,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3614,
+   "at": "2026-10-10T11:50:39.485Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3615,
    "at": "2026-08-12T17:55:44.105Z",
    "user": "Anton Gorobets",
@@ -30744,6 +31232,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3615,
+   "at": "2026-10-10T11:50:43.292Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3616,
@@ -30800,6 +31295,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3618,
+   "at": "2026-10-07T14:33:54.418Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3619,
@@ -30872,6 +31374,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3621,
+   "at": "2026-10-07T14:34:32.018Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3622,
    "at": "2026-08-12T18:04:27.679Z",
    "user": "Anton Gorobets",
@@ -30886,6 +31395,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3622,
+   "at": "2026-10-07T14:34:44.582Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3623,
    "at": "2026-08-12T18:06:03.123Z",
    "user": "Anton Gorobets",
@@ -30898,6 +31414,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3623,
+   "at": "2026-10-10T11:50:47.389Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3624,
@@ -30949,6 +31472,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3625,
+   "at": "2026-10-07T18:08:09.041Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3626,
    "at": "2026-08-12T18:08:43.579Z",
    "user": "Anton Gorobets",
@@ -30984,6 +31514,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3627,
+   "at": "2026-10-07T18:08:55.783Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3628,
    "at": "2026-08-12T18:10:29.456Z",
    "user": "Anton Gorobets",
@@ -30996,6 +31533,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3628,
+   "at": "2026-10-07T18:14:55.808Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "To Do"
   },
   {
    "wpId": 3629,
@@ -31012,6 +31556,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3629,
+   "at": "2026-10-07T18:12:38.027Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3630,
    "at": "2026-08-12T18:11:53.570Z",
    "user": "Anton Gorobets",
@@ -31026,6 +31577,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3630,
+   "at": "2026-10-07T18:12:41.341Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3631,
    "at": "2026-08-12T18:12:40.675Z",
    "user": "Anton Gorobets",
@@ -31038,6 +31596,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3631,
+   "at": "2026-10-07T18:15:24.273Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3632,
@@ -31061,6 +31626,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3632,
+   "at": "2026-10-07T18:16:32.190Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3633,
    "at": "2026-08-12T18:14:26.370Z",
    "user": "Anton Gorobets",
@@ -31080,6 +31652,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3633,
+   "at": "2026-10-07T18:17:05.436Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3634,
@@ -31103,6 +31682,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3634,
+   "at": "2026-10-07T18:17:08.291Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3635,
    "at": "2026-08-12T18:16:12.018Z",
    "user": "Anton Gorobets",
@@ -31122,6 +31708,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3635,
+   "at": "2026-10-07T18:19:45.066Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3636,
@@ -31145,6 +31738,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3636,
+   "at": "2026-10-07T18:19:49.619Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3637,
    "at": "2026-08-12T18:18:03.987Z",
    "user": "Anton Gorobets",
@@ -31164,6 +31764,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3637,
+   "at": "2026-10-07T18:20:24.659Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3638,
@@ -31208,6 +31815,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3639,
+   "at": "2026-10-10T09:43:32.881Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3640,
    "at": "2026-08-12T18:26:22.901Z",
    "user": "Anton Gorobets",
@@ -31229,6 +31843,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3640,
+   "at": "2026-10-10T09:51:12.769Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3641,
    "at": "2026-08-12T18:27:22.869Z",
    "user": "Anton Gorobets",
@@ -31241,6 +31862,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3641,
+   "at": "2026-10-10T09:51:43.395Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3642,
@@ -31264,6 +31892,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3642,
+   "at": "2026-10-10T09:52:09.013Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3643,
    "at": "2026-08-12T18:29:09.260Z",
    "user": "Anton Gorobets",
@@ -31283,6 +31918,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3643,
+   "at": "2026-10-10T09:52:20.903Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3644,
@@ -31306,6 +31948,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3644,
+   "at": "2026-10-10T09:52:46.845Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3645,
    "at": "2026-08-12T18:31:11.248Z",
    "user": "Anton Gorobets",
@@ -31325,6 +31974,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3645,
+   "at": "2026-10-10T09:53:02.853Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3646,
@@ -31390,6 +32046,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3648,
+   "at": "2026-10-10T09:53:52.924Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3649,
    "at": "2026-08-12T18:34:31.743Z",
    "user": "Anton Gorobets",
@@ -31409,6 +32072,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3649,
+   "at": "2026-10-10T09:54:20.237Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3650,
@@ -31439,6 +32109,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3651,
+   "at": "2026-10-10T09:54:56.630Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3652,
    "at": "2026-08-12T19:21:20.444Z",
    "user": "Anton Herasymenko",
@@ -31451,6 +32128,20 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3652,
+   "at": "2026-10-10T10:46:02.980Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "To Do"
+  },
+  {
+   "wpId": 3652,
+   "at": "2026-10-10T10:55:59.606Z",
+   "user": "Anton Herasymenko",
+   "from": "To Do",
+   "to": "Done"
   },
   {
    "wpId": 3653,
@@ -31873,6 +32564,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3677,
+   "at": "2026-10-10T11:45:48.593Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3678,
    "at": "2026-08-15T07:04:18.779Z",
    "user": "Oleksandr Bondar",
@@ -32104,6 +32802,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3700,
+   "at": "2026-10-10T10:04:23.345Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3701,
    "at": "2026-08-18T05:30:41.196Z",
    "user": "Anton Gorobets",
@@ -32123,6 +32828,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3701,
+   "at": "2026-10-10T10:04:36.777Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3702,
@@ -32146,6 +32858,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3702,
+   "at": "2026-10-10T10:04:39.901Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3703,
    "at": "2026-08-18T05:31:51.702Z",
    "user": "Anton Gorobets",
@@ -32165,6 +32884,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3703,
+   "at": "2026-10-10T10:05:02.019Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3704,
@@ -32188,6 +32914,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3704,
+   "at": "2026-10-10T10:05:31.069Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3705,
    "at": "2026-08-18T05:32:59.993Z",
    "user": "Anton Gorobets",
@@ -32207,6 +32940,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3705,
+   "at": "2026-10-10T10:07:40.746Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3706,
@@ -32230,6 +32970,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3706,
+   "at": "2026-10-10T10:08:17.591Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3707,
    "at": "2026-08-18T05:34:02.823Z",
    "user": "Anton Gorobets",
@@ -32249,6 +32996,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3707,
+   "at": "2026-10-10T10:08:36.825Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3708,
@@ -32272,6 +33026,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3708,
+   "at": "2026-10-10T10:09:36.199Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3710,
    "at": "2026-08-18T05:35:32.450Z",
    "user": "Anton Gorobets",
@@ -32291,6 +33052,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3710,
+   "at": "2026-10-10T10:09:48.668Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3714,
@@ -32545,6 +33313,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3730,
+   "at": "2026-10-10T10:24:25.518Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3731,
    "at": "2026-08-20T06:42:53.271Z",
    "user": "Anton Gorobets",
@@ -32564,6 +33339,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3731,
+   "at": "2026-10-10T10:24:50.921Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3732,
@@ -32587,6 +33369,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3732,
+   "at": "2026-10-10T10:25:40.102Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3733,
    "at": "2026-08-20T06:46:15.820Z",
    "user": "Anton Gorobets",
@@ -32599,6 +33388,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3733,
+   "at": "2026-10-10T10:30:12.365Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3734,
@@ -32615,6 +33411,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3734,
+   "at": "2026-10-10T10:31:44.213Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3735,
    "at": "2026-08-20T06:48:40.969Z",
    "user": "Anton Gorobets",
@@ -32629,6 +33432,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3735,
+   "at": "2026-10-10T10:31:54.761Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3736,
    "at": "2026-08-20T06:49:36.796Z",
    "user": "Anton Gorobets",
@@ -32641,6 +33451,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3736,
+   "at": "2026-10-10T10:32:03.111Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3737,
@@ -32762,6 +33579,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3778,
+   "at": "2026-10-10T10:17:22.285Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3779,
    "at": "2026-08-21T06:26:45.332Z",
    "user": "Anton Gorobets",
@@ -32781,6 +33605,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3779,
+   "at": "2026-10-10T10:21:18.009Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3780,
@@ -32804,6 +33635,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3780,
+   "at": "2026-10-10T10:17:41.609Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3781,
    "at": "2026-08-21T06:31:14.500Z",
    "user": "Anton Gorobets",
@@ -32823,6 +33661,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3781,
+   "at": "2026-10-10T10:18:52.638Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3782,
@@ -32846,6 +33691,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3782,
+   "at": "2026-10-10T10:18:59.590Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3783,
    "at": "2026-08-21T06:33:03.642Z",
    "user": "Anton Gorobets",
@@ -32865,6 +33717,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3783,
+   "at": "2026-10-10T10:19:14.575Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3784,
@@ -32888,6 +33747,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3784,
+   "at": "2026-10-10T10:19:18.016Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3785,
    "at": "2026-08-21T06:35:23.952Z",
    "user": "Anton Gorobets",
@@ -32909,6 +33775,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3785,
+   "at": "2026-10-10T10:19:33.007Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3786,
    "at": "2026-08-21T06:36:09.599Z",
    "user": "Anton Gorobets",
@@ -32921,6 +33794,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3786,
+   "at": "2026-10-10T10:32:47.433Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3787,
@@ -32937,6 +33817,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3787,
+   "at": "2026-10-10T10:32:53.763Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3788,
    "at": "2026-08-21T06:37:39.187Z",
    "user": "Anton Gorobets",
@@ -32951,6 +33838,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3788,
+   "at": "2026-10-10T10:32:58.453Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3789,
    "at": "2026-08-21T06:38:31.221Z",
    "user": "Anton Gorobets",
@@ -32963,6 +33857,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3789,
+   "at": "2026-10-10T10:33:02.512Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3790,
@@ -32984,6 +33885,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3790,
+   "at": "2026-10-10T10:33:15.887Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3791,
@@ -33033,6 +33941,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3798,
+   "at": "2026-10-10T10:20:15.881Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3799,
@@ -33315,6 +34230,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3833,
+   "at": "2026-10-10T10:33:38.366Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3834,
    "at": "2026-08-25T13:01:20.257Z",
    "user": "Anton Gorobets",
@@ -33327,6 +34249,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3834,
+   "at": "2026-10-10T10:33:42.438Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3835,
@@ -33348,6 +34277,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3835,
+   "at": "2026-10-10T10:33:55.423Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3836,
@@ -33420,6 +34356,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3838,
+   "at": "2026-10-10T10:34:53.355Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3839,
    "at": "2026-08-25T13:04:42.920Z",
    "user": "Anton Gorobets",
@@ -33439,6 +34382,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3839,
+   "at": "2026-10-10T10:36:15.946Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3840,
@@ -33462,6 +34412,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3840,
+   "at": "2026-10-10T10:36:20.755Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3841,
    "at": "2026-08-25T13:06:28.470Z",
    "user": "Anton Gorobets",
@@ -33474,6 +34431,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3841,
+   "at": "2026-10-10T10:36:26.082Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3842,
@@ -33518,6 +34482,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3843,
+   "at": "2026-10-10T10:36:31.626Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3844,
    "at": "2026-08-25T13:09:04.521Z",
    "user": "Anton Gorobets",
@@ -33530,6 +34501,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3844,
+   "at": "2026-10-10T10:36:40.016Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3845,
@@ -33553,6 +34531,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3845,
+   "at": "2026-10-10T10:36:45.455Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3846,
    "at": "2026-08-25T13:10:05.705Z",
    "user": "Anton Gorobets",
@@ -33565,6 +34550,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3846,
+   "at": "2026-10-10T10:40:05.533Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3847,
@@ -33588,6 +34580,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3847,
+   "at": "2026-10-10T10:41:43.323Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3848,
    "at": "2026-08-25T16:56:42.715Z",
    "user": "Valerii Haivoronskyi",
@@ -33607,6 +34606,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3851,
+   "at": "2026-10-10T10:42:03.424Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3852,
@@ -33649,6 +34655,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3853,
+   "at": "2026-10-10T09:47:29.650Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3854,
@@ -33707,6 +34720,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3855,
+   "at": "2026-10-10T10:43:09.057Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3856,
    "at": "2026-08-26T09:05:27.264Z",
    "user": "Anton Gorobets",
@@ -33726,6 +34746,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3856,
+   "at": "2026-10-10T10:43:16.082Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3857,
@@ -33749,6 +34776,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3857,
+   "at": "2026-10-10T10:43:22.323Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3858,
    "at": "2026-08-26T09:07:27.255Z",
    "user": "Anton Gorobets",
@@ -33768,6 +34802,13 @@
    "user": "Maksym Khrystunov",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3858,
+   "at": "2026-10-10T10:44:26.310Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3859,
@@ -33791,6 +34832,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3859,
+   "at": "2026-10-10T10:44:45.390Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3860,
    "at": "2026-08-26T09:10:08.329Z",
    "user": "Anton Gorobets",
@@ -33803,6 +34851,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3860,
+   "at": "2026-10-10T10:20:25.508Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3861,
@@ -33819,6 +34874,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3861,
+   "at": "2026-10-10T10:20:28.663Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3862,
    "at": "2026-08-26T09:11:09.179Z",
    "user": "Anton Gorobets",
@@ -33831,6 +34893,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3862,
+   "at": "2026-10-10T10:20:32.279Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3863,
@@ -33847,6 +34916,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3863,
+   "at": "2026-10-10T10:21:25.340Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3864,
    "at": "2026-08-26T09:13:00.897Z",
    "user": "Anton Gorobets",
@@ -33859,6 +34935,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3864,
+   "at": "2026-10-10T10:21:47.710Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3865,
@@ -33875,6 +34958,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3865,
+   "at": "2026-10-10T10:22:01.885Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3866,
    "at": "2026-08-26T09:14:14.989Z",
    "user": "Anton Gorobets",
@@ -33887,6 +34977,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3866,
+   "at": "2026-10-10T10:22:09.272Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3867,
@@ -33903,6 +35000,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3867,
+   "at": "2026-10-10T10:22:16.150Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3868,
    "at": "2026-08-26T09:15:30.540Z",
    "user": "Anton Gorobets",
@@ -33917,6 +35021,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3868,
+   "at": "2026-10-10T10:22:19.570Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3869,
    "at": "2026-08-26T09:16:02.498Z",
    "user": "Anton Gorobets",
@@ -33929,6 +35040,13 @@
    "user": "Maksym Khrystunov",
    "from": "New",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3869,
+   "at": "2026-10-10T10:22:23.502Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3870,
@@ -33957,6 +35075,13 @@
    "user": "Oleksandr Birulin",
    "from": null,
    "to": "In progress"
+  },
+  {
+   "wpId": 3872,
+   "at": "2026-10-12T07:46:09.367Z",
+   "user": "Oleksandr Birulin",
+   "from": "In progress",
+   "to": "Done"
   },
   {
    "wpId": 3873,
@@ -34498,6 +35623,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 3922,
+   "at": "2026-10-10T11:46:32.744Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 3923,
    "at": "2026-08-28T10:02:39.529Z",
    "user": "Anton Gorobets",
@@ -34531,6 +35663,13 @@
    "user": "Anton Gorobets",
    "from": "In progress",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 3923,
+   "at": "2026-10-08T10:53:30.277Z",
+   "user": "Anton Gorobets",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 3924,
@@ -34671,6 +35810,13 @@
    "user": "Anton Gorobets",
    "from": "New",
    "to": "To Do"
+  },
+  {
+   "wpId": 3931,
+   "at": "2026-10-08T08:40:42.832Z",
+   "user": "Maksym Khrystunov",
+   "from": "To Do",
+   "to": "Ready for test"
   },
   {
    "wpId": 3932,
@@ -34820,11 +35966,25 @@
    "to": "New"
   },
   {
+   "wpId": 3940,
+   "at": "2026-10-08T12:05:26.494Z",
+   "user": "Anton Gorobets",
+   "from": "New",
+   "to": "To Do"
+  },
+  {
    "wpId": 3941,
    "at": "2026-08-31T10:31:44.249Z",
    "user": "Anton Gorobets",
    "from": null,
    "to": "New"
+  },
+  {
+   "wpId": 3941,
+   "at": "2026-10-08T08:40:44.061Z",
+   "user": "Maksym Khrystunov",
+   "from": "New",
+   "to": "Ready for test"
   },
   {
    "wpId": 3942,
@@ -34960,11 +36120,25 @@
    "to": "New"
   },
   {
+   "wpId": 3954,
+   "at": "2026-10-08T12:00:16.368Z",
+   "user": "Anton Gorobets",
+   "from": "New",
+   "to": "To Do"
+  },
+  {
    "wpId": 3955,
    "at": "2026-08-31T10:37:27.168Z",
    "user": "Anton Gorobets",
    "from": null,
    "to": "New"
+  },
+  {
+   "wpId": 3955,
+   "at": "2026-10-08T12:00:31.902Z",
+   "user": "Anton Gorobets",
+   "from": "New",
+   "to": "To Do"
   },
   {
    "wpId": 3956,
@@ -35520,6 +36694,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 4121,
+   "at": "2026-10-08T10:36:12.788Z",
+   "user": "Anton Gorobets",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 4122,
    "at": "2026-09-16T07:09:17.780Z",
    "user": "Anton Gorobets",
@@ -35546,6 +36727,13 @@
    "user": "Anton Gorobets",
    "from": "To Do",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 4122,
+   "at": "2026-10-08T10:36:17.682Z",
+   "user": "Anton Gorobets",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 4123,
@@ -35667,6 +36855,13 @@
    "to": "In progress"
   },
   {
+   "wpId": 4162,
+   "at": "2026-10-05T12:56:46.197Z",
+   "user": "Oleksandr Birulin",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
    "wpId": 4163,
    "at": "2026-09-21T08:57:57.748Z",
    "user": "Oleksandr Birulin",
@@ -35714,6 +36909,13 @@
    "user": "Maksym Khrystunov",
    "from": "To Do",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 4167,
+   "at": "2026-10-10T09:47:50.802Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 4173,
@@ -35807,6 +37009,13 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 4185,
+   "at": "2026-10-08T10:36:07.294Z",
+   "user": "Anton Gorobets",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 4186,
    "at": "2026-09-24T21:45:07.495Z",
    "user": "Bogdan Zavialov",
@@ -35828,6 +37037,13 @@
    "to": "In progress"
   },
   {
+   "wpId": 4202,
+   "at": "2026-10-06T10:40:43.940Z",
+   "user": "Maksym Khrystunov",
+   "from": "In progress",
+   "to": "Rejected"
+  },
+  {
    "wpId": 4203,
    "at": "2026-09-28T06:25:36.826Z",
    "user": "Anton Gorobets",
@@ -35842,11 +37058,32 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 4203,
+   "at": "2026-10-10T10:30:12.305Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
+  },
+  {
    "wpId": 4204,
    "at": "2026-09-28T06:28:48.951Z",
    "user": "Anton Gorobets",
    "from": null,
    "to": "In progress"
+  },
+  {
+   "wpId": 4204,
+   "at": "2026-10-06T10:38:47.837Z",
+   "user": "Maksym Khrystunov",
+   "from": "In progress",
+   "to": "Ready for test"
+  },
+  {
+   "wpId": 4204,
+   "at": "2026-10-10T10:23:38.326Z",
+   "user": "Anton Herasymenko",
+   "from": "Ready for test",
+   "to": "Done"
   },
   {
    "wpId": 4205,
@@ -35917,6 +37154,13 @@
    "user": "Anton Gorobets",
    "from": null,
    "to": "New"
+  },
+  {
+   "wpId": 4208,
+   "at": "2026-10-09T06:30:47.014Z",
+   "user": "Valerii Haivoronskyi",
+   "from": "New",
+   "to": "Done"
   },
   {
    "wpId": 4209,
@@ -36346,6 +37590,13 @@
    "to": "New"
   },
   {
+   "wpId": 4305,
+   "at": "2026-10-05T15:12:21.921Z",
+   "user": "Oleksandr Bondar",
+   "from": "New",
+   "to": "In progress"
+  },
+  {
    "wpId": 4306,
    "at": "2026-10-02T18:55:14.381Z",
    "user": "Oleksandr Bondar",
@@ -36353,11 +37604,32 @@
    "to": "New"
   },
   {
+   "wpId": 4306,
+   "at": "2026-10-05T15:11:27.200Z",
+   "user": "Oleksandr Bondar",
+   "from": "New",
+   "to": "In progress"
+  },
+  {
+   "wpId": 4306,
+   "at": "2026-10-07T18:51:52.404Z",
+   "user": "Oleksandr Bondar",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
    "wpId": 4307,
    "at": "2026-10-02T19:23:55.255Z",
    "user": "Bogdan Zavialov",
    "from": null,
    "to": "In progress"
+  },
+  {
+   "wpId": 4307,
+   "at": "2026-10-06T19:10:15.646Z",
+   "user": "Bogdan Zavialov",
+   "from": "In progress",
+   "to": "Done"
   },
   {
    "wpId": 4308,
@@ -36395,6 +37667,13 @@
    "to": "In progress"
   },
   {
+   "wpId": 4310,
+   "at": "2026-10-06T19:09:54.908Z",
+   "user": "Bogdan Zavialov",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
    "wpId": 4311,
    "at": "2026-10-04T17:11:25.506Z",
    "user": "Anton Gorobets",
@@ -36407,6 +37686,111 @@
    "user": "Oleksandr Birulin",
    "from": null,
    "to": "In progress"
+  },
+  {
+   "wpId": 4312,
+   "at": "2026-10-05T12:56:46.165Z",
+   "user": "Oleksandr Birulin",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
+   "wpId": 4314,
+   "at": "2026-10-05T15:13:51.381Z",
+   "user": "Oleksandr Bondar",
+   "from": null,
+   "to": "In progress"
+  },
+  {
+   "wpId": 4321,
+   "at": "2026-10-07T09:06:32.038Z",
+   "user": "Oleksandr Birulin",
+   "from": null,
+   "to": "In progress"
+  },
+  {
+   "wpId": 4321,
+   "at": "2026-10-12T07:45:59.839Z",
+   "user": "Oleksandr Birulin",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
+   "wpId": 4322,
+   "at": "2026-10-07T09:06:57.452Z",
+   "user": "Oleksandr Birulin",
+   "from": null,
+   "to": "New"
+  },
+  {
+   "wpId": 4322,
+   "at": "2026-10-08T10:23:26.528Z",
+   "user": "Oleksandr Birulin",
+   "from": "New",
+   "to": "In progress"
+  },
+  {
+   "wpId": 4322,
+   "at": "2026-10-12T07:45:34.199Z",
+   "user": "Oleksandr Birulin",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
+   "wpId": 4325,
+   "at": "2026-10-07T18:53:16.492Z",
+   "user": "Oleksandr Bondar",
+   "from": null,
+   "to": "New"
+  },
+  {
+   "wpId": 4325,
+   "at": "2026-10-09T17:58:34.044Z",
+   "user": "Oleksandr Bondar",
+   "from": "New",
+   "to": "Done"
+  },
+  {
+   "wpId": 4326,
+   "at": "2026-10-07T18:53:46.512Z",
+   "user": "Oleksandr Bondar",
+   "from": null,
+   "to": "New"
+  },
+  {
+   "wpId": 4326,
+   "at": "2026-10-09T17:58:27.824Z",
+   "user": "Oleksandr Bondar",
+   "from": "New",
+   "to": "Done"
+  },
+  {
+   "wpId": 4332,
+   "at": "2026-10-09T17:57:52.705Z",
+   "user": "Oleksandr Bondar",
+   "from": null,
+   "to": "In progress"
+  },
+  {
+   "wpId": 4333,
+   "at": "2026-10-10T12:12:38.868Z",
+   "user": "Anton Herasymenko",
+   "from": null,
+   "to": "New"
+  },
+  {
+   "wpId": 4334,
+   "at": "2026-10-10T12:15:46.601Z",
+   "user": "Anton Herasymenko",
+   "from": null,
+   "to": "New"
+  },
+  {
+   "wpId": 4335,
+   "at": "2026-10-12T07:45:59.798Z",
+   "user": "Oleksandr Birulin",
+   "from": null,
+   "to": "Done"
   }
  ],
  "statusHistoryUnparsed": 15,
@@ -36428,6 +37812,114 @@
   "Subject set to Некоректний статус книги після повернення з різних сервісних точок"
  ],
  "timeEntries": [
+  {
+   "id": 1236,
+   "wpId": 4335,
+   "user": "Oleksandr Birulin",
+   "spentOn": "2026-10-12",
+   "hours": 2.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1235,
+   "wpId": 4322,
+   "user": "Oleksandr Birulin",
+   "spentOn": "2026-10-12",
+   "hours": 1.5,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1232,
+   "wpId": 2941,
+   "user": "Oleksandr Bondar",
+   "spentOn": "2026-10-09",
+   "hours": 4.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1231,
+   "wpId": 4332,
+   "user": "Oleksandr Bondar",
+   "spentOn": "2026-10-09",
+   "hours": 4.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1219,
+   "wpId": 4208,
+   "user": "Valerii Haivoronskyi",
+   "spentOn": "2026-10-09",
+   "hours": 5.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1218,
+   "wpId": 3944,
+   "user": "Valerii Haivoronskyi",
+   "spentOn": "2026-10-09",
+   "hours": 4.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1217,
+   "wpId": 4326,
+   "user": "Oleksandr Bondar",
+   "spentOn": "2026-10-08",
+   "hours": 6.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1211,
+   "wpId": 4326,
+   "user": "Oleksandr Bondar",
+   "spentOn": "2026-10-07",
+   "hours": 7.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1189,
+   "wpId": 4314,
+   "user": "Oleksandr Bondar",
+   "spentOn": "2026-10-05",
+   "hours": 3.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1188,
+   "wpId": 4305,
+   "user": "Oleksandr Bondar",
+   "spentOn": "2026-10-05",
+   "hours": 3.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1187,
+   "wpId": 4306,
+   "user": "Oleksandr Bondar",
+   "spentOn": "2026-10-05",
+   "hours": 2.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1182,
+   "wpId": 4312,
+   "user": "Oleksandr Birulin",
+   "spentOn": "2026-10-05",
+   "hours": 2.0,
+   "activity": null,
+   "comment": null
+  },
   {
    "id": 1181,
    "wpId": 4166,
@@ -39728,15 +41220,6 @@
    "user": "Bogdan Zavialov",
    "spentOn": "2026-07-21",
    "hours": 30.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 378,
-   "wpId": 3131,
-   "user": "Oleksandr Bondar",
-   "spentOn": "2026-07-07",
-   "hours": 6.0,
    "activity": null,
    "comment": null
   }
