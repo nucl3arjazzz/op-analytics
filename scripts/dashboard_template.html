@@ -685,6 +685,12 @@
     }
     var withDue = ov.openLeaf - s.openNoDueDate;
     if (ov.openLeaf > 0 && withDue / ov.openLeaf < 0.25) items.push('Дедлайни задані лише в ' + nf.format(withDue) + ' з ' + nf.format(ov.openLeaf) + ' відкритих задач, тому показник «прострочені» охоплює малу частину роботи.');
+    var hw = s.hoursWeekly, hLast = hw[hw.length - 1];
+    var hPrior = hw.slice(-5, -1).filter(function (v) { return v != null; });
+    if (hLast != null && hPrior.length >= 3) {
+      var hAvg = hPrior.reduce(function (a, b) { return a + b; }, 0) / hPrior.length;
+      if (hLast < 0.6 * hAvg) items.push('Години за останній тиждень (' + num(hLast) + ') помітно нижчі за середні попередніх тижнів (' + num(hAvg) + '). Можливо, частину часу ще не внесено, тому цифру варто читати як попередню.');
+    }
     var attn = visibleProjects().filter(function (p) { return p.level === 'attention'; }).length;
     if (attn) items.push('Проєктів, що потребують уваги за правилами таблиці нижче: ' + nf.format(attn) + ' з ' + nf.format(visibleProjects().length) + '.');
     var box = $('insights'), ul = $('insightList'); clear(ul);
