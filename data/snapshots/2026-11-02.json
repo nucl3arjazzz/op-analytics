@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-02T08:31:49+00:00",
+ "generatedAt": "2026-11-02T11:07:32+00:00",
  "baseUrl": "https://op.wmgroup.com.ua",
  "projectId": null,
  "timeLookbackDays": 90,
@@ -16068,7 +16068,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 189.5,
+   "spentHours": 220.5,
    "percentDone": null
   },
   {
@@ -16128,7 +16128,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 9.5,
+   "spentHours": 13.0,
    "percentDone": 100
   },
   {
@@ -16148,7 +16148,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 22.5,
+   "spentHours": 26.0,
    "percentDone": null
   },
   {
@@ -16168,7 +16168,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 10.5,
+   "spentHours": 12.0,
    "percentDone": null
   },
   {
@@ -16188,7 +16188,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 12.5,
+   "spentHours": 17.5,
    "percentDone": null
   },
   {
@@ -16228,7 +16228,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 31.5,
+   "spentHours": 45.0,
    "percentDone": null
   },
   {
@@ -17048,7 +17048,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 1.5,
+   "spentHours": 5.0,
    "percentDone": null
   },
   {
@@ -17068,7 +17068,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 5.5,
+   "spentHours": 9.0,
    "percentDone": 100
   },
   {
@@ -17108,7 +17108,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 6.5,
+   "spentHours": 8.0,
    "percentDone": null
   },
   {
@@ -17268,7 +17268,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 8.0,
+   "spentHours": 13.0,
    "percentDone": null
   },
   {
@@ -17408,7 +17408,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 6.5,
+   "spentHours": 19.0,
    "percentDone": null
   },
   {
@@ -20048,7 +20048,7 @@
    "startDate": "2026-10-23",
    "dueDate": "2026-10-23",
    "estimatedHours": null,
-   "spentHours": 9.0,
+   "spentHours": 15.5,
    "percentDone": null
   },
   {
@@ -20368,7 +20368,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 10.0,
+   "spentHours": 13.0,
    "percentDone": null
   },
   {
@@ -20388,7 +20388,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 3.5,
+   "spentHours": 6.5,
    "percentDone": null
   },
   {
@@ -20568,7 +20568,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 5.0,
+   "spentHours": 6.0,
    "percentDone": null
   },
   {
@@ -20888,7 +20888,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 2.0,
    "percentDone": null
   },
   {
@@ -20968,7 +20968,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 4.5,
    "percentDone": null
   },
   {
@@ -21175,8 +21175,8 @@
    "id": 4707,
    "subject": "Оптимізація Kubernetes-кластеру на лабораторному середовищі WMGroup",
    "type": "Task",
-   "status": "New",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Bogdan Zavialov",
    "author": "Bogdan Zavialov",
@@ -21184,19 +21184,19 @@
    "project": "BZAVIALOV",
    "parentId": null,
    "createdAt": "2026-11-02T07:52:49.753Z",
-   "updatedAt": "2026-11-02T07:52:49.753Z",
-   "startDate": null,
-   "dueDate": null,
+   "updatedAt": "2026-11-02T09:37:02.906Z",
+   "startDate": "2026-10-30",
+   "dueDate": "2026-10-30",
    "estimatedHours": null,
-   "spentHours": 0.0,
-   "percentDone": null
+   "spentHours": 16.0,
+   "percentDone": 100
   },
   {
    "id": 4708,
    "subject": "Вирішення блокування OSD пристроїв на кластері Ceph",
    "type": "Task",
-   "status": "New",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Bogdan Zavialov",
    "author": "Bogdan Zavialov",
@@ -21204,7 +21204,27 @@
    "project": "BZAVIALOV",
    "parentId": null,
    "createdAt": "2026-11-02T07:55:23.492Z",
-   "updatedAt": "2026-11-02T07:55:23.492Z",
+   "updatedAt": "2026-11-02T09:37:05.218Z",
+   "startDate": "2026-10-30",
+   "dueDate": "2026-10-30",
+   "estimatedHours": null,
+   "spentHours": 18.0,
+   "percentDone": 100
+  },
+  {
+   "id": 4709,
+   "subject": "Додати в звіт \"Перереєстровані користувачі\" можливість користувачу обирати стать і віковий діапазон",
+   "type": "Task",
+   "status": "To Do",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Maksym Khrystunov",
+   "author": "Anton Gorobets",
+   "version": null,
+   "project": "25_GIOC_UE_LIB",
+   "parentId": 4341,
+   "createdAt": "2026-11-02T10:12:49.102Z",
+   "updatedAt": "2026-11-02T10:12:49.102Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -40478,11 +40498,32 @@
    "to": "New"
   },
   {
+   "wpId": 4707,
+   "at": "2026-11-02T09:37:02.906Z",
+   "user": "Anton Gorobets",
+   "from": "New",
+   "to": "Done"
+  },
+  {
    "wpId": 4708,
    "at": "2026-11-02T07:55:23.492Z",
    "user": "Bogdan Zavialov",
    "from": null,
    "to": "New"
+  },
+  {
+   "wpId": 4708,
+   "at": "2026-11-02T09:37:05.218Z",
+   "user": "Anton Gorobets",
+   "from": "New",
+   "to": "Done"
+  },
+  {
+   "wpId": 4709,
+   "at": "2026-11-02T10:12:49.102Z",
+   "user": "Anton Gorobets",
+   "from": null,
+   "to": "To Do"
   }
  ],
  "statusHistoryUnparsed": 16,
@@ -40505,6 +40546,168 @@
   "Subject changed from Участь у зустрічах із Замовником to Участь у ... (зустрічі із Замовником, статусні наради, сінки...)"
  ],
  "timeEntries": [
+  {
+   "id": 1623,
+   "wpId": 3955,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-30",
+   "hours": 3.0,
+   "activity": "Development",
+   "comment": "Відновлення після зупинки сховища: том Postgres 40Gi, обмеження імпорту"
+  },
+  {
+   "id": 1622,
+   "wpId": 3955,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-30",
+   "hours": 5.0,
+   "activity": "Development",
+   "comment": "Міграція Aleph для всієї мережі дорослих бібліотек, аналітика, власний термін позики"
+  },
+  {
+   "id": 1621,
+   "wpId": 3955,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-29",
+   "hours": 3.5,
+   "activity": "Development",
+   "comment": "Міграція Aleph: каталог і примірники пілотних бібліотек, звірка з WRK"
+  },
+  {
+   "id": 1620,
+   "wpId": 4447,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-29",
+   "hours": 0.5,
+   "activity": null,
+   "comment": "Weekly synch"
+  },
+  {
+   "id": 1619,
+   "wpId": 4427,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-29",
+   "hours": 3.0,
+   "activity": "Development",
+   "comment": "Видача лише у власній бібліотеці примірника: бронювання на рівні примірника, черга на бібліотеку, документація партнерів"
+  },
+  {
+   "id": 1618,
+   "wpId": 3955,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-28",
+   "hours": 1.0,
+   "activity": "Development",
+   "comment": "Розгортання локального Oracle 19c з базою Aleph 20"
+  },
+  {
+   "id": 1617,
+   "wpId": 3937,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-28",
+   "hours": 3.5,
+   "activity": "Development",
+   "comment": "Довідник ББК бібліотеки, вибір ББК у формі видання"
+  },
+  {
+   "id": 1616,
+   "wpId": 3938,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-28",
+   "hours": 3.5,
+   "activity": "Development",
+   "comment": "Підказка, у які графи книги сумарного обліку потрапить видання"
+  },
+  {
+   "id": 1615,
+   "wpId": 3885,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-27",
+   "hours": 1.0,
+   "activity": "Specification",
+   "comment": "Покриття вимог: #3948, #4481, #4487"
+  },
+  {
+   "id": 1614,
+   "wpId": 3940,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-27",
+   "hours": 1.5,
+   "activity": "Development",
+   "comment": "Логотип бібліотеки в заголовку, на сторінці входу та як favicon (збірка 1.25.11)"
+  },
+  {
+   "id": 1613,
+   "wpId": 3948,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-27",
+   "hours": 3.0,
+   "activity": "Development",
+   "comment": "2FA увімкнено на WRK з провайдером міста, перевірка адрес повернення, документація"
+  },
+  {
+   "id": 1612,
+   "wpId": 4487,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-27",
+   "hours": 1.0,
+   "activity": "Development",
+   "comment": "Виправлення пошуку в «Інвентарі», функції mod-search, збірка 1.25.8 на стенді"
+  },
+  {
+   "id": 1611,
+   "wpId": 3948,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-26",
+   "hours": 2.0,
+   "activity": "Development",
+   "comment": "Реєстрація WRK у Модулі авторизації міста: адреси повернення, налаштування"
+  },
+  {
+   "id": 1610,
+   "wpId": 4481,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-26",
+   "hours": 2.0,
+   "activity": "Testing",
+   "comment": "Тестові запити для перевірки черги на примірник"
+  },
+  {
+   "id": 1609,
+   "wpId": 4487,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-26",
+   "hours": 3.5,
+   "activity": "Development",
+   "comment": "Пошук у «Інвентарі»: розбір, чому не знаходять рік, «Усі» та інвентарний номер"
+  },
+  {
+   "id": 1608,
+   "wpId": 4447,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-26",
+   "hours": 0.5,
+   "activity": null,
+   "comment": "FOLIO team sync"
+  },
+  {
+   "id": 1606,
+   "wpId": 4708,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-10-30",
+   "hours": 18.0,
+   "activity": "Support",
+   "comment": null
+  },
+  {
+   "id": 1605,
+   "wpId": 4707,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-10-30",
+   "hours": 16.0,
+   "activity": "Support",
+   "comment": null
+  },
   {
    "id": 1602,
    "wpId": 4353,
