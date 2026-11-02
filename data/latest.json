@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T08:58:03+00:00",
+ "generatedAt": "2026-11-02T08:31:49+00:00",
  "baseUrl": "https://op.wmgroup.com.ua",
  "projectId": null,
  "timeLookbackDays": 90,
@@ -84,7 +84,7 @@
    "project": "Demo project",
    "parentId": null,
    "createdAt": "2025-08-27T08:44:30.927Z",
-   "updatedAt": "2026-10-22T18:44:34.370Z",
+   "updatedAt": "2026-10-29T19:44:32.694Z",
    "startDate": "2025-08-25",
    "dueDate": "2025-09-08",
    "estimatedHours": null,
@@ -1004,11 +1004,11 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": null,
    "createdAt": "2026-02-10T07:21:52.264Z",
-   "updatedAt": "2026-10-19T09:02:22.858Z",
+   "updatedAt": "2026-10-29T11:39:54.285Z",
    "startDate": "2026-03-04",
-   "dueDate": "2026-10-08",
+   "dueDate": "2026-10-28",
    "estimatedHours": null,
-   "spentHours": 685.0,
+   "spentHours": 701.0,
    "percentDone": null
   },
   {
@@ -1215,7 +1215,7 @@
    "id": 1254,
    "subject": "PART 2  - Адмін панель",
    "type": "Epic",
-   "status": "New",
+   "status": "In progress",
    "isClosed": false,
    "priority": "Normal",
    "assignee": null,
@@ -1224,7 +1224,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": null,
    "createdAt": "2026-02-10T08:13:05.917Z",
-   "updatedAt": "2026-10-19T09:03:44.790Z",
+   "updatedAt": "2026-10-26T10:08:53.972Z",
    "startDate": "2026-02-19",
    "dueDate": "2026-07-24",
    "estimatedHours": null,
@@ -1564,11 +1564,11 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": null,
    "createdAt": "2026-02-11T16:19:04.930Z",
-   "updatedAt": "2026-10-15T12:13:18.399Z",
+   "updatedAt": "2026-10-29T11:40:32.264Z",
    "startDate": "2026-02-23",
    "dueDate": "2026-09-16",
    "estimatedHours": null,
-   "spentHours": 247.0,
+   "spentHours": 248.0,
    "percentDone": null
   },
   {
@@ -5944,11 +5944,11 @@
    "project": "II_USS_AGENT_POC",
    "parentId": null,
    "createdAt": "2026-06-05T10:41:36.604Z",
-   "updatedAt": "2026-10-22T20:06:27.214Z",
+   "updatedAt": "2026-11-01T21:19:03.283Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 593.0,
+   "spentHours": 643.0,
    "percentDone": null
   },
   {
@@ -5984,11 +5984,11 @@
    "project": "II_USS_AGENT_POC",
    "parentId": 2930,
    "createdAt": "2026-06-05T10:43:10.093Z",
-   "updatedAt": "2026-10-22T20:06:27.194Z",
+   "updatedAt": "2026-11-01T21:19:03.266Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 351.0,
+   "spentHours": 401.0,
    "percentDone": null
   },
   {
@@ -6135,16 +6135,16 @@
    "id": 2941,
    "subject": "k8s mcp server",
    "type": "Task",
-   "status": "In progress",
+   "status": "Pending",
    "isClosed": false,
    "priority": "Normal",
-   "assignee": null,
+   "assignee": "Oleksandr Bondar",
    "author": "Anton Gorobets",
    "version": null,
    "project": "II_USS_AGENT_POC",
    "parentId": 2932,
    "createdAt": "2026-06-05T13:03:14.208Z",
-   "updatedAt": "2026-10-09T17:58:50.623Z",
+   "updatedAt": "2026-10-27T16:31:21.689Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -8654,7 +8654,7 @@
   {
    "id": 3402,
    "subject": "Додати фільтри для пошуку читачів",
-   "type": "Task",
+   "type": "Extra",
    "status": "Done",
    "isClosed": true,
    "priority": "High",
@@ -8664,7 +8664,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": null,
    "createdAt": "2026-07-21T08:50:11.522Z",
-   "updatedAt": "2026-08-10T10:59:56.702Z",
+   "updatedAt": "2026-10-28T08:51:34.401Z",
    "startDate": null,
    "dueDate": "2026-08-03",
    "estimatedHours": null,
@@ -8804,7 +8804,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": null,
    "createdAt": "2026-07-22T09:24:26.112Z",
-   "updatedAt": "2026-10-12T09:24:18.305Z",
+   "updatedAt": "2026-10-28T08:36:19.440Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -9608,7 +9608,7 @@
    "startDate": "2026-08-10",
    "dueDate": "2026-08-10",
    "estimatedHours": null,
-   "spentHours": 122.0,
+   "spentHours": 123.0,
    "percentDone": 100
   },
   {
@@ -10195,8 +10195,8 @@
    "id": 3527,
    "subject": "БАГИ ВІД ГІОЦ (ДЕФЕКТИ)",
    "type": "Epic",
-   "status": "In progress",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": null,
    "author": "Anton Gorobets",
@@ -10204,12 +10204,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3460,
    "createdAt": "2026-08-12T08:31:18.274Z",
-   "updatedAt": "2026-10-22T09:55:54.439Z",
+   "updatedAt": "2026-10-26T10:08:38.669Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 100.0,
-   "percentDone": null
+   "spentHours": 101.0,
+   "percentDone": 100
   },
   {
    "id": 3528,
@@ -10255,7 +10255,7 @@
    "id": 3530,
    "subject": "Відкрите питання. Яким чином відбувається погодження пропозицій?",
    "type": "Task",
-   "status": "New",
+   "status": "Pending",
    "isClosed": false,
    "priority": "Normal",
    "assignee": null,
@@ -10264,7 +10264,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 3527,
    "createdAt": "2026-08-12T08:36:19.497Z",
-   "updatedAt": "2026-08-12T08:36:19.497Z",
+   "updatedAt": "2026-10-26T10:08:33.724Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -10348,7 +10348,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 4.0,
    "percentDone": 100
   },
   {
@@ -11568,7 +11568,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 2.0,
+   "spentHours": 3.0,
    "percentDone": 100
   },
   {
@@ -13788,7 +13788,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 40.0,
+   "spentHours": 41.0,
    "percentDone": 100
   },
   {
@@ -16068,7 +16068,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 159.0,
+   "spentHours": 189.5,
    "percentDone": null
   },
   {
@@ -16088,7 +16088,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 16.0,
+   "spentHours": 15.0,
    "percentDone": null
   },
   {
@@ -16128,7 +16128,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 6.0,
+   "spentHours": 9.5,
    "percentDone": 100
   },
   {
@@ -16148,7 +16148,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 21.0,
+   "spentHours": 22.5,
    "percentDone": null
   },
   {
@@ -16168,7 +16168,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 8.0,
+   "spentHours": 10.5,
    "percentDone": null
   },
   {
@@ -16188,7 +16188,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 12.0,
+   "spentHours": 12.5,
    "percentDone": null
   },
   {
@@ -16208,7 +16208,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 69.0,
+   "spentHours": 73.0,
    "percentDone": null
   },
   {
@@ -16228,7 +16228,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 17.0,
+   "spentHours": 31.5,
    "percentDone": null
   },
   {
@@ -16928,7 +16928,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 5.0,
+   "spentHours": 4.0,
    "percentDone": 100
   },
   {
@@ -17048,7 +17048,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 1.5,
    "percentDone": null
   },
   {
@@ -17068,7 +17068,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 2.0,
+   "spentHours": 5.5,
    "percentDone": 100
   },
   {
@@ -17108,7 +17108,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 4.0,
+   "spentHours": 6.5,
    "percentDone": null
   },
   {
@@ -17248,7 +17248,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 0.5,
    "percentDone": null
   },
   {
@@ -17264,7 +17264,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 3883,
    "createdAt": "2026-08-31T10:34:18.374Z",
-   "updatedAt": "2026-10-15T07:21:58.460Z",
+   "updatedAt": "2026-10-27T13:45:25.835Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -17308,7 +17308,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 65.0,
+   "spentHours": 67.5,
    "percentDone": 100
   },
   {
@@ -17348,7 +17348,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 1.5,
    "percentDone": null
   },
   {
@@ -17388,7 +17388,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 4.0,
+   "spentHours": 4.5,
    "percentDone": null
   },
   {
@@ -17408,7 +17408,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 6.0,
+   "spentHours": 6.5,
    "percentDone": null
   },
   {
@@ -17448,7 +17448,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 4.0,
+   "spentHours": 6.0,
    "percentDone": null
   },
   {
@@ -18444,7 +18444,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 3877,
    "createdAt": "2026-09-24T05:19:00.594Z",
-   "updatedAt": "2026-10-12T09:30:16.867Z",
+   "updatedAt": "2026-10-28T08:55:00.498Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -18735,8 +18735,8 @@
    "id": 4212,
    "subject": "Реалізувати cross-repo CD trigger",
    "type": "Task",
-   "status": "New",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Valerii Haivoronskyi",
    "author": "Anton Gorobets",
@@ -18744,19 +18744,19 @@
    "project": "II_CI/CD AVDU (abondar)",
    "parentId": null,
    "createdAt": "2026-09-28T10:21:59.766Z",
-   "updatedAt": "2026-09-28T10:21:59.766Z",
+   "updatedAt": "2026-10-27T17:12:36.177Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
-   "percentDone": null
+   "spentHours": 7.0,
+   "percentDone": 100
   },
   {
    "id": 4213,
    "subject": "Передавати artifact metadata",
    "type": "Task",
-   "status": "New",
-   "isClosed": false,
+   "status": "Rejected",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Valerii Haivoronskyi",
    "author": "Anton Gorobets",
@@ -18764,19 +18764,19 @@
    "project": "II_CI/CD AVDU (abondar)",
    "parentId": null,
    "createdAt": "2026-09-28T10:22:49.692Z",
-   "updatedAt": "2026-09-28T10:22:49.692Z",
+   "updatedAt": "2026-10-28T14:59:32.420Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 4214,
    "subject": "Update TEST deployment state",
    "type": "Task",
-   "status": "New",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Valerii Haivoronskyi",
    "author": "Anton Gorobets",
@@ -18784,19 +18784,19 @@
    "project": "II_CI/CD AVDU (abondar)",
    "parentId": null,
    "createdAt": "2026-09-28T10:23:46.045Z",
-   "updatedAt": "2026-09-28T10:23:46.045Z",
+   "updatedAt": "2026-10-28T16:16:56.515Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
-   "percentDone": null
+   "spentHours": 2.0,
+   "percentDone": 100
   },
   {
    "id": 4215,
    "subject": "CD concurrency",
    "type": "Task",
-   "status": "New",
-   "isClosed": false,
+   "status": "Rejected",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Valerii Haivoronskyi",
    "author": "Anton Gorobets",
@@ -18804,19 +18804,19 @@
    "project": "II_CI/CD AVDU (abondar)",
    "parentId": null,
    "createdAt": "2026-09-28T10:24:40.558Z",
-   "updatedAt": "2026-09-28T10:24:40.558Z",
+   "updatedAt": "2026-10-29T12:26:57.079Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 0.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 4216,
    "subject": "Validate deployment configuration",
    "type": "Task",
-   "status": "New",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Valerii Haivoronskyi",
    "author": "Anton Gorobets",
@@ -18824,19 +18824,19 @@
    "project": "II_CI/CD AVDU (abondar)",
    "parentId": null,
    "createdAt": "2026-09-28T10:26:05.122Z",
-   "updatedAt": "2026-09-28T10:26:05.122Z",
+   "updatedAt": "2026-10-29T15:01:21.582Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
-   "percentDone": null
+   "spentHours": 2.0,
+   "percentDone": 100
   },
   {
    "id": 4217,
    "subject": "Automatic TEST deployment",
    "type": "Task",
-   "status": "New",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Valerii Haivoronskyi",
    "author": "Anton Gorobets",
@@ -18844,12 +18844,12 @@
    "project": "II_CI/CD AVDU (abondar)",
    "parentId": null,
    "createdAt": "2026-09-28T10:27:02.464Z",
-   "updatedAt": "2026-09-28T10:27:38.226Z",
+   "updatedAt": "2026-10-29T17:36:40.368Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
-   "percentDone": null
+   "spentHours": 2.0,
+   "percentDone": 100
   },
   {
    "id": 4218,
@@ -19535,7 +19535,7 @@
    "id": 4295,
    "subject": "promethus mcp server",
    "type": "Task",
-   "status": "In progress",
+   "status": "Pending",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Oleksandr Bondar",
@@ -19544,7 +19544,7 @@
    "project": "II_USS_AGENT_POC",
    "parentId": 2932,
    "createdAt": "2026-10-01T20:00:07.542Z",
-   "updatedAt": "2026-10-01T20:00:17.268Z",
+   "updatedAt": "2026-10-27T16:31:27.375Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -19688,7 +19688,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 79.0,
+   "spentHours": 90.0,
    "percentDone": null
   },
   {
@@ -20048,7 +20048,7 @@
    "startDate": "2026-10-23",
    "dueDate": "2026-10-23",
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 9.0,
    "percentDone": null
   },
   {
@@ -20088,7 +20088,7 @@
    "startDate": null,
    "dueDate": "2026-10-23",
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 3.5,
    "percentDone": null
   },
   {
@@ -20104,11 +20104,11 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 4341,
    "createdAt": "2026-10-13T09:48:33.208Z",
-   "updatedAt": "2026-10-20T09:45:26.796Z",
+   "updatedAt": "2026-10-28T08:37:21.027Z",
    "startDate": null,
    "dueDate": "2026-10-23",
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 3.0,
    "percentDone": null
   },
   {
@@ -20184,11 +20184,11 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": null,
    "createdAt": "2026-10-15T09:38:54.977Z",
-   "updatedAt": "2026-10-22T10:40:10.278Z",
-   "startDate": "2026-10-26",
-   "dueDate": "2026-10-26",
+   "updatedAt": "2026-10-30T10:31:30.615Z",
+   "startDate": "2026-11-02",
+   "dueDate": "2026-11-02",
    "estimatedHours": null,
-   "spentHours": 2.0,
+   "spentHours": 22.0,
    "percentDone": null
   },
   {
@@ -20204,12 +20204,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 4352,
    "createdAt": "2026-10-15T10:01:08.886Z",
-   "updatedAt": "2026-10-22T10:40:10.231Z",
+   "updatedAt": "2026-10-30T10:31:30.582Z",
    "startDate": null,
-   "dueDate": "2026-10-26",
+   "dueDate": "2026-11-02",
    "estimatedHours": null,
-   "spentHours": 0.0,
-   "percentDone": null
+   "spentHours": 18.0,
+   "percentDone": 100
   },
   {
    "id": 4355,
@@ -20244,19 +20244,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 1271,
    "createdAt": "2026-10-15T12:13:18.353Z",
-   "updatedAt": "2026-10-19T07:55:29.567Z",
+   "updatedAt": "2026-10-29T11:40:32.245Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 4.0,
+   "spentHours": 5.0,
    "percentDone": null
   },
   {
    "id": 4357,
    "subject": "Роботи Богдана",
    "type": "Task",
-   "status": "In progress",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Bogdan Zavialov",
    "author": "Anton Gorobets",
@@ -20264,19 +20264,19 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 4356,
    "createdAt": "2026-10-15T12:13:47.592Z",
-   "updatedAt": "2026-10-15T12:14:27.187Z",
+   "updatedAt": "2026-10-26T10:05:58.999Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
    "spentHours": 4.0,
-   "percentDone": null
+   "percentDone": 100
   },
   {
    "id": 4358,
    "subject": "Роботи Максіма",
    "type": "Task",
-   "status": "In progress",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
    "author": "Anton Gorobets",
@@ -20284,12 +20284,12 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 4356,
    "createdAt": "2026-10-15T12:14:11.899Z",
-   "updatedAt": "2026-10-15T12:14:41.919Z",
+   "updatedAt": "2026-10-29T11:40:32.144Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
-   "percentDone": null
+   "spentHours": 1.0,
+   "percentDone": 100
   },
   {
    "id": 4359,
@@ -20333,7 +20333,7 @@
   },
   {
    "id": 4424,
-   "subject": "understanding the code claude wrote",
+   "subject": "understanding/refactoring the code claude wrote",
    "type": "Task",
    "status": "In progress",
    "isClosed": false,
@@ -20344,11 +20344,11 @@
    "project": "II_USS_AGENT_POC",
    "parentId": 4304,
    "createdAt": "2026-10-20T17:30:11.078Z",
-   "updatedAt": "2026-10-20T17:30:19.352Z",
+   "updatedAt": "2026-10-26T18:41:34.303Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 18.0,
+   "spentHours": 29.0,
    "percentDone": null
   },
   {
@@ -20368,7 +20368,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 10.0,
    "percentDone": null
   },
   {
@@ -20388,7 +20388,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 3.5,
    "percentDone": null
   },
   {
@@ -20408,7 +20408,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 1.5,
    "percentDone": null
   },
   {
@@ -20428,7 +20428,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 1.5,
    "percentDone": null
   },
   {
@@ -20448,7 +20448,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 2.5,
    "percentDone": null
   },
   {
@@ -20468,7 +20468,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 1.0,
    "percentDone": null
   },
   {
@@ -20488,7 +20488,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 1.5,
    "percentDone": null
   },
   {
@@ -20504,11 +20504,11 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 4341,
    "createdAt": "2026-10-21T16:11:21.519Z",
-   "updatedAt": "2026-10-22T16:43:48.381Z",
+   "updatedAt": "2026-10-28T08:45:59.928Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 1.0,
    "percentDone": null
   },
   {
@@ -20568,7 +20568,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 10.0,
+   "spentHours": 5.0,
    "percentDone": null
   },
   {
@@ -20588,7 +20588,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 5.0,
+   "spentHours": 7.0,
    "percentDone": null
   },
   {
@@ -20608,7 +20608,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 5.0,
+   "spentHours": 6.0,
    "percentDone": null
   },
   {
@@ -20628,7 +20628,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 6.0,
+   "spentHours": 7.0,
    "percentDone": null
   },
   {
@@ -20648,7 +20648,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 2.0,
+   "spentHours": 3.0,
    "percentDone": null
   },
   {
@@ -20688,7 +20688,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 6.0,
+   "spentHours": 3.0,
    "percentDone": null
   },
   {
@@ -20715,7 +20715,7 @@
    "id": 4464,
    "subject": "CI",
    "type": "Task",
-   "status": "In progress",
+   "status": "Pending",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Oleksandr Bondar",
@@ -20724,7 +20724,7 @@
    "project": "II_USS_AGENT_POC",
    "parentId": 4463,
    "createdAt": "2026-10-22T20:05:51.022Z",
-   "updatedAt": "2026-10-22T20:06:59.848Z",
+   "updatedAt": "2026-10-27T16:31:35.874Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -20735,7 +20735,7 @@
    "id": 4465,
    "subject": "CI",
    "type": "Task",
-   "status": "In progress",
+   "status": "Pending",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Oleksandr Bondar",
@@ -20744,7 +20744,7 @@
    "project": "II_USS_AGENT_POC",
    "parentId": 2932,
    "createdAt": "2026-10-22T20:06:27.138Z",
-   "updatedAt": "2026-10-22T20:06:54.722Z",
+   "updatedAt": "2026-10-27T16:31:45.730Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -20808,7 +20808,7 @@
    "startDate": "2026-10-26",
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 2.0,
    "percentDone": null
   },
   {
@@ -20828,7 +20828,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 5.0,
+   "spentHours": 8.0,
    "percentDone": null
   },
   {
@@ -20875,7 +20875,7 @@
    "id": 4481,
    "subject": "Створення запитів для тестування функціоналу черги на примірник",
    "type": "Task",
-   "status": "New",
+   "status": "Ready for test",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
@@ -20884,7 +20884,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 4341,
    "createdAt": "2026-10-23T11:24:52.910Z",
-   "updatedAt": "2026-10-23T11:24:52.910Z",
+   "updatedAt": "2026-10-27T13:45:26.254Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -20895,8 +20895,8 @@
    "id": 4484,
    "subject": "QA Deployment Lock",
    "type": "Task",
-   "status": "New",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Valerii Haivoronskyi",
    "author": "Valerii Haivoronskyi",
@@ -20904,19 +20904,19 @@
    "project": "II_CI/CD AVDU (abondar)",
    "parentId": null,
    "createdAt": "2026-10-23T15:06:31.981Z",
-   "updatedAt": "2026-10-23T15:06:31.981Z",
+   "updatedAt": "2026-10-29T16:25:18.115Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
-   "percentDone": null
+   "spentHours": 2.0,
+   "percentDone": 100
   },
   {
    "id": 4485,
    "subject": "QA Unlock & CD Reconcile",
    "type": "Task",
-   "status": "New",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Valerii Haivoronskyi",
    "author": "Valerii Haivoronskyi",
@@ -20924,19 +20924,19 @@
    "project": "II_CI/CD AVDU (abondar)",
    "parentId": null,
    "createdAt": "2026-10-23T15:07:03.299Z",
-   "updatedAt": "2026-10-23T15:07:03.299Z",
+   "updatedAt": "2026-10-29T20:08:04.039Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
-   "percentDone": null
+   "spentHours": 2.0,
+   "percentDone": 100
   },
   {
    "id": 4486,
    "subject": "Ручне розгортання проєкту",
    "type": "Task",
-   "status": "In progress",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": null,
    "author": "Valerii Haivoronskyi",
@@ -20944,7 +20944,27 @@
    "project": "II_CI/CD AVDU (abondar)",
    "parentId": null,
    "createdAt": "2026-10-23T15:34:13.962Z",
-   "updatedAt": "2026-10-26T07:25:10.984Z",
+   "updatedAt": "2026-10-27T11:47:29.862Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 4.0,
+   "percentDone": 100
+  },
+  {
+   "id": 4487,
+   "subject": "ТЛ: Поправити Пошук по книгам ",
+   "type": "Extra",
+   "status": "Ready for test",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Maksym Khrystunov",
+   "author": "Anton Gorobets",
+   "version": null,
+   "project": "25_GIOC_UE_LIB",
+   "parentId": 4341,
+   "createdAt": "2026-10-24T15:17:21.775Z",
+   "updatedAt": "2026-10-28T08:50:34.117Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -20952,8 +20972,88 @@
    "percentDone": null
   },
   {
-   "id": 4487,
-   "subject": "ТЛ: Поправити Пошук по книгам ",
+   "id": 4494,
+   "subject": "Дослідження асистента генерації повідомлення основної моделі",
+   "type": "Task",
+   "status": "Done",
+   "isClosed": true,
+   "priority": "Normal",
+   "assignee": "Bogdan Zavialov",
+   "author": "Anton Gorobets",
+   "version": null,
+   "project": "25_GIOC_INFO_BOT",
+   "parentId": 1242,
+   "createdAt": "2026-10-26T10:05:24.132Z",
+   "updatedAt": "2026-10-29T11:39:54.250Z",
+   "startDate": null,
+   "dueDate": "2026-10-28",
+   "estimatedHours": null,
+   "spentHours": 16.0,
+   "percentDone": 100
+  },
+  {
+   "id": 4501,
+   "subject": "Мобільна версія: бокове меню відкривається прозорим поверх сторінки",
+   "type": "Bug",
+   "status": "Ready for test",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Maksym Khrystunov",
+   "author": "Maksym Khrystunov",
+   "version": null,
+   "project": "25_GIOC_INFO_BOT",
+   "parentId": null,
+   "createdAt": "2026-10-27T15:25:09.943Z",
+   "updatedAt": "2026-10-27T15:37:05.999Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 0.0,
+   "percentDone": null
+  },
+  {
+   "id": 4506,
+   "subject": "vmware mcp server",
+   "type": "Task",
+   "status": "Done",
+   "isClosed": true,
+   "priority": "Normal",
+   "assignee": "Oleksandr Bondar",
+   "author": "Oleksandr Bondar",
+   "version": null,
+   "project": "II_USS_AGENT_POC",
+   "parentId": 2932,
+   "createdAt": "2026-10-27T16:26:07.842Z",
+   "updatedAt": "2026-10-29T20:04:09.896Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 23.0,
+   "percentDone": 100
+  },
+  {
+   "id": 4508,
+   "subject": "Додати звіт по номеру партії (третя лінія)",
+   "type": "Extra",
+   "status": "New",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Maksym Khrystunov",
+   "author": "Anton Gorobets",
+   "version": null,
+   "project": "25_GIOC_UE_LIB",
+   "parentId": 4341,
+   "createdAt": "2026-10-28T08:31:54.183Z",
+   "updatedAt": "2026-10-30T10:33:14.810Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 0.0,
+   "percentDone": null
+  },
+  {
+   "id": 4510,
+   "subject": "ТЛ: Перенести дані з інвентарного номеру до штрихкоду на рівні примірника",
    "type": "Task",
    "status": "New",
    "isClosed": false,
@@ -20963,8 +21063,148 @@
    "version": null,
    "project": "25_GIOC_UE_LIB",
    "parentId": 4341,
-   "createdAt": "2026-10-24T15:17:21.775Z",
-   "updatedAt": "2026-10-24T15:17:21.775Z",
+   "createdAt": "2026-10-28T08:44:19.264Z",
+   "updatedAt": "2026-10-30T10:33:14.725Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 0.0,
+   "percentDone": null
+  },
+  {
+   "id": 4525,
+   "subject": "Зняття логів по мережевому обладнанню Cisco та Dell за жовтень",
+   "type": "Task",
+   "status": "Done",
+   "isClosed": true,
+   "priority": "Normal",
+   "assignee": "Ilia Vitushko",
+   "author": "Ilia Vitushko",
+   "version": null,
+   "project": "26_MIU_FTSU",
+   "parentId": null,
+   "createdAt": "2026-10-29T11:51:15.132Z",
+   "updatedAt": "2026-10-29T11:52:48.355Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 4.0,
+   "percentDone": 100
+  },
+  {
+   "id": 4531,
+   "subject": "Створити CI для vmware_mcp",
+   "type": "Task",
+   "status": "New",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": null,
+   "author": "Valerii Haivoronskyi",
+   "version": null,
+   "project": "II_CI/CD AVDU (abondar)",
+   "parentId": null,
+   "createdAt": "2026-10-29T20:12:53.992Z",
+   "updatedAt": "2026-10-29T20:12:53.992Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 0.0,
+   "percentDone": null
+  },
+  {
+   "id": 4701,
+   "subject": "Формування звіту по логам серверної інфраструктури за 20.10.26",
+   "type": "Task",
+   "status": "Done",
+   "isClosed": true,
+   "priority": "Normal",
+   "assignee": "Ilia Vitushko",
+   "author": "Ilia Vitushko",
+   "version": null,
+   "project": "26_MIU_FTSU",
+   "parentId": null,
+   "createdAt": "2026-10-30T14:07:15.831Z",
+   "updatedAt": "2026-10-30T14:07:41.095Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 3.0,
+   "percentDone": 100
+  },
+  {
+   "id": 4704,
+   "subject": "Farmak/ CrowdStrike SIEM ",
+   "type": "Task",
+   "status": "In progress",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Ivan Martyniuk",
+   "author": "Ivan Martyniuk",
+   "version": null,
+   "project": "INTERNAL&INDIVIDUAL",
+   "parentId": null,
+   "createdAt": "2026-11-01T12:49:33.580Z",
+   "updatedAt": "2026-11-01T12:50:51.314Z",
+   "startDate": "2026-10-19",
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 2.0,
+   "percentDone": null
+  },
+  {
+   "id": 4706,
+   "subject": "vmware prometheus exporter",
+   "type": "Task",
+   "status": "Done",
+   "isClosed": true,
+   "priority": "Normal",
+   "assignee": "Oleksandr Bondar",
+   "author": "Oleksandr Bondar",
+   "version": null,
+   "project": "II_USS_AGENT_POC",
+   "parentId": 2932,
+   "createdAt": "2026-11-01T21:18:11.349Z",
+   "updatedAt": "2026-11-01T21:19:03.222Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 16.0,
+   "percentDone": 100
+  },
+  {
+   "id": 4707,
+   "subject": "Оптимізація Kubernetes-кластеру на лабораторному середовищі WMGroup",
+   "type": "Task",
+   "status": "New",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Bogdan Zavialov",
+   "author": "Bogdan Zavialov",
+   "version": null,
+   "project": "BZAVIALOV",
+   "parentId": null,
+   "createdAt": "2026-11-02T07:52:49.753Z",
+   "updatedAt": "2026-11-02T07:52:49.753Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 0.0,
+   "percentDone": null
+  },
+  {
+   "id": 4708,
+   "subject": "Вирішення блокування OSD пристроїв на кластері Ceph",
+   "type": "Task",
+   "status": "New",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Bogdan Zavialov",
+   "author": "Bogdan Zavialov",
+   "version": null,
+   "project": "BZAVIALOV",
+   "parentId": null,
+   "createdAt": "2026-11-02T07:55:23.492Z",
+   "updatedAt": "2026-11-02T07:55:23.492Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -21686,6 +21926,13 @@
    "user": "Anton Gorobets",
    "from": "In progress",
    "to": "New"
+  },
+  {
+   "wpId": 1254,
+   "at": "2026-10-26T10:08:53.972Z",
+   "user": "Anton Gorobets",
+   "from": "New",
+   "to": "In progress"
   },
   {
    "wpId": 1255,
@@ -27057,6 +27304,13 @@
    "to": "In progress"
   },
   {
+   "wpId": 2941,
+   "at": "2026-10-27T16:31:21.689Z",
+   "user": "Oleksandr Bondar",
+   "from": "In progress",
+   "to": "Pending"
+  },
+  {
    "wpId": 2942,
    "at": "2026-06-08T07:16:04.961Z",
    "user": "Anton Gorobets",
@@ -30284,6 +30538,13 @@
    "to": "In progress"
   },
   {
+   "wpId": 3527,
+   "at": "2026-10-26T10:08:38.669Z",
+   "user": "Anton Gorobets",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
    "wpId": 3528,
    "at": "2026-08-12T08:32:56.434Z",
    "user": "Anton Gorobets",
@@ -30331,6 +30592,13 @@
    "user": "Anton Gorobets",
    "from": null,
    "to": "New"
+  },
+  {
+   "wpId": 3530,
+   "at": "2026-10-26T10:08:33.724Z",
+   "user": "Anton Gorobets",
+   "from": "New",
+   "to": "Pending"
   },
   {
    "wpId": 3531,
@@ -38817,11 +39085,32 @@
    "to": "New"
   },
   {
+   "wpId": 4212,
+   "at": "2026-10-27T12:06:44.371Z",
+   "user": "Valerii Haivoronskyi",
+   "from": "New",
+   "to": "In progress"
+  },
+  {
+   "wpId": 4212,
+   "at": "2026-10-27T17:12:36.177Z",
+   "user": "Valerii Haivoronskyi",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
    "wpId": 4213,
    "at": "2026-09-28T10:22:49.692Z",
    "user": "Anton Gorobets",
    "from": null,
    "to": "New"
+  },
+  {
+   "wpId": 4213,
+   "at": "2026-10-28T14:59:12.460Z",
+   "user": "Valerii Haivoronskyi",
+   "from": "New",
+   "to": "Rejected"
   },
   {
    "wpId": 4214,
@@ -38831,11 +39120,32 @@
    "to": "New"
   },
   {
+   "wpId": 4214,
+   "at": "2026-10-28T16:16:56.515Z",
+   "user": "Valerii Haivoronskyi",
+   "from": "New",
+   "to": "Done"
+  },
+  {
    "wpId": 4215,
    "at": "2026-09-28T10:24:40.558Z",
    "user": "Anton Gorobets",
    "from": null,
    "to": "New"
+  },
+  {
+   "wpId": 4215,
+   "at": "2026-10-28T16:20:43.385Z",
+   "user": "Valerii Haivoronskyi",
+   "from": "New",
+   "to": "In progress"
+  },
+  {
+   "wpId": 4215,
+   "at": "2026-10-29T12:26:57.079Z",
+   "user": "Valerii Haivoronskyi",
+   "from": "In progress",
+   "to": "Rejected"
   },
   {
    "wpId": 4216,
@@ -38845,11 +39155,32 @@
    "to": "New"
   },
   {
+   "wpId": 4216,
+   "at": "2026-10-29T12:27:08.477Z",
+   "user": "Valerii Haivoronskyi",
+   "from": "New",
+   "to": "In progress"
+  },
+  {
+   "wpId": 4216,
+   "at": "2026-10-29T15:01:21.582Z",
+   "user": "Valerii Haivoronskyi",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
    "wpId": 4217,
    "at": "2026-09-28T10:27:02.464Z",
    "user": "Anton Gorobets",
    "from": null,
    "to": "New"
+  },
+  {
+   "wpId": 4217,
+   "at": "2026-10-29T17:36:40.368Z",
+   "user": "Valerii Haivoronskyi",
+   "from": "New",
+   "to": "Done"
   },
   {
    "wpId": 4218,
@@ -39123,6 +39454,13 @@
    "user": "Oleksandr Bondar",
    "from": null,
    "to": "In progress"
+  },
+  {
+   "wpId": 4295,
+   "at": "2026-10-27T16:31:27.375Z",
+   "user": "Oleksandr Bondar",
+   "from": "In progress",
+   "to": "Pending"
   },
   {
    "wpId": 4296,
@@ -39601,6 +39939,20 @@
    "to": "In progress"
   },
   {
+   "wpId": 4353,
+   "at": "2026-10-27T07:38:10.115Z",
+   "user": "Anton Gorobets",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
+   "wpId": 4353,
+   "at": "2026-10-30T10:31:12.172Z",
+   "user": "Anton Gorobets",
+   "from": "Done",
+   "to": "In progress"
+  },
+  {
    "wpId": 4355,
    "at": "2026-10-15T10:43:15.533Z",
    "user": "Anton Gorobets",
@@ -39622,11 +39974,25 @@
    "to": "In progress"
   },
   {
+   "wpId": 4357,
+   "at": "2026-10-26T10:05:58.999Z",
+   "user": "Anton Gorobets",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
    "wpId": 4358,
    "at": "2026-10-15T12:14:11.899Z",
    "user": "Anton Gorobets",
    "from": null,
    "to": "In progress"
+  },
+  {
+   "wpId": 4358,
+   "at": "2026-10-29T11:40:32.144Z",
+   "user": "Anton Gorobets",
+   "from": "In progress",
+   "to": "Done"
   },
   {
    "wpId": 4359,
@@ -39860,11 +40226,25 @@
    "to": "In progress"
   },
   {
+   "wpId": 4464,
+   "at": "2026-10-27T16:31:35.874Z",
+   "user": "Oleksandr Bondar",
+   "from": "In progress",
+   "to": "Pending"
+  },
+  {
    "wpId": 4465,
    "at": "2026-10-22T20:06:27.138Z",
    "user": "Oleksandr Bondar",
    "from": null,
    "to": "In progress"
+  },
+  {
+   "wpId": 4465,
+   "at": "2026-10-27T16:31:45.730Z",
+   "user": "Oleksandr Bondar",
+   "from": "In progress",
+   "to": "Pending"
   },
   {
    "wpId": 4472,
@@ -39923,6 +40303,13 @@
    "to": "New"
   },
   {
+   "wpId": 4481,
+   "at": "2026-10-27T13:45:25.605Z",
+   "user": "Maksym Khrystunov",
+   "from": "New",
+   "to": "Ready for test"
+  },
+  {
    "wpId": 4484,
    "at": "2026-10-23T15:06:31.981Z",
    "user": "Valerii Haivoronskyi",
@@ -39930,11 +40317,32 @@
    "to": "New"
   },
   {
+   "wpId": 4484,
+   "at": "2026-10-29T15:02:03.328Z",
+   "user": "Valerii Haivoronskyi",
+   "from": "New",
+   "to": "In progress"
+  },
+  {
+   "wpId": 4484,
+   "at": "2026-10-29T16:25:18.115Z",
+   "user": "Valerii Haivoronskyi",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
    "wpId": 4485,
    "at": "2026-10-23T15:07:03.299Z",
    "user": "Valerii Haivoronskyi",
    "from": null,
    "to": "New"
+  },
+  {
+   "wpId": 4485,
+   "at": "2026-10-29T20:08:04.039Z",
+   "user": "Valerii Haivoronskyi",
+   "from": "New",
+   "to": "Done"
   },
   {
    "wpId": 4486,
@@ -39951,9 +40359,128 @@
    "to": "In progress"
   },
   {
+   "wpId": 4486,
+   "at": "2026-10-27T11:41:22.472Z",
+   "user": "Valerii Haivoronskyi",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
    "wpId": 4487,
    "at": "2026-10-24T15:17:21.775Z",
    "user": "Anton Gorobets",
+   "from": null,
+   "to": "New"
+  },
+  {
+   "wpId": 4487,
+   "at": "2026-10-27T13:45:25.701Z",
+   "user": "Maksym Khrystunov",
+   "from": "New",
+   "to": "Ready for test"
+  },
+  {
+   "wpId": 4494,
+   "at": "2026-10-26T10:05:24.132Z",
+   "user": "Anton Gorobets",
+   "from": null,
+   "to": "In progress"
+  },
+  {
+   "wpId": 4494,
+   "at": "2026-10-29T11:39:54.250Z",
+   "user": "Anton Gorobets",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
+   "wpId": 4501,
+   "at": "2026-10-27T15:25:09.943Z",
+   "user": "Maksym Khrystunov",
+   "from": null,
+   "to": "New"
+  },
+  {
+   "wpId": 4501,
+   "at": "2026-10-27T15:37:05.999Z",
+   "user": "Maksym Khrystunov",
+   "from": "New",
+   "to": "Ready for test"
+  },
+  {
+   "wpId": 4506,
+   "at": "2026-10-27T16:26:07.842Z",
+   "user": "Oleksandr Bondar",
+   "from": null,
+   "to": "In progress"
+  },
+  {
+   "wpId": 4506,
+   "at": "2026-10-29T20:04:09.896Z",
+   "user": "Oleksandr Bondar",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
+   "wpId": 4508,
+   "at": "2026-10-28T08:31:54.183Z",
+   "user": "Anton Gorobets",
+   "from": null,
+   "to": "New"
+  },
+  {
+   "wpId": 4510,
+   "at": "2026-10-28T08:44:19.264Z",
+   "user": "Anton Gorobets",
+   "from": null,
+   "to": "New"
+  },
+  {
+   "wpId": 4525,
+   "at": "2026-10-29T11:51:15.132Z",
+   "user": "Ilia Vitushko",
+   "from": null,
+   "to": "Done"
+  },
+  {
+   "wpId": 4531,
+   "at": "2026-10-29T20:12:53.992Z",
+   "user": "Valerii Haivoronskyi",
+   "from": null,
+   "to": "New"
+  },
+  {
+   "wpId": 4701,
+   "at": "2026-10-30T14:07:15.831Z",
+   "user": "Ilia Vitushko",
+   "from": null,
+   "to": "Done"
+  },
+  {
+   "wpId": 4704,
+   "at": "2026-11-01T12:49:33.580Z",
+   "user": "Ivan Martyniuk",
+   "from": null,
+   "to": "In progress"
+  },
+  {
+   "wpId": 4706,
+   "at": "2026-11-01T21:18:11.349Z",
+   "user": "Oleksandr Bondar",
+   "from": null,
+   "to": "Done"
+  },
+  {
+   "wpId": 4707,
+   "at": "2026-11-02T07:52:49.753Z",
+   "user": "Bogdan Zavialov",
+   "from": null,
+   "to": "New"
+  },
+  {
+   "wpId": 4708,
+   "at": "2026-11-02T07:55:23.492Z",
+   "user": "Bogdan Zavialov",
    "from": null,
    "to": "New"
   }
@@ -39978,6 +40505,708 @@
   "Subject changed from Участь у зустрічах із Замовником to Участь у ... (зустрічі із Замовником, статусні наради, сінки...)"
  ],
  "timeEntries": [
+  {
+   "id": 1602,
+   "wpId": 4353,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-02",
+   "hours": 10.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1601,
+   "wpId": 4706,
+   "user": "Oleksandr Bondar",
+   "spentOn": "2026-11-01",
+   "hours": 16.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1600,
+   "wpId": 4704,
+   "user": "Ivan Martyniuk",
+   "spentOn": "2026-10-19",
+   "hours": 2.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1599,
+   "wpId": 4475,
+   "user": "Ivan Martyniuk",
+   "spentOn": "2026-10-26",
+   "hours": 2.0,
+   "activity": "Development",
+   "comment": null
+  },
+  {
+   "id": 1588,
+   "wpId": 4701,
+   "user": "Ilia Vitushko",
+   "spentOn": "2026-10-30",
+   "hours": 1.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1587,
+   "wpId": 4701,
+   "user": "Ilia Vitushko",
+   "spentOn": "2026-10-29",
+   "hours": 2.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1585,
+   "wpId": 4460,
+   "user": "Mykhailo Hurin",
+   "spentOn": "2026-10-30",
+   "hours": 1.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1584,
+   "wpId": 4457,
+   "user": "Vadim Puz",
+   "spentOn": "2026-10-30",
+   "hours": 1.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1567,
+   "wpId": 4485,
+   "user": "Valerii Haivoronskyi",
+   "spentOn": "2026-10-29",
+   "hours": 2.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1566,
+   "wpId": 4506,
+   "user": "Oleksandr Bondar",
+   "spentOn": "2026-10-29",
+   "hours": 10.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1564,
+   "wpId": 4217,
+   "user": "Valerii Haivoronskyi",
+   "spentOn": "2026-10-29",
+   "hours": 2.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1562,
+   "wpId": 4484,
+   "user": "Valerii Haivoronskyi",
+   "spentOn": "2026-10-29",
+   "hours": 2.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1558,
+   "wpId": 4216,
+   "user": "Valerii Haivoronskyi",
+   "spentOn": "2026-10-29",
+   "hours": 2.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1553,
+   "wpId": 4525,
+   "user": "Ilia Vitushko",
+   "spentOn": "2026-10-28",
+   "hours": 4.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1544,
+   "wpId": 4358,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-29",
+   "hours": 1.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1543,
+   "wpId": 4494,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-10-29",
+   "hours": 16.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1527,
+   "wpId": 4506,
+   "user": "Oleksandr Bondar",
+   "spentOn": "2026-10-28",
+   "hours": 8.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1526,
+   "wpId": 4214,
+   "user": "Valerii Haivoronskyi",
+   "spentOn": "2026-10-28",
+   "hours": 1.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1525,
+   "wpId": 4214,
+   "user": "Valerii Haivoronskyi",
+   "spentOn": "2026-10-28",
+   "hours": 1.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1521,
+   "wpId": 4212,
+   "user": "Valerii Haivoronskyi",
+   "spentOn": "2026-10-27",
+   "hours": 7.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1520,
+   "wpId": 4424,
+   "user": "Oleksandr Bondar",
+   "spentOn": "2026-10-27",
+   "hours": 3.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1519,
+   "wpId": 4506,
+   "user": "Oleksandr Bondar",
+   "spentOn": "2026-10-27",
+   "hours": 5.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1512,
+   "wpId": 4486,
+   "user": "Valerii Haivoronskyi",
+   "spentOn": "2026-10-27",
+   "hours": 4.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1507,
+   "wpId": 4462,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-27",
+   "hours": 1.5,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1506,
+   "wpId": 4459,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-10-27",
+   "hours": 1.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1505,
+   "wpId": 4458,
+   "user": "Anton Herasymenko",
+   "spentOn": "2026-10-27",
+   "hours": 1.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1504,
+   "wpId": 4457,
+   "user": "Vadim Puz",
+   "spentOn": "2026-10-27",
+   "hours": 1.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1503,
+   "wpId": 4352,
+   "user": "Oleg Astafiev",
+   "spentOn": "2026-10-27",
+   "hours": 2.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1501,
+   "wpId": 4353,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-10-27",
+   "hours": 8.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1500,
+   "wpId": 4424,
+   "user": "Oleksandr Bondar",
+   "spentOn": "2026-10-26",
+   "hours": 8.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1493,
+   "wpId": 3885,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-23",
+   "hours": 1.0,
+   "activity": "Specification",
+   "comment": "Покриття вимог: #3534, #3940"
+  },
+  {
+   "id": 1492,
+   "wpId": 3955,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-23",
+   "hours": 1.0,
+   "activity": "Development",
+   "comment": "Чернетки за міграцією, точки обслуговування станом на 22.10"
+  },
+  {
+   "id": 1491,
+   "wpId": 3950,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-23",
+   "hours": 2.0,
+   "activity": "Development",
+   "comment": "Пакет передачі S2S для партнерів"
+  },
+  {
+   "id": 1490,
+   "wpId": 3885,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-23",
+   "hours": 4.0,
+   "activity": "Specification",
+   "comment": "Комплект 373: заповнення плейсхолдерів, архів документації на перевірку"
+  },
+  {
+   "id": 1489,
+   "wpId": 3938,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-22",
+   "hours": 0.5,
+   "activity": "Development",
+   "comment": "Заголовок книги сумарного обліку на стенді"
+  },
+  {
+   "id": 1488,
+   "wpId": 3885,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-22",
+   "hours": 1.0,
+   "activity": "Specification",
+   "comment": "Документація під модуль 1.50.x і збірку 1.25.7"
+  },
+  {
+   "id": 1487,
+   "wpId": 4437,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-22",
+   "hours": 1.0,
+   "activity": "Development",
+   "comment": "Типи позик, прибрані зайві поля примірника"
+  },
+  {
+   "id": 1486,
+   "wpId": 4436,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-22",
+   "hours": 1.5,
+   "activity": "Development",
+   "comment": "Звіт по книговидачі"
+  },
+  {
+   "id": 1485,
+   "wpId": 4435,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-22",
+   "hours": 1.0,
+   "activity": "Development",
+   "comment": "Джерела надходження примірника"
+  },
+  {
+   "id": 1484,
+   "wpId": 4434,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-22",
+   "hours": 2.5,
+   "activity": "Development",
+   "comment": "Вибуття примірника: причина, акт списання, виправлення збереження"
+  },
+  {
+   "id": 1483,
+   "wpId": 3947,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-21",
+   "hours": 0.5,
+   "activity": "Development",
+   "comment": "Оновлення документації захисту журналів"
+  },
+  {
+   "id": 1482,
+   "wpId": 3885,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-21",
+   "hours": 1.0,
+   "activity": "Specification",
+   "comment": "Документація, навчання й посібники під 1.49.1 / 1.25.4"
+  },
+  {
+   "id": 1481,
+   "wpId": 4429,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-21",
+   "hours": 1.5,
+   "activity": "Development",
+   "comment": "Прибрано «Система-джерело», переклад статусів"
+  },
+  {
+   "id": 1480,
+   "wpId": 4428,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-21",
+   "hours": 1.5,
+   "activity": "Development",
+   "comment": "Місце видачі для запитів на продовження"
+  },
+  {
+   "id": 1479,
+   "wpId": 4427,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-21",
+   "hours": 3.5,
+   "activity": "Development",
+   "comment": "Розділення бронювання і черги, вікно утримання черги"
+  },
+  {
+   "id": 1478,
+   "wpId": 3950,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-20",
+   "hours": 0.5,
+   "activity": "Development",
+   "comment": "Прогін колекції партнера, анулювання за FR-ANNUL-004"
+  },
+  {
+   "id": 1477,
+   "wpId": 3957,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-20",
+   "hours": 0.5,
+   "activity": "Specification",
+   "comment": "Оновлення навчання під збірку 1.25.x"
+  },
+  {
+   "id": 1476,
+   "wpId": 3885,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-20",
+   "hours": 1.0,
+   "activity": "Specification",
+   "comment": "Знімки екрана в новому стилі, документація під модуль 1.49.0"
+  },
+  {
+   "id": 1475,
+   "wpId": 3954,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-20",
+   "hours": 1.0,
+   "activity": "Development",
+   "comment": "Три пілотні бібліотеки Додатка 1, перейменування бібліотеки LIB_10"
+  },
+  {
+   "id": 1474,
+   "wpId": 4343,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-20",
+   "hours": 1.0,
+   "activity": "Development",
+   "comment": "Нові читачі за бібліотекою реєстрації"
+  },
+  {
+   "id": 1473,
+   "wpId": 3937,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-20",
+   "hours": 1.5,
+   "activity": "Development",
+   "comment": "Вікові позначки для всіх мігрованих записів"
+  },
+  {
+   "id": 1472,
+   "wpId": 3534,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-20",
+   "hours": 2.5,
+   "activity": "Development",
+   "comment": "Масове редагування: CSV UTF-8 з BOM, багатоколонковий файл, повторне завантаження експорту"
+  },
+  {
+   "id": 1471,
+   "wpId": 3597,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-19",
+   "hours": 1.0,
+   "activity": "Development",
+   "comment": "Збереження прогонів оцінки якості відповідей"
+  },
+  {
+   "id": 1470,
+   "wpId": 4050,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-19",
+   "hours": 0.5,
+   "activity": "Development",
+   "comment": "Заборона змін анульованого квитка"
+  },
+  {
+   "id": 1469,
+   "wpId": 3950,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-19",
+   "hours": 0.5,
+   "activity": "Development",
+   "comment": "Колекція Postman: прапорці каталогу статистики"
+  },
+  {
+   "id": 1468,
+   "wpId": 3534,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-19",
+   "hours": 1.0,
+   "activity": "Development",
+   "comment": "Масове редагування: повідомлення про невдалу операцію"
+  },
+  {
+   "id": 1467,
+   "wpId": 3957,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-19",
+   "hours": 1.5,
+   "activity": "Specification",
+   "comment": "Програма навчання, слайди, вправи на стенді, форма обліку"
+  },
+  {
+   "id": 1466,
+   "wpId": 3940,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-19",
+   "hours": 2.5,
+   "activity": "Development",
+   "comment": "Аналіз відповідності брендбуку, стиль Порталу послуг у збірці 1.25.0, контраст WCAG AA"
+  },
+  {
+   "id": 1465,
+   "wpId": 3885,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-16",
+   "hours": 0.5,
+   "activity": "Specification",
+   "comment": "Комплект документації після оновлення модуля та UI"
+  },
+  {
+   "id": 1464,
+   "wpId": 3534,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-16",
+   "hours": 0.5,
+   "activity": "Development",
+   "comment": "Повторна перевірка масового редагування на стенді"
+  },
+  {
+   "id": 1463,
+   "wpId": 3952,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-16",
+   "hours": 1.5,
+   "activity": "Development",
+   "comment": "Адреси, телефони, координати, графік роботи бібліотек для реєстру"
+  },
+  {
+   "id": 1462,
+   "wpId": 4343,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-16",
+   "hours": 2.5,
+   "activity": "Development",
+   "comment": "Поле «Стать», звіт перереєстрації читачів за віком і статтю"
+  },
+  {
+   "id": 1461,
+   "wpId": 4344,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-16",
+   "hours": 3.0,
+   "activity": "Development",
+   "comment": "Тип ресурсу: шість типів бібліотеки, виправлення записів на стенді, вид фонду"
+  },
+  {
+   "id": 1460,
+   "wpId": 3957,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-15",
+   "hours": 1.0,
+   "activity": "Specification",
+   "comment": "Посібник бібліотекаря: колонка «Черга»"
+  },
+  {
+   "id": 1459,
+   "wpId": 3885,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-15",
+   "hours": 3.0,
+   "activity": "Specification",
+   "comment": "Комплект п. 5.3: документ питань із відповідями, оновлення під 1.46.0, знімки актів"
+  },
+  {
+   "id": 1458,
+   "wpId": 3938,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-15",
+   "hours": 3.0,
+   "activity": "Development",
+   "comment": "Реєстр актів фонду: вигляд при 1440 px, дозволи ролей, розгортання 1.46.0 / 1.23.x"
+  },
+  {
+   "id": 1457,
+   "wpId": 4447,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-22",
+   "hours": 0.5,
+   "activity": null,
+   "comment": "Weekly synch"
+  },
+  {
+   "id": 1456,
+   "wpId": 4447,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-19",
+   "hours": 0.5,
+   "activity": null,
+   "comment": "FOLIO team sync"
+  },
+  {
+   "id": 1455,
+   "wpId": 4462,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-19",
+   "hours": 0.5,
+   "activity": null,
+   "comment": "LLM team sync"
+  },
+  {
+   "id": 1454,
+   "wpId": 4447,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-15",
+   "hours": 0.5,
+   "activity": null,
+   "comment": "Питання по безпеці по бібліотечній системі"
+  },
+  {
+   "id": 1453,
+   "wpId": 4447,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-15",
+   "hours": 0.5,
+   "activity": null,
+   "comment": "Weekly synch"
+  },
+  {
+   "id": 1452,
+   "wpId": 4447,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-12",
+   "hours": 0.5,
+   "activity": null,
+   "comment": "FOLIO team sync"
+  },
+  {
+   "id": 1451,
+   "wpId": 4462,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-12",
+   "hours": 0.5,
+   "activity": null,
+   "comment": "LLM team sync"
+  },
+  {
+   "id": 1450,
+   "wpId": 4447,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-08",
+   "hours": 0.5,
+   "activity": null,
+   "comment": "Weekly synch"
+  },
+  {
+   "id": 1449,
+   "wpId": 4447,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-07",
+   "hours": 1.5,
+   "activity": null,
+   "comment": "Статус по бібліотечній системі"
+  },
+  {
+   "id": 1448,
+   "wpId": 4447,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-05",
+   "hours": 0.5,
+   "activity": null,
+   "comment": "FOLIO team sync"
+  },
+  {
+   "id": 1447,
+   "wpId": 4462,
+   "user": "Maksym Khrystunov",
+   "spentOn": "2026-10-05",
+   "hours": 0.5,
+   "activity": null,
+   "comment": "LLM team sync"
+  },
+  {
+   "id": 1445,
+   "wpId": 4477,
+   "user": "Ilia Vitushko",
+   "spentOn": "2026-10-15",
+   "hours": 3.0,
+   "activity": null,
+   "comment": null
+  },
   {
    "id": 1438,
    "wpId": 4424,
@@ -40044,7 +41273,7 @@
   {
    "id": 1413,
    "wpId": 4472,
-   "user": "Sergiy Muzychuk",
+   "user": "Bogdan Shostak",
    "spentOn": "2026-10-23",
    "hours": 4.0,
    "activity": "Other",
@@ -40053,7 +41282,7 @@
   {
    "id": 1412,
    "wpId": 4472,
-   "user": "Sergiy Muzychuk",
+   "user": "Bogdan Shostak",
    "spentOn": "2026-10-23",
    "hours": 4.0,
    "activity": "Support",
@@ -40083,15 +41312,6 @@
    "user": "Bogdan Zavialov",
    "spentOn": "2026-10-22",
    "hours": 1.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 1396,
-   "wpId": 4462,
-   "user": "Maksym Khrystunov",
-   "spentOn": "2026-10-22",
-   "hours": 6.0,
    "activity": null,
    "comment": null
   },
@@ -40135,24 +41355,6 @@
    "id": 1390,
    "wpId": 4457,
    "user": "Vadim Puz",
-   "spentOn": "2026-10-22",
-   "hours": 5.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 1389,
-   "wpId": 4447,
-   "user": "Maksym Khrystunov",
-   "spentOn": "2026-10-22",
-   "hours": 5.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 1388,
-   "wpId": 4447,
-   "user": "Maksym Khrystunov",
    "spentOn": "2026-10-22",
    "hours": 5.0,
    "activity": null,
@@ -40514,7 +41716,7 @@
    "wpId": 3957,
    "user": "Maksym Khrystunov",
    "spentOn": "2026-10-12",
-   "hours": 3.0,
+   "hours": 2.0,
    "activity": "Specification",
    "comment": "Посібник користувача, знімки екрана, програми випробувань"
   },
@@ -40550,7 +41752,7 @@
    "wpId": 3950,
    "user": "Maksym Khrystunov",
    "spentOn": "2026-10-08",
-   "hours": 2.0,
+   "hours": 1.5,
    "activity": "Testing",
    "comment": "Оновлення колекції Postman, наскрізні тести"
   },
@@ -40604,7 +41806,7 @@
    "wpId": 4050,
    "user": "Maksym Khrystunov",
    "spentOn": "2026-10-07",
-   "hours": 2.0,
+   "hours": 1.5,
    "activity": "Development",
    "comment": "Анулювання читацького квитка"
   },
@@ -40613,7 +41815,7 @@
    "wpId": 3931,
    "user": "Maksym Khrystunov",
    "spentOn": "2026-10-07",
-   "hours": 3.0,
+   "hours": 2.0,
    "activity": "Development",
    "comment": "Законні представники, видача примірників читальної зали на день"
   },
@@ -40658,7 +41860,7 @@
    "wpId": 3955,
    "user": "Maksym Khrystunov",
    "spentOn": "2026-10-05",
-   "hours": 4.0,
+   "hours": 3.5,
    "activity": "Development",
    "comment": "Виправлення ISBN на стенді, конфлікт штрихкодів у міграції"
   },
@@ -40667,7 +41869,7 @@
    "wpId": 3954,
    "user": "Maksym Khrystunov",
    "spentOn": "2026-10-05",
-   "hours": 4.0,
+   "hours": 3.5,
    "activity": "Development",
    "comment": "Одна точка обслуговування на бібліотеку, виведення старих точок"
   },
@@ -43597,15 +44799,6 @@
    "comment": null
   },
   {
-   "id": 464,
-   "wpId": 3392,
-   "user": "Maksym Khrystunov",
-   "spentOn": "2026-08-03",
-   "hours": 7.0,
-   "activity": null,
-   "comment": null
-  },
-  {
    "id": 463,
    "wpId": 3449,
    "user": "Mykhailo Hurin",
@@ -43620,258 +44813,6 @@
    "user": "Mykhailo Hurin",
    "spentOn": "2026-08-04",
    "hours": 16.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 457,
-   "wpId": 3457,
-   "user": "Bogdan Zavialov",
-   "spentOn": "2026-08-03",
-   "hours": 2.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 456,
-   "wpId": 3440,
-   "user": "Bogdan Zavialov",
-   "spentOn": "2026-08-03",
-   "hours": 8.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 455,
-   "wpId": 3401,
-   "user": "Anton Herasymenko",
-   "spentOn": "2026-07-31",
-   "hours": 5.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 454,
-   "wpId": 3129,
-   "user": "Anton Herasymenko",
-   "spentOn": "2026-08-03",
-   "hours": 2.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 452,
-   "wpId": 3402,
-   "user": "Maksym Khrystunov",
-   "spentOn": "2026-07-31",
-   "hours": 3.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 451,
-   "wpId": 3402,
-   "user": "Maksym Khrystunov",
-   "spentOn": "2026-07-31",
-   "hours": 6.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 450,
-   "wpId": 3392,
-   "user": "Maksym Khrystunov",
-   "spentOn": "2026-07-30",
-   "hours": 7.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 449,
-   "wpId": 3392,
-   "user": "Maksym Khrystunov",
-   "spentOn": "2026-07-29",
-   "hours": 8.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 447,
-   "wpId": 3425,
-   "user": "Vadim Puz",
-   "spentOn": "2026-07-30",
-   "hours": 30.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 446,
-   "wpId": 3190,
-   "user": "Vadim Puz",
-   "spentOn": "2026-07-30",
-   "hours": 50.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 445,
-   "wpId": 3438,
-   "user": "Bogdan Zavialov",
-   "spentOn": "2026-07-30",
-   "hours": 5.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 444,
-   "wpId": 3400,
-   "user": "Bogdan Zavialov",
-   "spentOn": "2026-07-30",
-   "hours": 12.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 443,
-   "wpId": 3399,
-   "user": "Bogdan Zavialov",
-   "spentOn": "2026-07-30",
-   "hours": 10.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 442,
-   "wpId": 3397,
-   "user": "Bogdan Zavialov",
-   "spentOn": "2026-07-30",
-   "hours": 5.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 441,
-   "wpId": 3396,
-   "user": "Bogdan Zavialov",
-   "spentOn": "2026-07-30",
-   "hours": 2.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 440,
-   "wpId": 3395,
-   "user": "Bogdan Zavialov",
-   "spentOn": "2026-07-30",
-   "hours": 5.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 439,
-   "wpId": 3453,
-   "user": "Kostiantyn Kvasha",
-   "spentOn": "2026-07-30",
-   "hours": 2.33,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 438,
-   "wpId": 3394,
-   "user": "Bogdan Zavialov",
-   "spentOn": "2026-07-30",
-   "hours": 24.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 437,
-   "wpId": 3440,
-   "user": "Bogdan Zavialov",
-   "spentOn": "2026-07-30",
-   "hours": 6.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 436,
-   "wpId": 3449,
-   "user": "Mykhailo Hurin",
-   "spentOn": "2026-07-30",
-   "hours": 8.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 435,
-   "wpId": 3450,
-   "user": "Bogdan Zavialov",
-   "spentOn": "2026-07-30",
-   "hours": 1.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 434,
-   "wpId": 3448,
-   "user": "Bogdan Zavialov",
-   "spentOn": "2026-07-29",
-   "hours": 2.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 433,
-   "wpId": 3391,
-   "user": "Maksym Khrystunov",
-   "spentOn": "2026-07-28",
-   "hours": 8.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 432,
-   "wpId": 3122,
-   "user": "Maksym Khrystunov",
-   "spentOn": "2026-07-28",
-   "hours": 2.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 431,
-   "wpId": 3446,
-   "user": "Oleksandr Birulin",
-   "spentOn": "2026-07-28",
-   "hours": 2.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 430,
-   "wpId": 3445,
-   "user": "Oleksandr Birulin",
-   "spentOn": "2026-07-28",
-   "hours": 4.0,
-   "activity": null,
-   "comment": null
-  },
-  {
-   "id": 429,
-   "wpId": 3428,
-   "user": "Bogdan Shostak",
-   "spentOn": "2026-07-28",
-   "hours": 3.0,
-   "activity": null,
-   "comment": "виїзд до Замовника"
-  },
-  {
-   "id": 427,
-   "wpId": 3436,
-   "user": "Bogdan Zavialov",
-   "spentOn": "2026-07-28",
-   "hours": 40.0,
    "activity": null,
    "comment": null
   }
