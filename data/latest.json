@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T08:27:40+00:00",
+ "generatedAt": "2026-11-09T11:33:57+00:00",
  "baseUrl": "https://op.wmgroup.com.ua",
  "projectId": null,
  "timeLookbackDays": 90,
@@ -1008,7 +1008,7 @@
    "startDate": "2026-03-04",
    "dueDate": "2026-10-28",
    "estimatedHours": null,
-   "spentHours": 701.0,
+   "spentHours": 717.0,
    "percentDone": null
   },
   {
@@ -16708,7 +16708,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 16.0,
    "percentDone": null
   },
   {
@@ -47001,6 +47001,24 @@
   "Subject set to ???Перевірити та доробити журнал API-викликів ЗІС (дата, тип запиту, статус)???"
  ],
  "timeEntries": [
+  {
+   "id": 1709,
+   "wpId": 4815,
+   "user": "Oleksandr Birulin",
+   "spentOn": "2026-11-09",
+   "hours": 1.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1704,
+   "wpId": 3920,
+   "user": "Mykhailo Hurin",
+   "spentOn": "2026-11-09",
+   "hours": 16.0,
+   "activity": null,
+   "comment": null
+  },
   {
    "id": 1696,
    "wpId": 4746,
