@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T08:28:34+00:00",
+ "generatedAt": "2026-11-16T11:20:12+00:00",
  "baseUrl": "https://op.wmgroup.com.ua",
  "projectId": null,
  "timeLookbackDays": 90,
@@ -5514,7 +5514,7 @@
   {
    "id": 2894,
    "subject": "Надати перелік персоналій",
-   "type": "Task",
+   "type": "Extra",
    "status": "Done",
    "isClosed": true,
    "priority": "Normal",
@@ -5524,7 +5524,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 1271,
    "createdAt": "2026-05-27T12:57:21.171Z",
-   "updatedAt": "2026-09-30T12:09:23.265Z",
+   "updatedAt": "2026-11-16T10:37:15.633Z",
    "startDate": "2026-05-29",
    "dueDate": "2026-06-09",
    "estimatedHours": null,
@@ -8974,7 +8974,7 @@
   {
    "id": 3425,
    "subject": "Закласти в БЗ комунальні підприємства та кому вони підпорядковуються",
-   "type": "Task",
+   "type": "Extra",
    "status": "Done",
    "isClosed": true,
    "priority": "Normal",
@@ -8984,7 +8984,7 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 1271,
    "createdAt": "2026-07-23T09:59:16.366Z",
-   "updatedAt": "2026-09-30T12:09:23.265Z",
+   "updatedAt": "2026-11-16T10:41:02.735Z",
    "startDate": "2026-07-27",
    "dueDate": "2026-08-17",
    "estimatedHours": null,
@@ -21948,7 +21948,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 182.0,
    "percentDone": null
   },
   {
@@ -21968,7 +21968,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 7.0,
    "percentDone": null
   },
   {
@@ -22008,7 +22008,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": 8.0,
-   "spentHours": 0.0,
+   "spentHours": 7.0,
    "percentDone": 0
   },
   {
@@ -22068,14 +22068,14 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 57.0,
    "percentDone": null
   },
   {
    "id": 4585,
    "subject": "Додати базові ваги джерел до метаданих документів БЗ",
    "type": "Task",
-   "status": "In progress",
+   "status": "Ready for test",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Bogdan Zavialov",
@@ -22084,16 +22084,36 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 4584,
    "createdAt": "2026-10-30T09:37:20.193Z",
-   "updatedAt": "2026-11-11T06:32:28.504Z",
+   "updatedAt": "2026-11-16T11:10:27.191Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": 8.0,
-   "spentHours": 0.0,
+   "spentHours": 12.0,
    "percentDone": 0
   },
   {
    "id": 4586,
    "subject": "Реалізувати ранжування за сукупним балом релевантності та ваги джерела",
+   "type": "Task",
+   "status": "Ready for test",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Bogdan Zavialov",
+   "author": "Anton Gorobets",
+   "version": null,
+   "project": "25_GIOC_INFO_BOT",
+   "parentId": 4584,
+   "createdAt": "2026-10-30T09:37:20.459Z",
+   "updatedAt": "2026-11-16T11:10:33.356Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": 16.0,
+   "spentHours": 10.0,
+   "percentDone": 0
+  },
+  {
+   "id": 4587,
+   "subject": "Реалізувати врахування актуальності та розв'язання суперечностей джерел",
    "type": "Task",
    "status": "In progress",
    "isClosed": false,
@@ -22103,32 +22123,12 @@
    "version": null,
    "project": "25_GIOC_INFO_BOT",
    "parentId": 4584,
-   "createdAt": "2026-10-30T09:37:20.459Z",
-   "updatedAt": "2026-11-11T06:32:35.587Z",
-   "startDate": null,
-   "dueDate": null,
-   "estimatedHours": 16.0,
-   "spentHours": 0.0,
-   "percentDone": 0
-  },
-  {
-   "id": 4587,
-   "subject": "Реалізувати врахування актуальності та розв'язання суперечностей джерел",
-   "type": "Task",
-   "status": "New",
-   "isClosed": false,
-   "priority": "Normal",
-   "assignee": "Bogdan Zavialov",
-   "author": "Anton Gorobets",
-   "version": null,
-   "project": "25_GIOC_INFO_BOT",
-   "parentId": 4584,
    "createdAt": "2026-10-30T09:37:20.896Z",
-   "updatedAt": "2026-11-04T14:16:12.618Z",
+   "updatedAt": "2026-11-16T11:10:39.354Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": 12.0,
-   "spentHours": 0.0,
+   "spentHours": 15.0,
    "percentDone": 0
   },
   {
@@ -22148,7 +22148,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": 8.0,
-   "spentHours": 0.0,
+   "spentHours": 20.0,
    "percentDone": 0
   },
   {
@@ -22208,7 +22208,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 13.0,
    "percentDone": null
   },
   {
@@ -22228,14 +22228,14 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": 8.0,
-   "spentHours": 0.0,
+   "spentHours": 5.0,
    "percentDone": 0
   },
   {
    "id": 4593,
    "subject": "Реалізувати API керування доступом ЗІС до частин БЗ",
    "type": "Task",
-   "status": "New",
+   "status": "In progress",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Bogdan Zavialov",
@@ -22244,11 +22244,11 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 4591,
    "createdAt": "2026-10-30T09:37:23.125Z",
-   "updatedAt": "2026-11-04T14:16:12.418Z",
+   "updatedAt": "2026-11-16T11:11:49.749Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": 8.0,
-   "spentHours": 0.0,
+   "spentHours": 2.0,
    "percentDone": 0
   },
   {
@@ -22268,7 +22268,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": 12.0,
-   "spentHours": 0.0,
+   "spentHours": 6.0,
    "percentDone": 0
   },
   {
@@ -22328,7 +22328,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 49.0,
    "percentDone": null
   },
   {
@@ -22348,7 +22348,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": 16.0,
-   "spentHours": 0.0,
+   "spentHours": 2.0,
    "percentDone": 0
   },
   {
@@ -22375,7 +22375,7 @@
    "id": 4600,
    "subject": "Реалізувати синхронну класифікацію мови ненависті та маніпулятивного вмісту",
    "type": "Task",
-   "status": "New",
+   "status": "Ready for test",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Bogdan Zavialov",
@@ -22384,18 +22384,18 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 4597,
    "createdAt": "2026-10-30T09:37:25.893Z",
-   "updatedAt": "2026-11-04T14:16:13.132Z",
+   "updatedAt": "2026-11-16T11:13:32.064Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": 16.0,
-   "spentHours": 0.0,
+   "spentHours": 8.0,
    "percentDone": 0
   },
   {
    "id": 4601,
    "subject": "Реалізувати асинхронну повну перевірку відповідей засобами LLM з журналюванням",
    "type": "Task",
-   "status": "In progress",
+   "status": "Ready for test",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Bogdan Zavialov",
@@ -22404,11 +22404,11 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 4597,
    "createdAt": "2026-10-30T09:37:26.282Z",
-   "updatedAt": "2026-11-11T06:34:10.382Z",
+   "updatedAt": "2026-11-16T11:13:47.722Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": 12.0,
-   "spentHours": 0.0,
+   "spentHours": 25.0,
    "percentDone": 0
   },
   {
@@ -22435,7 +22435,7 @@
    "id": 4603,
    "subject": "Передавати службові повідомлення про стан оброблення до завершення перевірки",
    "type": "Task",
-   "status": "In progress",
+   "status": "Ready for test",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Bogdan Zavialov",
@@ -22444,11 +22444,11 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 4597,
    "createdAt": "2026-10-30T09:37:27.968Z",
-   "updatedAt": "2026-11-11T06:34:23.352Z",
+   "updatedAt": "2026-11-16T11:14:11.005Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": 6.0,
-   "spentHours": 0.0,
+   "spentHours": 14.0,
    "percentDone": 0
   },
   {
@@ -22748,14 +22748,14 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 9.0,
    "percentDone": null
   },
   {
    "id": 4619,
    "subject": "Реалізувати автовизначення мови звернення",
    "type": "Task",
-   "status": "In progress",
+   "status": "Ready for test",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Bogdan Zavialov",
@@ -22764,11 +22764,11 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 4618,
    "createdAt": "2026-10-30T09:37:34.435Z",
-   "updatedAt": "2026-11-11T06:35:01.390Z",
+   "updatedAt": "2026-11-16T11:14:45.102Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": 6.0,
-   "spentHours": 0.0,
+   "spentHours": 7.0,
    "percentDone": 0
   },
   {
@@ -22788,7 +22788,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": 12.0,
-   "spentHours": 0.0,
+   "spentHours": 2.0,
    "percentDone": 0
   },
   {
@@ -22848,7 +22848,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
+   "spentHours": 47.0,
    "percentDone": null
   },
   {
@@ -22868,32 +22868,12 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": 12.0,
-   "spentHours": 0.0,
+   "spentHours": 30.0,
    "percentDone": 0
   },
   {
    "id": 4625,
    "subject": "Реалізувати інструмент запиту даних АСОП про рух транспорту",
-   "type": "Task",
-   "status": "New",
-   "isClosed": false,
-   "priority": "Normal",
-   "assignee": "Bogdan Zavialov",
-   "author": "Anton Gorobets",
-   "version": null,
-   "project": "25_GIOC_INFO_BOT",
-   "parentId": 4623,
-   "createdAt": "2026-10-30T09:37:36.453Z",
-   "updatedAt": "2026-11-04T14:16:13.553Z",
-   "startDate": null,
-   "dueDate": null,
-   "estimatedHours": 12.0,
-   "spentHours": 0.0,
-   "percentDone": 0
-  },
-  {
-   "id": 4626,
-   "subject": "Реалізувати таймаути, повтори з backoff і резервну відповідь для інструментів",
    "type": "Task",
    "status": "In progress",
    "isClosed": false,
@@ -22903,12 +22883,32 @@
    "version": null,
    "project": "25_GIOC_INFO_BOT",
    "parentId": 4623,
+   "createdAt": "2026-10-30T09:37:36.453Z",
+   "updatedAt": "2026-11-16T11:15:23.079Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": 12.0,
+   "spentHours": 14.0,
+   "percentDone": 0
+  },
+  {
+   "id": 4626,
+   "subject": "Реалізувати таймаути, повтори з backoff і резервну відповідь для інструментів",
+   "type": "Task",
+   "status": "Ready for test",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Bogdan Zavialov",
+   "author": "Anton Gorobets",
+   "version": null,
+   "project": "25_GIOC_INFO_BOT",
+   "parentId": 4623,
    "createdAt": "2026-10-30T09:37:36.958Z",
-   "updatedAt": "2026-11-11T06:35:49.403Z",
+   "updatedAt": "2026-11-16T11:15:29.819Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": 8.0,
-   "spentHours": 0.0,
+   "spentHours": 3.0,
    "percentDone": 0
   },
   {
@@ -24368,7 +24368,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 14.0,
+   "spentHours": 196.0,
    "percentDone": null
   },
   {
@@ -24715,7 +24715,7 @@
    "id": 4755,
    "subject": "Створити кнопку на інтерфейсі книги на рівні запису",
    "type": "Extra",
-   "status": "To Do",
+   "status": "Ready for test",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
@@ -24724,7 +24724,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 4341,
    "createdAt": "2026-11-07T17:28:38.576Z",
-   "updatedAt": "2026-11-13T16:54:31.459Z",
+   "updatedAt": "2026-11-16T10:42:26.452Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -47478,6 +47478,13 @@
    "to": "In progress"
   },
   {
+   "wpId": 4585,
+   "at": "2026-11-16T11:10:27.191Z",
+   "user": "Bogdan Zavialov",
+   "from": "In progress",
+   "to": "Ready for test"
+  },
+  {
    "wpId": 4586,
    "at": "2026-10-30T09:37:20.459Z",
    "user": "Anton Gorobets",
@@ -47492,11 +47499,25 @@
    "to": "In progress"
   },
   {
+   "wpId": 4586,
+   "at": "2026-11-16T11:10:33.356Z",
+   "user": "Bogdan Zavialov",
+   "from": "In progress",
+   "to": "Ready for test"
+  },
+  {
    "wpId": 4587,
    "at": "2026-10-30T09:37:20.896Z",
    "user": "Anton Gorobets",
    "from": null,
    "to": "New"
+  },
+  {
+   "wpId": 4587,
+   "at": "2026-11-16T11:10:39.354Z",
+   "user": "Bogdan Zavialov",
+   "from": "New",
+   "to": "In progress"
   },
   {
    "wpId": 4588,
@@ -47560,6 +47581,13 @@
    "user": "Anton Gorobets",
    "from": null,
    "to": "New"
+  },
+  {
+   "wpId": 4593,
+   "at": "2026-11-16T11:11:49.749Z",
+   "user": "Bogdan Zavialov",
+   "from": "New",
+   "to": "In progress"
   },
   {
    "wpId": 4594,
@@ -47632,6 +47660,13 @@
    "to": "New"
   },
   {
+   "wpId": 4600,
+   "at": "2026-11-16T11:13:32.064Z",
+   "user": "Bogdan Zavialov",
+   "from": "New",
+   "to": "Ready for test"
+  },
+  {
    "wpId": 4601,
    "at": "2026-10-30T09:37:26.282Z",
    "user": "Anton Gorobets",
@@ -47644,6 +47679,13 @@
    "user": "Anton Gorobets",
    "from": "New",
    "to": "In progress"
+  },
+  {
+   "wpId": 4601,
+   "at": "2026-11-16T11:13:47.722Z",
+   "user": "Bogdan Zavialov",
+   "from": "In progress",
+   "to": "Ready for test"
   },
   {
    "wpId": 4602,
@@ -47665,6 +47707,13 @@
    "user": "Anton Gorobets",
    "from": "New",
    "to": "In progress"
+  },
+  {
+   "wpId": 4603,
+   "at": "2026-11-16T11:14:11.005Z",
+   "user": "Bogdan Zavialov",
+   "from": "In progress",
+   "to": "Ready for test"
   },
   {
    "wpId": 4604,
@@ -47793,6 +47842,13 @@
    "to": "In progress"
   },
   {
+   "wpId": 4619,
+   "at": "2026-11-16T11:14:45.102Z",
+   "user": "Bogdan Zavialov",
+   "from": "In progress",
+   "to": "Ready for test"
+  },
+  {
    "wpId": 4620,
    "at": "2026-10-30T09:37:34.745Z",
    "user": "Anton Gorobets",
@@ -47856,6 +47912,13 @@
    "to": "New"
   },
   {
+   "wpId": 4625,
+   "at": "2026-11-16T11:15:23.079Z",
+   "user": "Bogdan Zavialov",
+   "from": "New",
+   "to": "In progress"
+  },
+  {
    "wpId": 4626,
    "at": "2026-10-30T09:37:36.958Z",
    "user": "Anton Gorobets",
@@ -47868,6 +47931,13 @@
    "user": "Anton Gorobets",
    "from": "New",
    "to": "In progress"
+  },
+  {
+   "wpId": 4626,
+   "at": "2026-11-16T11:15:29.819Z",
+   "user": "Bogdan Zavialov",
+   "from": "In progress",
+   "to": "Ready for test"
   },
   {
    "wpId": 4627,
@@ -48745,6 +48815,13 @@
    "to": "To Do"
   },
   {
+   "wpId": 4755,
+   "at": "2026-11-16T10:26:38.325Z",
+   "user": "Maksym Khrystunov",
+   "from": "To Do",
+   "to": "Ready for test"
+  },
+  {
    "wpId": 4756,
    "at": "2026-11-07T17:30:31.303Z",
    "user": "Anton Gorobets",
@@ -48785,6 +48862,13 @@
    "user": "Anton Gorobets",
    "from": "New",
    "to": "In progress"
+  },
+  {
+   "wpId": 4758,
+   "at": "2026-11-16T11:18:21.696Z",
+   "user": "Bogdan Zavialov",
+   "from": "In progress",
+   "to": "Ready for test"
   },
   {
    "wpId": 4759,
@@ -49812,6 +49896,204 @@
   "Subject set to ???Перевірити та доробити журнал API-викликів ЗІС (дата, тип запиту, статус)???"
  ],
  "timeEntries": [
+  {
+   "id": 1857,
+   "wpId": 4759,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 6.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1856,
+   "wpId": 4758,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 7.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1855,
+   "wpId": 4635,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 4.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1854,
+   "wpId": 4631,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 9.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1853,
+   "wpId": 4630,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 15.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1852,
+   "wpId": 4626,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 3.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1851,
+   "wpId": 4625,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 14.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1850,
+   "wpId": 4624,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 30.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1849,
+   "wpId": 4620,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 2.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1848,
+   "wpId": 4619,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 7.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1847,
+   "wpId": 4603,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 14.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1846,
+   "wpId": 4601,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 25.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1845,
+   "wpId": 4600,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 8.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1844,
+   "wpId": 4598,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 2.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1843,
+   "wpId": 4593,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 2.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1842,
+   "wpId": 4594,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 6.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1841,
+   "wpId": 4592,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 5.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1840,
+   "wpId": 4588,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 20.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1839,
+   "wpId": 4587,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 15.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1838,
+   "wpId": 4586,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 10.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1837,
+   "wpId": 4585,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 12.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1836,
+   "wpId": 4581,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-16",
+   "hours": 7.0,
+   "activity": null,
+   "comment": null
+  },
   {
    "id": 1825,
    "wpId": 5150,
