@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T08:26:14+00:00",
+ "generatedAt": "2026-11-23T12:41:02+00:00",
  "baseUrl": "https://op.wmgroup.com.ua",
  "projectId": null,
  "timeLookbackDays": 90,
@@ -1004,9 +1004,9 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": null,
    "createdAt": "2026-02-10T07:21:52.264Z",
-   "updatedAt": "2026-11-18T10:18:46.666Z",
+   "updatedAt": "2026-11-23T10:03:44.386Z",
    "startDate": "2026-03-04",
-   "dueDate": "2026-11-20",
+   "dueDate": "2026-11-25",
    "estimatedHours": null,
    "spentHours": 747.0,
    "percentDone": null
@@ -16704,9 +16704,9 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 1242,
    "createdAt": "2026-08-28T07:11:14.594Z",
-   "updatedAt": "2026-11-12T11:40:02.663Z",
+   "updatedAt": "2026-11-23T10:03:44.339Z",
    "startDate": null,
-   "dueDate": "2026-11-18",
+   "dueDate": "2026-11-25",
    "estimatedHours": null,
    "spentHours": 32.0,
    "percentDone": null
@@ -17095,7 +17095,7 @@
    "id": 3940,
    "subject": "Оновити дизайн адміністративної частини Системи згідно з брендбуком Порталу послуг (Theme Override)",
    "type": "Task",
-   "status": "In progress",
+   "status": "Ready for test",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
@@ -17104,7 +17104,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 3882,
    "createdAt": "2026-08-31T10:31:19.576Z",
-   "updatedAt": "2026-10-15T07:21:59.128Z",
+   "updatedAt": "2026-11-23T11:29:24.392Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -17188,7 +17188,7 @@
    "startDate": "2026-08-14",
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 37.0,
+   "spentHours": 47.0,
    "percentDone": null
   },
   {
@@ -17335,7 +17335,7 @@
    "id": 3952,
    "subject": "Розробити API для передачі даних до ІАС «Майно»",
    "type": "Task",
-   "status": "In progress",
+   "status": "Ready for test",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
@@ -17344,7 +17344,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 3884,
    "createdAt": "2026-08-31T10:35:57.169Z",
-   "updatedAt": "2026-10-20T09:50:29.524Z",
+   "updatedAt": "2026-11-23T11:29:24.982Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -17375,7 +17375,7 @@
    "id": 3954,
    "subject": "Забезпечити підключення бібліотечних закладів до єдиного контуру",
    "type": "Task",
-   "status": "In progress",
+   "status": "Ready for test",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
@@ -17384,7 +17384,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 3885,
    "createdAt": "2026-08-31T10:37:00.926Z",
-   "updatedAt": "2026-10-15T07:21:59.839Z",
+   "updatedAt": "2026-11-23T11:57:40.065Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -17395,7 +17395,7 @@
    "id": 3955,
    "subject": "Здійснити міграцію бібліотечних фондів та електронних каталогів",
    "type": "Task",
-   "status": "In progress",
+   "status": "Ready for test",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
@@ -17404,7 +17404,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 3885,
    "createdAt": "2026-08-31T10:37:27.168Z",
-   "updatedAt": "2026-10-15T07:22:00.614Z",
+   "updatedAt": "2026-11-23T11:57:40.670Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -19015,8 +19015,8 @@
    "id": 4226,
    "subject": "Release traceability",
    "type": "Task",
-   "status": "In progress",
-   "isClosed": false,
+   "status": "Done",
+   "isClosed": true,
    "priority": "Normal",
    "assignee": "Valerii Haivoronskyi",
    "author": "Anton Gorobets",
@@ -19024,12 +19024,12 @@
    "project": "II_CI/CD AVDU (abondar)",
    "parentId": null,
    "createdAt": "2026-09-28T10:35:17.578Z",
-   "updatedAt": "2026-11-12T13:47:00.637Z",
+   "updatedAt": "2026-11-23T12:35:01.753Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 0.0,
-   "percentDone": null
+   "spentHours": 30.0,
+   "percentDone": 100
   },
   {
    "id": 4227,
@@ -20044,7 +20044,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": null,
    "createdAt": "2026-10-13T09:41:37.275Z",
-   "updatedAt": "2026-11-18T10:50:11.480Z",
+   "updatedAt": "2026-11-23T08:38:49.139Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -20828,7 +20828,7 @@
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
-   "spentHours": 8.0,
+   "spentHours": 12.0,
    "percentDone": null
   },
   {
@@ -21035,7 +21035,7 @@
    "id": 4508,
    "subject": "Додати звіт по номеру партії ",
    "type": "Extra",
-   "status": "Ready for test",
+   "status": "To Do",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
@@ -21044,7 +21044,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 4341,
    "createdAt": "2026-10-28T08:31:54.183Z",
-   "updatedAt": "2026-11-11T15:53:29.163Z",
+   "updatedAt": "2026-11-23T08:25:47.600Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -21124,9 +21124,9 @@
    "project": "25_GIOC_INFO_BOT",
    "parentId": 4699,
    "createdAt": "2026-10-30T09:37:02.186Z",
-   "updatedAt": "2026-11-16T13:50:22.276Z",
+   "updatedAt": "2026-11-23T10:01:35.575Z",
    "startDate": "2026-11-19",
-   "dueDate": "2026-11-23",
+   "dueDate": "2026-11-26",
    "estimatedHours": null,
    "spentHours": 0.0,
    "percentDone": null
@@ -21948,7 +21948,7 @@
    "startDate": "2026-12-01",
    "dueDate": "2026-12-04",
    "estimatedHours": null,
-   "spentHours": 68.0,
+   "spentHours": 84.0,
    "percentDone": null
   },
   {
@@ -22208,7 +22208,7 @@
    "startDate": "2026-12-02",
    "dueDate": "2026-12-04",
    "estimatedHours": null,
-   "spentHours": 9.0,
+   "spentHours": 25.0,
    "percentDone": null
   },
   {
@@ -22228,7 +22228,7 @@
    "startDate": null,
    "dueDate": "2026-12-02",
    "estimatedHours": 8.0,
-   "spentHours": 1.0,
+   "spentHours": 9.0,
    "percentDone": 0
   },
   {
@@ -22248,7 +22248,7 @@
    "startDate": null,
    "dueDate": "2026-12-04",
    "estimatedHours": 8.0,
-   "spentHours": 2.0,
+   "spentHours": 10.0,
    "percentDone": 0
   },
   {
@@ -24368,7 +24368,7 @@
    "startDate": "2026-11-19",
    "dueDate": "2026-12-04",
    "estimatedHours": null,
-   "spentHours": 112.0,
+   "spentHours": 128.0,
    "percentDone": null
   },
   {
@@ -24733,7 +24733,7 @@
   },
   {
    "id": 4756,
-   "subject": "Додати в картку бібліотеки поле \"Оцифрована\" і в АПІ його передавати",
+   "subject": "Додати в картку бібліотеки поле \"Оцифрована\" і \"Повна назва бібліотеки\" і в АПІ їх  передавати",
    "type": "Extra",
    "status": "Ready for test",
    "isClosed": false,
@@ -24744,7 +24744,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 4341,
    "createdAt": "2026-11-07T17:30:31.303Z",
-   "updatedAt": "2026-11-11T15:45:55.507Z",
+   "updatedAt": "2026-11-23T11:03:19.384Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -26155,7 +26155,7 @@
    "id": 5087,
    "subject": "Міграція дорослого фонду: не змігрувались \"Персоналії\" у відповідне поле",
    "type": "Task",
-   "status": "New",
+   "status": "Ready for test",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
@@ -26164,7 +26164,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 4341,
    "createdAt": "2026-11-11T15:19:05.197Z",
-   "updatedAt": "2026-11-11T15:19:05.197Z",
+   "updatedAt": "2026-11-23T11:03:20.951Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -26424,7 +26424,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 4341,
    "createdAt": "2026-11-11T19:14:53.775Z",
-   "updatedAt": "2026-11-18T09:30:07.458Z",
+   "updatedAt": "2026-11-23T08:28:44.707Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -27135,7 +27135,7 @@
    "id": 5146,
    "subject": "Доробити поле \"Персоналія\"",
    "type": "Task",
-   "status": "New",
+   "status": "Ready for test",
    "isClosed": false,
    "priority": "Normal",
    "assignee": "Maksym Khrystunov",
@@ -27144,7 +27144,7 @@
    "project": "25_GIOC_UE_LIB",
    "parentId": 4341,
    "createdAt": "2026-11-13T16:49:25.989Z",
-   "updatedAt": "2026-11-13T16:49:25.989Z",
+   "updatedAt": "2026-11-23T11:03:20.186Z",
    "startDate": null,
    "dueDate": null,
    "estimatedHours": null,
@@ -27275,18 +27275,18 @@
    "id": 5173,
    "subject": "WKS - зауваження та баги",
    "type": "Bug",
-   "status": "New",
+   "status": "To Do",
    "isClosed": false,
    "priority": "Normal",
-   "assignee": "Anton Gorobets",
+   "assignee": "Mykhailo Hurin",
    "author": "Anton Herasymenko",
    "version": null,
    "project": "25_GIOC_INFO_BOT",
    "parentId": 4537,
    "createdAt": "2026-11-18T13:33:08.712Z",
-   "updatedAt": "2026-11-18T13:34:09.761Z",
-   "startDate": "2026-11-19",
-   "dueDate": "2026-11-23",
+   "updatedAt": "2026-11-23T10:01:35.528Z",
+   "startDate": "2026-11-26",
+   "dueDate": "2026-11-26",
    "estimatedHours": null,
    "spentHours": 0.0,
    "percentDone": null
@@ -27390,6 +27390,86 @@
    "estimatedHours": null,
    "spentHours": 6.0,
    "percentDone": 100
+  },
+  {
+   "id": 5190,
+   "subject": "Оновити картку читача",
+   "type": "Extra",
+   "status": "To Do",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Maksym Khrystunov",
+   "author": "Anton Gorobets",
+   "version": null,
+   "project": "25_GIOC_UE_LIB",
+   "parentId": 4341,
+   "createdAt": "2026-11-23T08:30:36.498Z",
+   "updatedAt": "2026-11-23T08:30:36.498Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 0.0,
+   "percentDone": null
+  },
+  {
+   "id": 5191,
+   "subject": " В картку бібліотеки додати нове поле \"Тип бібліотечного об'єкта\"",
+   "type": "Extra",
+   "status": "To Do",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Maksym Khrystunov",
+   "author": "Anton Gorobets",
+   "version": null,
+   "project": "25_GIOC_UE_LIB",
+   "parentId": 4341,
+   "createdAt": "2026-11-23T08:36:00.207Z",
+   "updatedAt": "2026-11-23T08:36:00.207Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 0.0,
+   "percentDone": null
+  },
+  {
+   "id": 5192,
+   "subject": "Додати можливість в картці бібліотек також заводити відділи бібліотек",
+   "type": "Extra",
+   "status": "To Do",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Maksym Khrystunov",
+   "author": "Anton Gorobets",
+   "version": null,
+   "project": "25_GIOC_UE_LIB",
+   "parentId": 4341,
+   "createdAt": "2026-11-23T08:38:49.054Z",
+   "updatedAt": "2026-11-23T08:38:49.054Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 0.0,
+   "percentDone": null
+  },
+  {
+   "id": 5193,
+   "subject": "Додати можливість формувати сетінги наборів бібліотек для відображення в звітах",
+   "type": "Extra",
+   "status": "To Do",
+   "isClosed": false,
+   "priority": "Normal",
+   "assignee": "Maksym Khrystunov",
+   "author": "Anton Gorobets",
+   "version": null,
+   "project": "25_GIOC_UE_LIB",
+   "parentId": 4341,
+   "createdAt": "2026-11-23T08:42:24.879Z",
+   "updatedAt": "2026-11-23T08:42:24.879Z",
+   "startDate": null,
+   "dueDate": null,
+   "estimatedHours": null,
+   "spentHours": 0.0,
+   "percentDone": null
   }
  ],
  "statusHistory": [
@@ -43956,6 +44036,13 @@
    "to": "In progress"
   },
   {
+   "wpId": 3940,
+   "at": "2026-11-23T11:29:24.392Z",
+   "user": "Maksym Khrystunov",
+   "from": "In progress",
+   "to": "Ready for test"
+  },
+  {
    "wpId": 3941,
    "at": "2026-08-31T10:31:44.249Z",
    "user": "Anton Gorobets",
@@ -44173,6 +44260,13 @@
    "to": "In progress"
   },
   {
+   "wpId": 3952,
+   "at": "2026-11-23T11:29:24.982Z",
+   "user": "Maksym Khrystunov",
+   "from": "In progress",
+   "to": "Ready for test"
+  },
+  {
    "wpId": 3953,
    "at": "2026-08-31T10:36:15.209Z",
    "user": "Anton Gorobets",
@@ -44201,6 +44295,13 @@
    "to": "In progress"
   },
   {
+   "wpId": 3954,
+   "at": "2026-11-23T11:57:40.065Z",
+   "user": "Maksym Khrystunov",
+   "from": "In progress",
+   "to": "Ready for test"
+  },
+  {
    "wpId": 3955,
    "at": "2026-08-31T10:37:27.168Z",
    "user": "Anton Gorobets",
@@ -44220,6 +44321,13 @@
    "user": "Maksym Khrystunov",
    "from": "To Do",
    "to": "In progress"
+  },
+  {
+   "wpId": 3955,
+   "at": "2026-11-23T11:57:40.670Z",
+   "user": "Maksym Khrystunov",
+   "from": "In progress",
+   "to": "Ready for test"
   },
   {
    "wpId": 3956,
@@ -45657,6 +45765,13 @@
    "to": "In progress"
   },
   {
+   "wpId": 4226,
+   "at": "2026-11-23T12:35:01.753Z",
+   "user": "Valerii Haivoronskyi",
+   "from": "In progress",
+   "to": "Done"
+  },
+  {
    "wpId": 4227,
    "at": "2026-09-28T10:36:03.069Z",
    "user": "Anton Gorobets",
@@ -46943,6 +47058,13 @@
    "user": "Maksym Khrystunov",
    "from": "To Do",
    "to": "Ready for test"
+  },
+  {
+   "wpId": 4508,
+   "at": "2026-11-23T08:24:42.580Z",
+   "user": "Anton Gorobets",
+   "from": "Ready for test",
+   "to": "To Do"
   },
   {
    "wpId": 4510,
@@ -49164,6 +49286,20 @@
    "to": "Ready for test"
   },
   {
+   "wpId": 4756,
+   "at": "2026-11-23T09:52:03.815Z",
+   "user": "Anton Gorobets",
+   "from": "Ready for test",
+   "to": "To Do"
+  },
+  {
+   "wpId": 4756,
+   "at": "2026-11-23T11:03:18.998Z",
+   "user": "Maksym Khrystunov",
+   "from": "To Do",
+   "to": "Ready for test"
+  },
+  {
    "wpId": 4757,
    "at": "2026-11-09T06:15:38.307Z",
    "user": "Anton Gorobets",
@@ -49843,6 +49979,13 @@
    "to": "New"
   },
   {
+   "wpId": 5087,
+   "at": "2026-11-23T11:03:20.570Z",
+   "user": "Maksym Khrystunov",
+   "from": "New",
+   "to": "Ready for test"
+  },
+  {
    "wpId": 5088,
    "at": "2026-11-11T15:22:23.378Z",
    "user": "Anton Gorobets",
@@ -50291,6 +50434,13 @@
    "to": "New"
   },
   {
+   "wpId": 5146,
+   "at": "2026-11-23T11:03:19.776Z",
+   "user": "Maksym Khrystunov",
+   "from": "New",
+   "to": "Ready for test"
+  },
+  {
    "wpId": 5147,
    "at": "2026-11-13T16:50:52.594Z",
    "user": "Anton Gorobets",
@@ -50382,6 +50532,13 @@
    "to": "New"
   },
   {
+   "wpId": 5173,
+   "at": "2026-11-23T10:01:21.179Z",
+   "user": "Anton Gorobets",
+   "from": "New",
+   "to": "To Do"
+  },
+  {
    "wpId": 5174,
    "at": "2026-11-18T19:46:12.944Z",
    "user": "Anton Gorobets",
@@ -50422,6 +50579,34 @@
    "user": "Anton Herasymenko",
    "from": null,
    "to": "Done"
+  },
+  {
+   "wpId": 5190,
+   "at": "2026-11-23T08:30:36.498Z",
+   "user": "Anton Gorobets",
+   "from": null,
+   "to": "To Do"
+  },
+  {
+   "wpId": 5191,
+   "at": "2026-11-23T08:36:00.207Z",
+   "user": "Anton Gorobets",
+   "from": null,
+   "to": "To Do"
+  },
+  {
+   "wpId": 5192,
+   "at": "2026-11-23T08:38:49.054Z",
+   "user": "Anton Gorobets",
+   "from": null,
+   "to": "To Do"
+  },
+  {
+   "wpId": 5193,
+   "at": "2026-11-23T08:42:24.879Z",
+   "user": "Anton Gorobets",
+   "from": null,
+   "to": "To Do"
   }
  ],
  "statusHistoryUnparsed": 21,
@@ -50448,6 +50633,60 @@
   "Subject set to ???Перевірити та доробити журнал API-викликів ЗІС (дата, тип запиту, статус)???"
  ],
  "timeEntries": [
+  {
+   "id": 2007,
+   "wpId": 4226,
+   "user": "Valerii Haivoronskyi",
+   "spentOn": "2026-11-23",
+   "hours": 30.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 2004,
+   "wpId": 4477,
+   "user": "Ilia Vitushko",
+   "spentOn": "2026-11-17",
+   "hours": 1.0,
+   "activity": null,
+   "comment": "Оновлення FAZ"
+  },
+  {
+   "id": 2003,
+   "wpId": 4477,
+   "user": "Ilia Vitushko",
+   "spentOn": "2026-11-18",
+   "hours": 3.0,
+   "activity": null,
+   "comment": "Повторний тест з логами вагою 1g, з урахуванням конфігурації ADOM-ів аналогічної до МІУ. Тест також успішний"
+  },
+  {
+   "id": 1997,
+   "wpId": 4593,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-23",
+   "hours": 8.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1996,
+   "wpId": 4592,
+   "user": "Bogdan Zavialov",
+   "spentOn": "2026-11-23",
+   "hours": 8.0,
+   "activity": null,
+   "comment": null
+  },
+  {
+   "id": 1995,
+   "wpId": 3944,
+   "user": "Valerii Haivoronskyi",
+   "spentOn": "2026-11-23",
+   "hours": 10.0,
+   "activity": null,
+   "comment": null
+  },
   {
    "id": 1994,
    "wpId": 5174,
